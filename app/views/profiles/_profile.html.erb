@@ -1,0 +1,6 @@
+<div class="media">
+  <div class="media-left">
+    <%= link_to profile.first_name, profile.resume.url, target: '_blank' %>
+    <%= link_to 'Remove', profile_path(profile), class: 'btn btn-danger', method: :delete, data: {confirm: 'Are you sure?'} %>
+  </div>
+</div>
