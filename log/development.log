@@ -945,3 +945,13 @@ Processing by ProfilesController#index as HTML
 Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 0.5ms)
 
 
+Started GET "/" for ::1 at 2016-08-29 00:55:30 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (6.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.9ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of templates [0 times] (0.0ms)
+  Rendered profiles/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 254ms (Views: 233.3ms | ActiveRecord: 1.9ms)
+
+
