@@ -1552,3 +1552,49 @@ Processing by ProfilesController#index as HTML
 Completed 200 OK in 48ms (Views: 43.7ms | ActiveRecord: 1.6ms)
 
 
+Started GET "/" for ::1 at 2016-09-07 01:17:24 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [8 times] (11.5ms)
+  Rendered profiles/index.html.erb within layouts/application (41.3ms)
+Completed 200 OK in 378ms (Views: 357.4ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 01:19:48 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [8 times] (3.6ms)
+  Rendered profiles/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 98ms (Views: 95.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 01:20:20 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [8 times] (6.3ms)
+  Rendered profiles/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 47ms (Views: 44.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 01:22:44 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [8 times] (3.6ms)
+  Rendered profiles/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 28ms (Views: 25.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2016-09-07 01:26:17 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (1.1ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [8 times] (4.3ms)
+  Rendered profiles/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 84ms (Views: 81.0ms | ActiveRecord: 1.1ms)
+
+
