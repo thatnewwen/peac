@@ -8,6 +8,7 @@ class ProfilesController < ApplicationController
 	end
 
 	def create
+		p params
 		@profile = Profile.new(profile_params)
 		if @profile.save
 			flash[:success] = "The profile was added!"
