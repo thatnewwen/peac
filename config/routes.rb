@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 
   get '/download_all', to: 'profiles#download_all'
   get '/download_selected', to: 'profiles#download_selected'
+  get '/combined_selected', to: 'profiles#combined_selected'
 
   root to: 'profiles#index'
 

@@ -4462,3 +4462,1668 @@ Processing by ProfilesController#index as HTML
 Completed 200 OK in 85ms (Views: 82.7ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/" for ::1 at 2016-09-12 23:16:05 -0500
+Started GET "/" for ::1 at 2016-09-12 23:16:05 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (7.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (12.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProfilesController#index as HTML
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (7.1ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  [1m[36mProfile Load (13.3ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (12.5ms)
+  Rendered collection of profiles/_profile.html.erb [5 times] (12.4ms)
+  Rendered profiles/index.html.erb within layouts/application (49.5ms)
+  Rendered profiles/index.html.erb within layouts/application (48.0ms)
+Completed 200 OK in 607ms (Views: 560.2ms | ActiveRecord: 25.7ms)
+
+
+Completed 200 OK in 605ms (Views: 574.9ms | ActiveRecord: 16.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-12 23:17:26 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (2.8ms)
+  Rendered profiles/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 29ms (Views: 27.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-09-12 23:46:08 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (1.8ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (4.9ms)
+  Rendered profiles/index.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 128ms (Views: 120.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/download_selected" for ::1 at 2016-09-12 23:46:16 -0500
+Processing by ProfilesController#download_selected as */*
+No template found for ProfilesController#download_selected, rendering head :no_content
+Completed 204 No Content in 69ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download_selected?data%5B%5D=2&data%5B%5D=3" for ::1 at 2016-09-12 23:46:20 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["2", "3"]}
+No template found for ProfilesController#download_selected, rendering head :no_content
+Completed 204 No Content in 62ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-12 23:46:46 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (1.9ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (2.7ms)
+  Rendered profiles/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 154ms (Views: 150.8ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/download_selected?data%5B%5D=0" for ::1 at 2016-09-12 23:46:51 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["0"]}
+No template found for ProfilesController#download_selected, rendering head :no_content
+Completed 204 No Content in 64ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download_selected?data%5B%5D=0&data%5B%5D=2" for ::1 at 2016-09-12 23:46:57 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["0", "2"]}
+No template found for ProfilesController#download_selected, rendering head :no_content
+Completed 204 No Content in 66ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-12 23:47:14 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (3.3ms)
+  Rendered profiles/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 100ms (Views: 98.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2016-09-12 23:48:15 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.5ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (6.1ms)
+  Rendered profiles/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 129ms (Views: 122.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-09-12 23:48:30 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (2.1ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (5.0ms)
+  Rendered profiles/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 162ms (Views: 158.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for ::1 at 2016-09-12 23:49:36 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (3.9ms)
+  Rendered profiles/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 36ms (Views: 33.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 00:03:59 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (3.8ms)
+  Rendered profiles/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 105ms (Views: 102.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 00:06:37 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (3.7ms)
+  Rendered profiles/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 95ms (Views: 92.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/download_selected?data%5B%5D=7&data%5B%5D=9" for ::1 at 2016-09-13 00:06:42 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["7", "9"]}
+No template found for ProfilesController#download_selected, rendering head :no_content
+Completed 204 No Content in 62ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 00:07:05 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.9ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (2.6ms)
+  Rendered profiles/index.html.erb within layouts/application (23.5ms)
+Completed 200 OK in 46ms (Views: 39.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/download_selected?data%5B%5D=9" for ::1 at 2016-09-13 00:07:08 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["9"]}
+No template found for ProfilesController#download_selected, rendering head :no_content
+Completed 204 No Content in 67ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 00:09:09 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.6ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (5.5ms)
+  Rendered profiles/index.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 60ms (Views: 53.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/download_selected?data%5B%5D=8&data%5B%5D=9" for ::1 at 2016-09-13 00:09:15 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["8", "9"]}
+No template found for ProfilesController#download_selected, rendering head :no_content
+Completed 204 No Content in 64ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 00:20:22 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (2.7ms)
+  Rendered profiles/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 41ms (Views: 34.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-13 00:21:09 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.8ms)
+  Rendered profiles/new.html.erb within layouts/application (72.9ms)
+Completed 200 OK in 105ms (Views: 98.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2016-09-13 00:31:38 -0500
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5edGfOnuhKwMcrha9uOJFfFD9f1BWF4hJV17Bn3N61OpEWljskYmaxOezPOvLRiFtINqknL3VkUOqMsiQ9eGng==", "profile"=>{"first_name"=>"Different", "last_name"=>"PDF", "university"=>"asdf", "graduation_year"=>"1234", "company"=>"sadfasdf", "location"=>"sadfasdf", "gender"=>"Female", "start_date"=>"2015-09-29", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007fc35c4c6158 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20160913-21079-9gdgfe.pdf>, @original_filename="Amazon.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"Amazon.pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Upload"}
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/b3b3a6ac74ecbd56bcdbefa4799fb9df20160913-21079-14cm14m.pdf'
+  [1m[35m (12.1ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/b3b3a6ac74ecbd56bcdbefa4799fb9df20160913-21079-18hit5f.pdf'
+  [1m[35mSQL (32.3ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "graduation_year", "company", "location", "gender", "start_date", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14) RETURNING "id"[0m  [["first_name", "Different"], ["last_name", "PDF"], ["university", "asdf"], ["graduation_year", 1234], ["company", "sadfasdf"], ["location", "sadfasdf"], ["gender", "Female"], ["start_date", "2015-09-29"], ["created_at", 2016-09-13 05:31:38 UTC], ["updated_at", 2016-09-13 05:31:38 UTC], ["resume_file_name", "Amazon.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 160002], ["resume_updated_at", 2016-09-13 05:31:38 UTC]]
+  [1m[35m (19.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 190ms (ActiveRecord: 63.3ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 00:31:38 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.8ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [6 times] (4.1ms)
+  Rendered profiles/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 41ms (Views: 37.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/download_all" for ::1 at 2016-09-13 00:34:50 -0500
+Processing by ProfilesController#download_all as HTML
+  [1m[36mProfile Load (0.8ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data combined.pdf (7.2ms)
+Completed 200 OK in 71ms (Views: 5.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 00:40:33 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [6 times] (5.2ms)
+  Rendered profiles/index.html.erb within layouts/application (27.1ms)
+Completed 200 OK in 71ms (Views: 59.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/download_all" for ::1 at 2016-09-13 00:40:36 -0500
+Processing by ProfilesController#download_all as HTML
+  [1m[36mProfile Load (1.0ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+Completed 406 Not Acceptable in 99ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionController::UnknownFormat (ProfilesController#download_all is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not… nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_controller/metal/implicit_render.rb:56:in `default_render'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/abstract_controller/base.rb:188:in `process_action'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_controller/metal/rendering.rb:30:in `process_action'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:126:in `call'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:455:in `call'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:750:in `_run_process_action_callbacks'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:90:in `run_callbacks'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_controller/metal/rescue.rb:20:in `process_action'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/notifications.rb:164:in `block in instrument'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/notifications.rb:164:in `instrument'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_controller/metal/params_wrapper.rb:248:in `process_action'
+vendor/bundle/gems/activerecord-5.0.0.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/abstract_controller/base.rb:126:in `process'
+vendor/bundle/gems/actionview-5.0.0.1/lib/action_view/rendering.rb:30:in `process'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_controller/metal.rb:190:in `dispatch'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_controller/metal.rb:262:in `dispatch'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/routing/route_set.rb:32:in `serve'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/journey/router.rb:39:in `block in serve'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/journey/router.rb:26:in `each'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/journey/router.rb:26:in `serve'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/routing/route_set.rb:725:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/etag.rb:25:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/conditional_get.rb:25:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/head.rb:12:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/session/abstract/id.rb:222:in `context'
+vendor/bundle/gems/rack-2.0.1/lib/rack/session/abstract/id.rb:216:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/cookies.rb:613:in `call'
+vendor/bundle/gems/activerecord-5.0.0.1/lib/active_record/migration.rb:552:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:90:in `run_callbacks'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+vendor/bundle/gems/web-console-3.3.1/lib/web_console/middleware.rb:131:in `call_app'
+vendor/bundle/gems/web-console-3.3.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/gems/web-console-3.3.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/gems/web-console-3.3.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/gems/railties-5.0.0.1/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/gems/railties-5.0.0.1/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/tagged_logging.rb:70:in `block in tagged'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/tagged_logging.rb:70:in `tagged'
+vendor/bundle/gems/railties-5.0.0.1/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/gems/sprockets-rails-3.2.0/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/request_id.rb:24:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/static.rb:136:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/gems/railties-5.0.0.1/lib/rails/engine.rb:522:in `call'
+vendor/bundle/gems/puma-3.6.0/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/gems/puma-3.6.0/lib/puma/server.rb:578:in `handle_request'
+vendor/bundle/gems/puma-3.6.0/lib/puma/server.rb:415:in `process_client'
+vendor/bundle/gems/puma-3.6.0/lib/puma/server.rb:275:in `block in run'
+vendor/bundle/gems/puma-3.6.0/lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.7ms)
+Started GET "/" for ::1 at 2016-09-13 00:41:39 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [6 times] (3.4ms)
+  Rendered profiles/index.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 62ms (Views: 34.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/download_all" for ::1 at 2016-09-13 00:41:41 -0500
+Processing by ProfilesController#download_all as HTML
+  [1m[36mProfile Load (0.8ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.8ms)
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - /Users/alexwen/Projects/peac/public//system/profiles/resumes/000/000/007/original/coverletter.pdf?1473218122):
+  
+app/controllers/profiles_controller.rb:37:in `block in download_all'
+app/controllers/profiles_controller.rb:35:in `download_all'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (80.2ms)
+Started GET "/" for ::1 at 2016-09-13 00:41:51 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [6 times] (4.9ms)
+  Rendered profiles/index.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 49ms (Views: 42.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/download_all" for ::1 at 2016-09-13 00:41:59 -0500
+Processing by ProfilesController#download_all as HTML
+  [1m[36mProfile Load (0.6ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.6ms)
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - /Users/alexwen/Projects/peac/public/system/profiles/resumes/000/000/007/original/coverletter.pdf?1473218122):
+  
+app/controllers/profiles_controller.rb:37:in `block in download_all'
+app/controllers/profiles_controller.rb:35:in `download_all'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.7ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (69.8ms)
+Started GET "/" for ::1 at 2016-09-13 00:45:53 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.5ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [6 times] (3.4ms)
+  Rendered profiles/index.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 55ms (Views: 46.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/download_all" for ::1 at 2016-09-13 00:45:55 -0500
+Processing by ProfilesController#download_all as HTML
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data combined.pdf (0.9ms)
+Completed 200 OK in 93ms (Views: 0.6ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/profiles/15" for ::1 at 2016-09-13 00:46:08 -0500
+Processing by ProfilesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"XsvhLdAo++JagSm98rqBPaIaiZe62LNHWpZMDdMlwtENqYRc3CiSBwDzjQD5lcaDbE5Ud+Yofu9D9NVACGE78g==", "id"=>"15"}
+  [1m[36mProfile Load (5.7ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[31mDELETE FROM "profiles" WHERE "profiles"."id" = $1[0m  [["id", 15]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+[paperclip] deleting /Users/alexwen/Projects/peac/public/system/profiles/resumes/000/000/015/original/coverletter.pdf
+Redirected to http://localhost:3000/
+Completed 302 Found in 50ms (ActiveRecord: 20.4ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 00:46:08 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (2.1ms)
+  Rendered profiles/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 25ms (Views: 23.0ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/profiles/10" for ::1 at 2016-09-13 00:46:11 -0500
+Processing by ProfilesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"OP2W1O2E+HHGpHIi016OO7zLCKIfQtvZEPF8yOXwXoBrn/Ol4YSRlJzW1p/YccmFcp/VQkOyFnEJk+WFPrSnow==", "id"=>"10"}
+  [1m[36mProfile Load (1.1ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "profiles" WHERE "profiles"."id" = $1[0m  [["id", 10]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+[paperclip] deleting /Users/alexwen/Projects/peac/public/system/profiles/resumes/000/000/010/original/coverletter.pdf
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 00:46:11 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (2.3ms)
+  Rendered profiles/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 23ms (Views: 20.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/download_all" for ::1 at 2016-09-13 00:46:13 -0500
+Processing by ProfilesController#download_all as HTML
+  [1m[36mProfile Load (2.1ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data combined.pdf (1.0ms)
+Completed 200 OK in 99ms (Views: 0.8ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 00:49:24 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.5ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (2.1ms)
+  Rendered profiles/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 38ms (Views: 32.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/download_selected" for ::1 at 2016-09-13 00:49:26 -0500
+Processing by ProfilesController#download_selected as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/controllers/profiles_controller.rb:50:in `download_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (1.0ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (62.3ms)
+Started GET "/download_selected?data%5B%5D=7&data%5B%5D=9" for ::1 at 2016-09-13 00:49:31 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["7", "9"]}
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.0ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/profiles_controller.rb:58:in `block in download_selected'
+app/controllers/profiles_controller.rb:55:in `each'
+app/controllers/profiles_controller.rb:55:in `download_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.6ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (58.4ms)
+Started GET "/download_selected?data%5B%5D=7&data%5B%5D=9" for ::1 at 2016-09-13 00:49:41 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["7", "9"]}
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.6ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/profiles_controller.rb:58:in `block in download_selected'
+app/controllers/profiles_controller.rb:55:in `each'
+app/controllers/profiles_controller.rb:55:in `download_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.7ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (62.6ms)
+Started GET "/" for ::1 at 2016-09-13 00:50:12 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (4.9ms)
+  Rendered profiles/index.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 50ms (Views: 39.4ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/download_selected?data%5B%5D=8" for ::1 at 2016-09-13 00:50:16 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["8"]}
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.5ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/profiles_controller.rb:58:in `block in download_selected'
+app/controllers/profiles_controller.rb:55:in `each'
+app/controllers/profiles_controller.rb:55:in `download_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.6ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.7ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (64.9ms)
+Started GET "/download_selected?data%5B%5D=8" for ::1 at 2016-09-13 00:54:49 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["8"]}
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.7ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/profiles_controller.rb:58:in `block in download_selected'
+app/controllers/profiles_controller.rb:55:in `each'
+app/controllers/profiles_controller.rb:55:in `download_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (1.1ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.2ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (63.8ms)
+Started GET "/download_selected?data%5B%5D=8&data%5B%5D=16" for ::1 at 2016-09-13 00:54:54 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["8", "16"]}
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.5ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 1.1ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/profiles_controller.rb:58:in `block in download_selected'
+app/controllers/profiles_controller.rb:55:in `each'
+app/controllers/profiles_controller.rb:55:in `download_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.6ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.2ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (62.9ms)
+Started GET "/" for ::1 at 2016-09-13 00:55:14 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (3.6ms)
+  Rendered profiles/index.html.erb within layouts/application (19.3ms)
+Completed 200 OK in 64ms (Views: 49.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/download_selected?data%5B%5D=8&data%5B%5D=9" for ::1 at 2016-09-13 00:55:17 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["8", "9"]}
+  [1m[36mProfile Load (0.5ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.7ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/profiles_controller.rb:59:in `block in download_selected'
+app/controllers/profiles_controller.rb:56:in `each'
+app/controllers/profiles_controller.rb:56:in `download_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (1.0ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.5ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (66.7ms)
+Started GET "/" for ::1 at 2016-09-13 00:56:24 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (4.8ms)
+  Rendered profiles/index.html.erb within layouts/application (25.1ms)
+Completed 200 OK in 48ms (Views: 39.3ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/download_selected?data%5B%5D=8&data%5B%5D=9" for ::1 at 2016-09-13 00:56:27 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["8", "9"]}
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.6ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/profiles_controller.rb:60:in `block in download_selected'
+app/controllers/profiles_controller.rb:57:in `each'
+app/controllers/profiles_controller.rb:57:in `download_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.7ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.7ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (64.4ms)
+Started GET "/" for ::1 at 2016-09-13 00:57:23 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (2.1ms)
+  Rendered profiles/index.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 40ms (Views: 34.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/download_selected?data%5B%5D=8&data%5B%5D=9" for ::1 at 2016-09-13 00:57:26 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["8", "9"]}
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data selected_combined.pdf (0.7ms)
+Completed 200 OK in 23ms (Views: 0.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 00:57:46 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (2.6ms)
+  Rendered profiles/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 93ms (Views: 91.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/download_selected?data%5B%5D=9&data%5B%5D=16" for ::1 at 2016-09-13 00:57:49 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["9", "16"]}
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Started GET "/download_all" for ::1 at 2016-09-13 00:57:49 -0500
+Sent data selected_combined.pdf (4.4ms)
+Processing by ProfilesController#download_all as HTML
+Completed 200 OK in 69ms (Views: 4.0ms | ActiveRecord: 0.9ms)
+
+
+  [1m[36mProfile Load (2.0ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendering text template
+  Rendered text template (0.1ms)
+Sent data combined.pdf (2.0ms)
+Completed 200 OK in 91ms (Views: 1.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/download_selected?data%5B%5D=9&data%5B%5D=16" for ::1 at 2016-09-13 00:58:10 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["9", "16"]}
+  [1m[36mProfile Load (0.5ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data selected_combined.pdf (1.6ms)
+Completed 200 OK in 52ms (Views: 1.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/download_all" for ::1 at 2016-09-13 00:58:10 -0500
+Processing by ProfilesController#download_all as HTML
+  [1m[36mProfile Load (1.0ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data combined.pdf (0.7ms)
+Completed 200 OK in 65ms (Views: 0.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 00:59:00 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (6.0ms)
+  Rendered profiles/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 44ms (Views: 40.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/download_selected?data%5B%5D=8&data%5B%5D=16" for ::1 at 2016-09-13 00:59:03 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["8", "16"]}
+  [1m[36mProfile Load (0.6ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mProfile Load (2.1ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data selected_combined.pdf (0.8ms)
+Completed 200 OK in 58ms (Views: 0.6ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/download_selected" for ::1 at 2016-09-13 00:59:03 -0500
+Processing by ProfilesController#download_selected as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/controllers/profiles_controller.rb:50:in `download_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (72.4ms)
+Started GET "/" for ::1 at 2016-09-13 00:59:18 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (3.1ms)
+  Rendered profiles/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 27ms (Views: 25.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/download_selected?data%5B%5D=8&data%5B%5D=16" for ::1 at 2016-09-13 00:59:21 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["8", "16"]}
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.5ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data selected_combined.pdf (0.8ms)
+Completed 200 OK in 33ms (Views: 0.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 01:04:53 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (2.5ms)
+  Rendered profiles/index.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 57ms (Views: 50.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/download_selected?data%5B%5D=8&data%5B%5D=16" for ::1 at 2016-09-13 01:04:56 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["8", "16"]}
+  [1m[36mProfile Load (0.5ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.8ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data selected_combined.pdf (0.7ms)
+Completed 200 OK in 39ms (Views: 0.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 01:05:13 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (3.5ms)
+  Rendered profiles/index.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 54ms (Views: 46.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/download_selected?data%5B%5D=8&data%5B%5D=16" for ::1 at 2016-09-13 01:05:22 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["8", "16"]}
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data selected_combined.pdf (0.6ms)
+Completed 200 OK in 51ms (Views: 0.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 01:13:55 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.5ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (8.7ms)
+  Rendered profiles/index.html.erb within layouts/application (21.1ms)
+Completed 200 OK in 156ms (Views: 141.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/download_selected?data%5B%5D=8&data%5B%5D=9" for ::1 at 2016-09-13 01:13:58 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["8", "9"]}
+  [1m[36mProfile Load (1.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.5ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.1ms)
+Sent data selected_combined.pdf (1.4ms)
+Completed 200 OK in 27ms (Views: 1.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 01:14:08 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (3.2ms)
+  Rendered profiles/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 106ms (Views: 103.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/download_selected?data%5B%5D=8" for ::1 at 2016-09-13 01:14:11 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["8"]}
+  [1m[36mProfile Load (1.5ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data selected_combined.pdf (0.6ms)
+Completed 200 OK in 17ms (Views: 0.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 01:17:52 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (4.1ms)
+  Rendered profiles/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 117ms (Views: 114.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/download_selected?data%5B%5D=9&data%5B%5D=16" for ::1 at 2016-09-13 01:17:55 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["9", "16"]}
+  [1m[36mProfile Load (0.5ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data selected_combined.pdf (0.8ms)
+Completed 200 OK in 46ms (Views: 0.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 01:18:32 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (3.8ms)
+  Rendered profiles/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 109ms (Views: 106.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/download_selected?data%5B%5D=8&data%5B%5D=9" for ::1 at 2016-09-13 01:18:35 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["8", "9"]}
+  [1m[36mProfile Load (0.5ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data selected_combined.pdf (0.6ms)
+Completed 200 OK in 55ms (Views: 0.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 01:18:40 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.5ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (4.7ms)
+  Rendered profiles/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 102ms (Views: 99.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/download_selected?data%5B%5D=7&data%5B%5D=16" for ::1 at 2016-09-13 01:18:42 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["7", "16"]}
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data selected_combined.pdf (1.0ms)
+Completed 200 OK in 45ms (Views: 0.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 01:27:16 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (6.5ms)
+  Rendered profiles/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 128ms (Views: 123.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/download_selected?data%5B%5D=8&data%5B%5D=16" for ::1 at 2016-09-13 01:27:21 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["8", "16"]}
+  [1m[36mProfile Load (0.5ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.6ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data selected_combined.pdf (0.9ms)
+Completed 200 OK in 76ms (Views: 0.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/combined_selected.pdf" for ::1 at 2016-09-13 01:27:21 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/combined_selected.pdf"):
+  
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+vendor/bundle/gems/web-console-3.3.1/lib/web_console/middleware.rb:131:in `call_app'
+vendor/bundle/gems/web-console-3.3.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/gems/web-console-3.3.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/gems/web-console-3.3.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/gems/railties-5.0.0.1/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/gems/railties-5.0.0.1/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/tagged_logging.rb:70:in `block in tagged'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/tagged_logging.rb:70:in `tagged'
+vendor/bundle/gems/railties-5.0.0.1/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/gems/sprockets-rails-3.2.0/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/request_id.rb:24:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/static.rb:136:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/gems/railties-5.0.0.1/lib/rails/engine.rb:522:in `call'
+vendor/bundle/gems/puma-3.6.0/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/gems/puma-3.6.0/lib/puma/server.rb:578:in `handle_request'
+vendor/bundle/gems/puma-3.6.0/lib/puma/server.rb:415:in `process_client'
+vendor/bundle/gems/puma-3.6.0/lib/puma/server.rb:275:in `block in run'
+vendor/bundle/gems/puma-3.6.0/lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.9ms)
+  Rendered collection of vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [11 times] (40.8ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (23.0ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (237.7ms)
+Started GET "/" for ::1 at 2016-09-13 01:28:11 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.9ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (6.1ms)
+  Rendered profiles/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 159ms (Views: 154.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/download_selected" for ::1 at 2016-09-13 01:28:13 -0500
+Processing by ProfilesController#download_selected as */*
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/controllers/profiles_controller.rb:50:in `download_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (1.1ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.2ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (86.3ms)
+Started GET "/download_selected?data%5B%5D=9&data%5B%5D=16" for ::1 at 2016-09-13 01:28:15 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["9", "16"]}
+  [1m[36mProfile Load (1.1ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data selected_combined.pdf (0.7ms)
+Completed 200 OK in 47ms (Views: 0.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 01:28:15 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.6ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (4.5ms)
+  Rendered profiles/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 38ms (Views: 34.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 01:28:30 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.9ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (4.4ms)
+  Rendered profiles/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 123ms (Views: 120.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/download_selected" for ::1 at 2016-09-13 01:28:32 -0500
+Processing by ProfilesController#download_selected as */*
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/controllers/profiles_controller.rb:50:in `download_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (1.0ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.0ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.6ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (112.5ms)
+Started GET "/" for ::1 at 2016-09-13 01:37:00 -0500
+  
+ActionController::RoutingError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:4:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<top (required)>'
+app/controllers/profiles_controller.rb:1:in `<top (required)>'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered collection of vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [11 times] (3.7ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (99.3ms)
+Started GET "/" for ::1 at 2016-09-13 01:39:02 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (3.9ms)
+  Rendered profiles/index.html.erb within layouts/application (28.8ms)
+Completed 200 OK in 137ms (Views: 124.2ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/download_selected?data%5B%5D=8&data%5B%5D=9" for ::1 at 2016-09-13 01:39:06 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["8", "9"]}
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 209ms (ActiveRecord: 1.1ms)
+
+
+  
+NameError (undefined local variable or method `file_name' for #<ProfilesController:0x007fc35c2953c0>):
+  
+app/controllers/profiles_controller.rb:64:in `block in download_selected'
+app/controllers/profiles_controller.rb:63:in `download_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.6ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (121.0ms)
+Started GET "/" for ::1 at 2016-09-13 01:45:12 -0500
+  
+ActionController::RoutingError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:4:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<top (required)>'
+app/controllers/profiles_controller.rb:1:in `<top (required)>'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered collection of vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [11 times] (3.0ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (85.8ms)
+Started GET "/" for ::1 at 2016-09-13 01:47:36 -0500
+  
+ActionController::RoutingError (undefined method `respond_to' for ProfilesController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/profiles_controller.rb:2:in `<class:ProfilesController>'
+app/controllers/profiles_controller.rb:1:in `<top (required)>'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered collection of vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [11 times] (5.1ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (98.3ms)
+Started GET "/" for ::1 at 2016-09-13 01:49:26 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (6.2ms)
+  Rendered profiles/index.html.erb within layouts/application (24.3ms)
+Completed 200 OK in 341ms (Views: 321.6ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/download_selected" for ::1 at 2016-09-13 01:49:30 -0500
+Processing by ProfilesController#download_selected as */*
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/controllers/profiles_controller.rb:55:in `download_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.8ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (70.6ms)
+Started GET "/" for ::1 at 2016-09-13 01:50:28 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (3.2ms)
+  Rendered profiles/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 31ms (Views: 28.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/download_selected?data%5B%5D=8&data%5B%5D=9" for ::1 at 2016-09-13 01:50:31 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["8", "9"]}
+  [1m[36mProfile Load (0.5ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data selected_combined.pdf (14.7ms)
+Completed 200 OK in 42ms (Views: 14.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 01:51:24 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.9ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (3.2ms)
+  Rendered profiles/index.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 58ms (Views: 47.1ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/download_selected" for ::1 at 2016-09-13 01:51:26 -0500
+Processing by ProfilesController#download_selected as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/controllers/profiles_controller.rb:55:in `download_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (1.0ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (110.8ms)
+Started GET "/download_selected?data%5B%5D=8&data%5B%5D=9" for ::1 at 2016-09-13 01:51:32 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["8", "9"]}
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data selected_combined.pdf (0.5ms)
+Completed 200 OK in 18ms (Views: 0.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 01:52:52 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (3.8ms)
+  Rendered profiles/index.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 54ms (Views: 43.3ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/download_selected?data%5B%5D=8&data%5B%5D=9" for ::1 at 2016-09-13 01:52:55 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["8", "9"]}
+  [1m[36mProfile Load (0.5ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+Sent file selected_combined.pdf (0.2ms)
+Completed 200 OK in 20ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 01:53:06 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (2.1ms)
+  Rendered profiles/index.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 48ms (Views: 37.7ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/download_selected?data%5B%5D=8&data%5B%5D=16" for ::1 at 2016-09-13 01:53:09 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["8", "16"]}
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+Sent file /selected_combined.pdf (1.8ms)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionController::MissingFile (Cannot read file /selected_combined.pdf):
+  
+app/controllers/profiles_controller.rb:68:in `download_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.9ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.0ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (85.3ms)
+Started GET "/" for ::1 at 2016-09-13 01:55:48 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (2.6ms)
+  Rendered profiles/index.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 49ms (Views: 42.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/download_selected?data%5B%5D=8&data%5B%5D=16" for ::1 at 2016-09-13 01:55:54 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["8", "16"]}
+  [1m[36mProfile Load (1.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.1ms)
+Sent data selected_combined.pdf (1.1ms)
+Completed 200 OK in 49ms (Views: 0.8ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 01:58:59 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (1.5ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (3.7ms)
+  Rendered profiles/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 41ms (Views: 37.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-13 01:59:02 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (1.9ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (4.6ms)
+  Rendered profiles/index.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 145ms (Views: 141.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 01:59:31 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (1.1ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (2.4ms)
+  Rendered profiles/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 33ms (Views: 29.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/combined_selected.pdf" for ::1 at 2016-09-13 01:59:33 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/combined_selected.pdf"):
+  
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+vendor/bundle/gems/web-console-3.3.1/lib/web_console/middleware.rb:131:in `call_app'
+vendor/bundle/gems/web-console-3.3.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/gems/web-console-3.3.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/gems/web-console-3.3.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/gems/railties-5.0.0.1/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/gems/railties-5.0.0.1/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/tagged_logging.rb:70:in `block in tagged'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/tagged_logging.rb:70:in `tagged'
+vendor/bundle/gems/railties-5.0.0.1/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/gems/sprockets-rails-3.2.0/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/request_id.rb:24:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/static.rb:136:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/gems/railties-5.0.0.1/lib/rails/engine.rb:522:in `call'
+vendor/bundle/gems/puma-3.6.0/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/gems/puma-3.6.0/lib/puma/server.rb:578:in `handle_request'
+vendor/bundle/gems/puma-3.6.0/lib/puma/server.rb:415:in `process_client'
+vendor/bundle/gems/puma-3.6.0/lib/puma/server.rb:275:in `block in run'
+vendor/bundle/gems/puma-3.6.0/lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered collection of vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [11 times] (22.1ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (18.6ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (204.1ms)
+Started GET "/" for ::1 at 2016-09-13 02:00:40 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (3.1ms)
+  Rendered profiles/index.html.erb within layouts/application (189.2ms)
+Completed 500 Internal Server Error in 200ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `combined_selected_path' for #<#<Class:0x007fe672a51008>:0x007fe67b4fafd8>):
+    22: 	</table>
+    23: 	<%= link_to 'Download All', download_all_path , target: '_blank' %>
+    24: 	<%= link_to 'Download Selected', download_selected_path , target: '_blank', class: 'selected' %>
+    25: 	<%= link_to 'Download Selected', combined_selected_path , target: '_blank', class: 'selected' %>
+  
+app/views/profiles/index.html.erb:25:in `_app_views_profiles_index_html_erb___1272586132829758122_70313943990660'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.1ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.9ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (82.6ms)
+Started GET "/" for ::1 at 2016-09-13 02:00:57 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (1.0ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (7.3ms)
+  Rendered profiles/index.html.erb within layouts/application (289.6ms)
+Completed 500 Internal Server Error in 298ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `combined_selected_path' for #<#<Class:0x007fe672a51008>:0x007fe6746d0968>):
+    22: 	</table>
+    23: 	<%= link_to 'Download All', download_all_path , target: '_blank' %>
+    24: 	<%= link_to 'Download Selected', download_selected_path , target: '_blank', class: 'selected' %>
+    25: 	<%= link_to 'Download Selected', combined_selected_path , target: '_blank', class: 'selected' %>
+  
+app/views/profiles/index.html.erb:25:in `_app_views_profiles_index_html_erb___1272586132829758122_70313886255700'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (67.5ms)
+Started GET "/" for ::1 at 2016-09-13 02:01:53 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.5ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (2.2ms)
+  Rendered profiles/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 57ms (Views: 51.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/download_selected" for ::1 at 2016-09-13 02:01:55 -0500
+Processing by ProfilesController#download_selected as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/controllers/profiles_controller.rb:52:in `download_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.8ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.6ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (67.9ms)
+Started GET "/download_selected" for ::1 at 2016-09-13 02:02:03 -0500
+Processing by ProfilesController#download_selected as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/controllers/profiles_controller.rb:52:in `download_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.8ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.5ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (60.9ms)
+Started GET "/download_selected" for ::1 at 2016-09-13 02:02:16 -0500
+Processing by ProfilesController#download_selected as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/controllers/profiles_controller.rb:52:in `download_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.9ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.5ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (65.2ms)
+Started GET "/" for ::1 at 2016-09-13 02:02:25 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (2.8ms)
+  Rendered profiles/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 38ms (Views: 35.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/combined_selected" for ::1 at 2016-09-13 02:02:27 -0500
+Processing by ProfilesController#combined_selected as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `to_pdf' for nil:NilClass
+Did you mean?  to_f):
+  
+app/controllers/profiles_controller.rb:69:in `combined_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (98.2ms)
+Started GET "/combined_selected" for ::1 at 2016-09-13 02:03:05 -0500
+Processing by ProfilesController#combined_selected as HTML
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 02:04:25 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.8ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (2.4ms)
+  Rendered profiles/index.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 81ms (Views: 43.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/combined_selected" for ::1 at 2016-09-13 02:04:27 -0500
+Processing by ProfilesController#combined_selected as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (private method `load' called for nil:NilClass):
+  
+app/controllers/profiles_controller.rb:69:in `combined_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.3ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (84.0ms)
+Started GET "/download_selected?data%5B%5D=7&data%5B%5D=9" for ::1 at 2016-09-13 02:04:42 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["7", "9"]}
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data selected_combined.pdf (2.0ms)
+Completed 200 OK in 39ms (Views: 1.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/combined_selected" for ::1 at 2016-09-13 02:04:44 -0500
+Processing by ProfilesController#combined_selected as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (private method `load' called for nil:NilClass):
+  
+app/controllers/profiles_controller.rb:69:in `combined_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (69.1ms)
+Started GET "/" for ::1 at 2016-09-13 02:05:23 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (3.7ms)
+  Rendered profiles/index.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 64ms (Views: 57.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/combined_selected" for ::1 at 2016-09-13 02:05:26 -0500
+Processing by ProfilesController#combined_selected as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (private method `load' called for #<CombinePDF::PDF:0x007fe674768038>):
+  
+app/controllers/profiles_controller.rb:70:in `combined_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (73.0ms)
+Started GET "/" for ::1 at 2016-09-13 02:06:08 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (2.7ms)
+  Rendered profiles/index.html.erb within layouts/application (24.4ms)
+Completed 200 OK in 55ms (Views: 42.8ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/combined_selected" for ::1 at 2016-09-13 02:06:10 -0500
+Processing by ProfilesController#combined_selected as HTML
+  Rendering text template
+  Rendered text template (0.3ms)
+Sent data selected_combined.pdf (4.5ms)
+Completed 200 OK in 22ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/download_selected?data%5B%5D=16" for ::1 at 2016-09-13 02:06:19 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"data"=>["16"]}
+  [1m[36mProfile Load (0.6ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data selected_combined.pdf (0.7ms)
+Completed 200 OK in 34ms (Views: 0.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/combined_selected" for ::1 at 2016-09-13 02:06:20 -0500
+Processing by ProfilesController#combined_selected as HTML
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data selected_combined.pdf (0.7ms)
+Completed 200 OK in 29ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 02:06:43 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (3.2ms)
+  Rendered profiles/index.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 57ms (Views: 50.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/download_selected" for ::1 at 2016-09-13 02:06:45 -0500
+Processing by ProfilesController#download_selected as */*
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/controllers/profiles_controller.rb:52:in `download_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (1.7ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.1ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.4ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (105.3ms)
+Started GET "/" for ::1 at 2016-09-13 02:08:56 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (2.0ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (4.7ms)
+  Rendered profiles/index.html.erb within layouts/application (110.2ms)
+Completed 200 OK in 180ms (Views: 153.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/download_selected" for ::1 at 2016-09-13 02:08:58 -0500
+Processing by ProfilesController#download_selected as */*
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/controllers/profiles_controller.rb:52:in `download_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (1.1ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (69.6ms)
+Started GET "/combined_selected" for ::1 at 2016-09-13 02:09:00 -0500
+Processing by ProfilesController#combined_selected as HTML
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data selected_combined.pdf (1.2ms)
+Completed 200 OK in 36ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 02:09:36 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.5ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [4 times] (2.5ms)
+  Rendered profiles/index.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 48ms (Views: 41.5ms | ActiveRecord: 0.5ms)
+
+

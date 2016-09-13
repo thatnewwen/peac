@@ -5,19 +5,24 @@ $(document).ready( function () {
     }
   });
 
-  // $(".selected").on('click', function(event){
-  // 	event.preventDefault();
-  // 	var count = table.rows( { selected: true } )[0];
-		// var data = count
-		// var request = $.ajax({
-	 //  	url: "/download_selected",
-	 //  	method: "GET",
-	 //  	data: {data: data}
-	 //  })
+  $(".selected").on('click', function(event){
+  	event.preventDefault();
+  	var selectedData = table.rows( { selected: true } ).data();
+  	var count = selectedData.length
+  	var idArray = []
 
-	 //  request.done(function (response) {
-	 //  	console.log(response)
-	 //  })
+  	for (i = 0; i < selectedData.length; i++){
+  		idArray.push(selectedData[i][0])
+  	}
 
-  // })
+		var request = $.ajax({
+	  	url: "/download_selected",
+	  	method: "GET",
+	  	data: {data: idArray}
+	  })
+
+	  request.done(function (response) {
+	  })
+
+  })
 });

@@ -1,4 +1,6 @@
 class ProfilesController < ApplicationController
+
+
 	def index
 		@profiles = Profile.order("created_at")
 	end
@@ -33,25 +35,35 @@ class ProfilesController < ApplicationController
 
 		@pdf = CombinePDF.new
 		@profiles.each do |profile|
-			@pdf << CombinePDF.load("#{Rails.root}/public/system/profiles/resumes/000/000/007/original/coverletter.pdf")
+			url = profile.resume.url
+			suburl = url[/[^?]+/]
+			@pdf << CombinePDF.load("#{Rails.root}/public" + suburl)
 		end
 		@pdf.save "#{Rails.root}/combined.pdf"
 		send_data @pdf.to_pdf, filename: "combined.pdf", type: "application/pdf"
 	end
 
 	def download_selected
-		# if request.xhr?
-		# 	p params
-		# 	@profiles = Profile.order("created_at")
+		profile_id = params["data"]
+		selected_profile = []
 
-		# 	@pdf = CombinePDF.new
-		# 	@profiles.each do |profile|
-		# 		p profile.resume.url
-		# 		@pdf << CombinePDF.load("#{Rails.root}/public/system/profiles/resumes/000/000/007/original/coverletter.pdf")
-		# 	end
-		# 	@pdf.save "#{Rails.root}/combined_selected.pdf"
-		# end
-		# p @pdf
+		profile_id.each do |id|
+			profile = Profile.find(id.to_i)
+			selected_profile << profile
+		end
+
+		@pdf = CombinePDF.new
+		selected_profile.each do |profile|
+			url = profile.resume.url
+			suburl = url[/[^?]+/]
+			@pdf << CombinePDF.load("#{Rails.root}/public" + suburl)
+		end
+		@pdf.save "#{Rails.root}/selected_combined.pdf"
+	end
+
+	def combined_selected
+		@pdf = CombinePDF.load("#{Rails.root}/selected_combined.pdf")
+		send_data @pdf.to_pdf, filename: "selected_combined.pdf", type: "application/pdf"
 	end
 
 	private
