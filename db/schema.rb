@@ -21,11 +21,15 @@ ActiveRecord::Schema.define(version: 20160829020907) do
     t.string   "university"
     t.integer  "graduation_year"
     t.string   "company"
-    t.string   "location"
+    t.string   "current_location"
     t.string   "gender"
-    t.string   "start_date"
-    t.datetime "created_at",          null: false
-    t.datetime "updated_at",          null: false
+    t.string   "start_date_current"
+    t.string   "start_date_pe"
+    t.string   "industry_preference_first"
+    t.string   "industry_preference_second"
+    t.string   "industry_preference_third"
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
     t.string   "resume_file_name"
     t.string   "resume_content_type"
     t.integer  "resume_file_size"
