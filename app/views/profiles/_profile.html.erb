@@ -5,9 +5,14 @@
   <td><%= profile.university %></td>
   <td><%= profile.graduation_year %></td>
   <td><%= profile.company %></td>
-  <td><%= profile.location %></td>
+  <td><%= profile.current_location %></td>
   <td><%= profile.gender %></td>
-  <td><%= profile.start_date %></td>
-  <td><%= link_to 'Download', profile.resume.url, target: '_blank' %></td>
+  <td><%= profile.start_date_current %></td>
+  <td><%= profile.start_date_pe %></td>
+  <td><%= profile.industry_preference_first %></td>
+  <td><%= profile.industry_preference_second %></td>
+  <td><%= profile.industry_preference_third %></td>
+  <td><%= profile.created_at %></td>
+  <td><%= link_to 'Download', profile_path(profile) %></td>
 	<td><%= link_to 'Remove', profile_path(profile), class: 'btn btn-danger', method: :delete, data: {confirm: 'Are you sure?'} %></td>
 </tr>

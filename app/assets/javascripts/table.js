@@ -2,7 +2,10 @@ $(document).ready( function () {
   var table = $('#table_id').DataTable({
   	select: {
       style: 'multi'
-    }
+    },
+    buttons: [
+            'copy', 'excel', 'pdf'
+        ]
   });
 
   $(".selected").on('click', function(event){

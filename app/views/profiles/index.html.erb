@@ -9,9 +9,14 @@
 		    <th>University</th>
 		    <th>Graduation Year</th>
 		    <th>Company</th>
-		    <th>Location</th>
+		    <th>Current Location</th>
 		    <th>Gender</th>
-		    <th>Start Date</th>
+		    <th>Start Date with Current Firm</th>
+		    <th>Preferred PE Start Date</th>
+		    <th>Industry Preference (First)</th>
+		    <th>Industry Preference (Second)</th>
+		    <th>Industry Preference (Third)</th>
+		    <th>Submitted At</th>
 		    <th>Resume</th>
 		    <th>Delete</th>
 		  </tr>
@@ -20,6 +25,25 @@
 			<%= render @profiles %>
 		</tbody>
 	</table>
-	<%= link_to 'Download All', download_all_path , target: '_blank' %>
+
+	<%= form_tag(download_all_path, method: "get") do %>
+		<%= radio_button_tag(:order, "first_name") %>
+		<%= label_tag(:first_name, "First Name") %>
+		<%= radio_button_tag(:order, "last_name") %>
+		<%= label_tag(:last_name, "Last Name") %>
+		<%= radio_button_tag(:order, "university") %>
+		<%= label_tag(:university, "University") %>
+		<%= radio_button_tag(:order, "graduation_year") %>
+		<%= label_tag(:graduation_year, "Graduation Year") %>
+		<%= radio_button_tag(:order, "company") %>
+		<%= label_tag(:company, "Company") %>
+		<%= radio_button_tag(:order, "location") %>
+		<%= label_tag(:location, "Location") %>
+		<%= radio_button_tag(:order, "gender") %>
+		<%= label_tag(:gender, "Gender") %>
+		<%= radio_button_tag(:order, "start_date") %>
+		<%= label_tag(:start_date, "Start Date") %>
+		<%= submit_tag("Download") %>
+	<% end %>
 	<%= link_to 'Generate Selected', download_selected_path , target: '_blank', class: 'selected' %>
 	<%= link_to 'Download Selected', combined_selected_path , target: '_blank' %>
