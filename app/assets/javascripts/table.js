@@ -2,14 +2,19 @@ $(document).ready( function () {
   var table = $('#table_id').DataTable({
   	select: {
       style: 'multi'
-    },
-    buttons: [
-            'copy', 'excel', 'pdf'
-        ]
+    }
+
   });
 
-  $(".selected").on('click', function(event){
+  $('form').click(function(){
+
+        $('.download-button').prop('disabled', false);
+  })
+
+  $('input:radio[name="selected"]').change(function(event){
   	event.preventDefault();
+    order = $(this).val();
+    console.log($(this).val())
   	var selectedData = table.rows( { selected: true } ).data();
   	var count = selectedData.length
   	var idArray = []
@@ -21,7 +26,7 @@ $(document).ready( function () {
 		var request = $.ajax({
 	  	url: "/download_selected",
 	  	method: "GET",
-	  	data: {data: idArray}
+	  	data: {data: idArray, order: order}
 	  })
 
 	  request.done(function (response) {

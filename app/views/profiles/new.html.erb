@@ -1,5 +1,47 @@
-<div class="page-header"><h1>Upload Profile</h1></div>
+<nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="/">PEAC</a>
+        </div>
 
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#portfolio">Member Firms</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#about">Events</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="/profiles/new">Analyst Resume Book Submission</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="/profiles">Admin</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<div class="upload-container">
+<div class="page-header"><h1>Upload Profile</h1></div><span></span>
+<div class="profile-container">
 <%= form_for @profile do |f| %>
   <%= render 'shared/errors', object: @profile %>
 
@@ -8,35 +50,38 @@
     <%= f.text_field :first_name, class: 'form-control' %>
   </div>
   <div class="form-group">
-    <%= f.label :last_name %>
+    <%= f.label :last_name %>*
     <%= f.text_field :last_name, class: 'form-control' %>
   </div>
   <div class="form-group">
-    <%= f.label :university %>
+    <%= f.label :university %>*
     <%= f.text_field :university, class: 'form-control' %>
   </div>
   <div class="form-group">
-    <%= f.label :graduation_year %>
+    <%= f.label :graduation_year %>*
     <%= f.text_field :graduation_year, class: 'form-control' %>
   </div>
   <div class="form-group">
-    <%= f.label :company %>
+    <%= f.label :company %>*
     <%= f.text_field :company, class: 'form-control' %>
   </div>
   <div class="form-group">
-    <%= f.label :current_location %>
+    <%= f.label :current_location %>*
     <%= f.text_field :current_location, class: 'form-control' %>
   </div>
   <div class="form-group">
-    <%= f.select :gender, [['Gender',''],['Male','Male'],['Female','Female'],['Other','Other']] %>
+    <div class="new-label">Gender*</div>
+    <%= f.select :gender, [['Select',''],['Male','Male'],['Female','Female'],['Other','Other']] %>
   </div>
   <div class="form-group">
+    <div class="new-label">Start Date with Current Company*</div>
     <%= date_select(:profile, :start_date_current, options = {discard_day: true}) %>  
   </div>
   <div class="form-group">
-    <%= f.select :start_date_pe, [['Preferred PE Start Date',''],['Immediate Start','Immediate Start'],['October 2016','October 2016'],['November 2016','November 2016'], ['November 2016','November 2016'],['December 2016','December 2016']] %>
+    <div class="new-label">Preferred PE Start Date*</div>
+    <%= f.select :start_date_pe, [['Select Date',''],['Immediate Start','Immediate Start'],['October 2016','October 2016'],['November 2016','November 2016'], ['November 2016','November 2016'],['December 2016','December 2016']] %>
   </div>
-  Industry Preference
+  <div class="new-label">Industry Preference*</div>
   <div class="industry_preference_first">
     <%= f.select :industry_preference_first, [['First Choice',''],['Healthcare','Healthcare'],['TMT','TMT'],['Industrials','Industrials'], ['Consumer','Consumer'],['Business Services','Business Services'], ['Energy','Energy'], ['Real Estate','Real Estate'], ['Other','Other']] %>
   </div>
@@ -45,7 +90,7 @@
   </div>
   <div class="industry_preference_third">
     <%= f.select :industry_preference_third, [['Third Choice',''],['Healthcare','Healthcare'],['TMT','TMT'],['Industrials','Industrials'], ['Consumer','Consumer'],['Business Services','Business Services'], ['Energy','Energy'], ['Real Estate','Real Estate'], ['Other','Other']] %>
-  </div>
+  </div><br>
   <div class="form-group">
     <%= f.label :resume %>* (PDF Only)
     <%= f.file_field :resume, class: 'form-control'%>
@@ -53,3 +98,5 @@
 
   <%= f.submit 'Upload', class: 'btn btn-primary' %>
 <% end %>
+</div>
+</div>

@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+gem 'bootstrap', '~> 4.0.0.alpha4'
+gem "font-awesome-rails"
 
 gem 'aws-sdk'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -19,6 +21,7 @@ gem 'bootstrap-sass'
 gem 'slim'
 gem 'combine_pdf'
 gem 'paperclip'
+gem 'sprockets-rails'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -33,6 +36,9 @@ gem 'rails_12factor', group: :production
 gem 'responders'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.1.0'
+end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
