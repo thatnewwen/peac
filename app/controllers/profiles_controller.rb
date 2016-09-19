@@ -1,6 +1,13 @@
 class ProfilesController < ApplicationController
 
+	 def authenticate
+	   authenticate_or_request_with_http_basic('Administration') do |username, password|
+	     username == 'admin' && password == 'password'
+	   end
+	 end
+
 	def index
+		self.authenticate
 		@profiles = Profile.order("created_at")
 	end
 
@@ -65,9 +72,7 @@ class ProfilesController < ApplicationController
 	end
 
 	def download_all
-		p params
 		@profiles = Profile.order(params["order"])
-
 		@pdf = CombinePDF.new
 		@profiles.each do |profile|
 			url = profile.resume.url
@@ -79,12 +84,16 @@ class ProfilesController < ApplicationController
 
 	def download_selected
 		profile_id = params["data"]
+		order = params["order"]
+		p order
 		selected_profile = []
 
 		profile_id.each do |id|
 			profile = Profile.find(id.to_i)
 			selected_profile << profile
 		end
+
+		selected_profile.sort! { |a,b| "a." + order <=> "b." + order }
 
 		@pdf = CombinePDF.new
 		selected_profile.each do |profile|

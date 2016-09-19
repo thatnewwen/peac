@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   get '/download_selected', to: 'profiles#download_selected'
   get '/combined_selected', to: 'profiles#combined_selected'
 
-  root to: 'profiles#index'
+  get "/pages/:page" => "pages#show"
+
+  root :to => "pages#show"
 
 end
