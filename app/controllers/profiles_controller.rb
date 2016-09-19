@@ -65,6 +65,7 @@ class ProfilesController < ApplicationController
 	end
 
 	def destroy
+		
 	  @profile = Profile.find(params[:id])
 	  @profile.destroy
 	  flash[:success] = "The profile was destroyed."
@@ -93,7 +94,7 @@ class ProfilesController < ApplicationController
 			selected_profile << profile
 		end
 
-		selected_profile.sort! { |a,b| "a." + order <=> "b." + order }
+		selected_profile.sort! { |a,b| "b." + order <=> "a." + order }
 
 		@pdf = CombinePDF.new
 		selected_profile.each do |profile|

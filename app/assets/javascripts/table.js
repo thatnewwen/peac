@@ -17,11 +17,12 @@ $(document).ready( function () {
     console.log($(this).val())
   	var selectedData = table.rows( { selected: true } ).data();
   	var count = selectedData.length
-  	var idArray = []
+    var idArray = []
 
-  	for (i = 0; i < selectedData.length; i++){
-  		idArray.push(selectedData[i][0])
-  	}
+    for (i = 0; i < selectedData.length; i++){
+      idArray.push(selectedData[i][0])
+    }
+    console.log(idArray)
 
 		var request = $.ajax({
 	  	url: "/download_selected",
