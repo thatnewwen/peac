@@ -64,12 +64,28 @@ class ProfilesController < ApplicationController
 		send_data pdf.to_pdf, filename: "single.pdf", type: "application/pdf"
 	end
 
+	def edit
+		@profile = Profile.find(params[:id])
+	end
+
+	def update
+		@profile = Profile.find(params[:id].to_i)
+		@profile.update_attributes(profile_params) 
+
+		if @profile.save
+      redirect_to profiles_path
+    else
+      @errors = @profile.errors.full_messages
+      render 'new'
+    end
+	end
+
 	def destroy
 		
 	  @profile = Profile.find(params[:id])
 	  @profile.destroy
 	  flash[:success] = "The profile was destroyed."
-	  redirect_to root_path
+	  redirect_to profiles_path
 	end
 
 	def download_all
@@ -113,6 +129,6 @@ class ProfilesController < ApplicationController
 	private
 
 	def profile_params
-		params.require(:profile).permit(:resume, :first_name, :last_name, :university, :graduation_year, :company, :current_location, :gender, :start_date_pe, :industry_preference_first, :industry_preference_second, :industry_preference_third)
+		params.require(:profile).permit(:resume, :first_name, :last_name, :university, :graduation_year, :company, :current_location, :region, :gender, :start_date_pe, :industry_preference_first, :industry_preference_second, :industry_preference_third)
 	end
 end

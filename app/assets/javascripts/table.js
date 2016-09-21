@@ -2,13 +2,16 @@ $(document).ready( function () {
   var table = $('#table_id').DataTable({
   	select: {
       style: 'multi'
-    }
+    },
+    "pageLength": 150,
 
   });
+    $('tr').first().children('th').last().prev("th").andSelf().removeClass("sorting")
+    $('.download-button').prop('disabled', true);
 
   $('form').click(function(){
-
-        $('.download-button').prop('disabled', false);
+    
+      $(this).children('.download-button').prop('disabled', false);
   })
 
   $('input:radio[name="selected"]').change(function(event){
@@ -33,5 +36,8 @@ $(document).ready( function () {
 	  request.done(function (response) {
 	  })
 
+  })
+  $('tr').click(function(){
+    $('tr').first().children('th').last().prev("th").andSelf().removeClass("sorting")
   })
 });

@@ -29,4 +29,15 @@ table, th, td {
 .download-form-title{
     margin-bottom: 5px;
     font-size: 15px;
+    font-weight: bold;
+   font-size: 20px;
+
+}
+
+.dataTables_length{
+    display: none;
+}
+
+.dataTables_paginate{
+    display: none;
 }
