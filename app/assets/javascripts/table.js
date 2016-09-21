@@ -6,6 +6,7 @@ $(document).ready( function () {
     "pageLength": 150,
 
   });
+    $("th:nth-last-child(3)").removeClass("sorting")
     $('tr').first().children('th').last().prev("th").andSelf().removeClass("sorting")
     $('.download-button').prop('disabled', true);
 
@@ -38,6 +39,7 @@ $(document).ready( function () {
 
   })
   $('tr').click(function(){
+    $("th:nth-last-child(3)").removeClass("sorting")
     $('tr').first().children('th').last().prev("th").andSelf().removeClass("sorting")
   })
 });
