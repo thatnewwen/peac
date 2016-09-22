@@ -9,13 +9,18 @@ $(document).ready( function () {
     $("th:nth-last-child(3)").removeClass("sorting")
     $('tr').first().children('th').last().prev("th").andSelf().removeClass("sorting")
     $('.download-button').prop('disabled', true);
+    $(".selected-form select").prop('disabled', true)
 
   $('form').click(function(){
     
       $(this).children('.download-button').prop('disabled', false);
+
   })
 
-  $('input:radio[name="selected"]').change(function(event){
+
+
+
+  $('.selected-form select').change(function(event){
   	event.preventDefault();
     order = $(this).val();
     console.log($(this).val())
@@ -41,5 +46,9 @@ $(document).ready( function () {
   $('tr').click(function(){
     $("th:nth-last-child(3)").removeClass("sorting")
     $('tr').first().children('th').last().prev("th").andSelf().removeClass("sorting")
+
+    $(".selected-form select").prop('disabled', false)
+    $(".selected-form .download-button").prop('disabled', true)
+    $(".selected-form select").val("")
   })
 });
