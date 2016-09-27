@@ -37,6 +37,7 @@ $(document).ready( function () {
     })
 
     request.done(function (response) {
+      location.reload();
     })
   })
 

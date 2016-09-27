@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 gem 'bootstrap', '~> 4.0.0.alpha4'
 gem "font-awesome-rails"
-gem 'rails_12factor', group: :production
 
 gem 'aws-sdk'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
