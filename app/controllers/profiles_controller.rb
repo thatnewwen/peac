@@ -102,7 +102,6 @@ class ProfilesController < ApplicationController
 	def download_selected
 		profile_id = params["data"]
 		order = params["order"]
-		p order
 		selected_profile = []
 
 		profile_id.each do |id|
@@ -124,6 +123,22 @@ class ProfilesController < ApplicationController
 	def combined_selected
 		@pdf = CombinePDF.load("#{Rails.root}/selected_combined.pdf")
 		send_data @pdf.to_pdf, filename: "selected_combined.pdf", type: "application/pdf"
+	end
+
+	def destroy_selected
+		profile_id = params["data"]
+
+		if profile_id
+
+			selected_profile = []
+
+			profile_id.each do |id|
+				profile = Profile.find(id.to_i)
+				profile.destroy
+			end
+		end
+
+		redirect_to profiles_path
 	end
 
 	private

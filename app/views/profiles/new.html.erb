@@ -1,44 +1,3 @@
-<nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-            </button>
-            <a class="navbar-brand page-scroll" href="/">PEAC</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#about">About</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#portfolio">Member Firms</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#about">Events</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="/profiles/new">Analyst Resume Book Submission</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="/profiles">Admin</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
-</nav>
-
 <div class="upload-container">
 <div class="page-header"><h1>Upload Profile</h1></div><span></span>
 <div class="profile-container">
@@ -58,19 +17,123 @@
     <%= f.text_field :university, class: 'form-control' %>
   </div>
   <div class="form-group">
-    <%= f.label :graduation_year %>*
-    <%= f.text_field :graduation_year, class: 'form-control' %>
+    <div class="new-label">Graduation year*</div>
+    <%= f.select :graduation_year, [['Select',''],['2000','2000'],['2001','2001'],['2002','2002'],['2003','2003'],['2004','2004'],['2005','2005'],['2006','2006'],['2007','2007'],['2008','2008'],['2009','2009'],['2010','2010'],['2011','2011'],['2012','2012'],['2013','2013'],['2014','2014'],['2015','2015'],['2016','2016'],['2017','2017']] %>
   </div>
   <div class="form-group">
-    <%= f.label :company %>*
-    <%= f.text_field :company, class: 'form-control' %>
+    <div class="new-label">Company*</div>
+    <%= f.select :company, [["Select", ""],
+    ["ABN AMRO", "ABN AMRO"],
+    ["Allen", "Allen"],
+    ["Banco Santander", "Banco Santander"],
+    ["Bank of America Merrill Lynch", "Bank of America Merrill Lynch"],
+    ["Barclays", "Barclays"],
+    ["BB&T", "BB&T"],
+    ["BBVA", "BBVA"],
+    ["Blackstone", "Blackstone"],
+    ["BMO Capital Markets", "BMO Capital Markets"],
+    ["BNP Paribas", "BNP Paribas"],
+    ["Brown Brothers Harriman", "Brown Brothers Harriman"],
+    ["Brown, Shipley & Co.", "Brown, Shipley & Co."],
+    ["BTG Pactual", "BTG Pactual"],
+    ["C.W. Downer", "C.W. Downer"],
+    ["Cain Brothers", "Cain Brothers"],
+    ["Canaccord Financial", "Canaccord Financial"],
+    ["Cantor Fitzgerald", "Cantor Fitzgerald"],
+    ["Capstone Partners", "Capstone Partners"],
+    ["Centerview Partners", "Centerview Partners"],
+    ["CIBC", "CIBC"],
+    ["CITIC", "CITIC"],
+    ["Citigroup", "Citigroup"],
+    ["Close Brothers Group", "Close Brothers Group"],
+    ["CLSA", "CLSA"],
+    ["Commerzbank", "Commerzbank"],
+    ["Cowen", "Cowen"],
+    ["Crédit Agricole", "Crédit Agricole"],
+    ["Credit Suisse", "Credit Suisse"],
+    ["Daewoo", "Daewoo"],
+    ["Daiwa Securities", "Daiwa Securities"],
+    ["DBS", "DBS"],
+    ["Deutsche Bank", "Deutsche Bank"],
+    ["Duff & Phelps", "Duff & Phelps"],
+    ["Europa Partners", "Europa Partners"],
+    ["EverBank", "EverBank"],
+    ["Evercore Partners", "Evercore Partners"],
+    ["FBR Capital Markets", "FBR Capital Markets"],
+    ["Financo", "Financo"],
+    ["Foros Group", "Foros Group"],
+    ["Gleacher", "Gleacher"],
+    ["Goldman Sachs", "Goldman Sachs"],
+    ["Greenhill", "Greenhill"],
+    ["Guggenheim", "Guggenheim"],
+    ["Guosen Securities", "Guosen Securities"],
+    ["Houlihan Lokey", "Houlihan Lokey"],
+    ["HSBC", "HSBC"],
+    ["Imperial Capital", "Imperial Capital"],
+    ["ING", "ING"],
+    ["Investec", "Investec"],
+    ["J.P. Morgan", "J.P. Morgan"],
+    ["Janney Montgomery Scott", "Janney Montgomery Scott"],
+    ["Jefferies Group", "Jefferies Group"],
+    ["Keefe, Bruyette & Woods", "Keefe, Bruyette & Woods"],
+    ["KeyBanc", "KeyBanc"],
+    ["Ladenburg Thalmann", "Ladenburg Thalmann"],
+    ["Lazard", "Lazard"],
+    ["Lincoln International", "Lincoln International"],
+    ["M&T Bank", "M&T Bank"],
+    ["M.M.Warburg", "M.M.Warburg"],
+    ["Macquarie Group", "Macquarie Group"],
+    ["Marathon Capital", "Marathon Capital"],
+    ["Mediobanca", "Mediobanca"],
+    ["Miller Buckfire", "Miller Buckfire"],
+    ["Mitsubishi UFJ", "Mitsubishi UFJ"],
+    ["Mizuho", "Mizuho"],
+    ["Moelis", "Moelis"],
+    ["Morgan Keegan", "Morgan Keegan"],
+    ["Morgan Stanley", "Morgan Stanley"],
+    ["Natixis", "Natixis"],
+    ["Needham", "Needham"],
+    ["Newedge", "Newedge"],
+    ["Nomura", "Nomura"],
+    ["Oppenheimer", "Oppenheimer"],
+    ["Panmure Gordon", "Panmure Gordon"],
+    ["Park Lane", "Park Lane"],
+    ["Perella Weinberg", "Perella Weinberg"],
+    ["Peter J. Solomon", "Peter J. Solomon"],
+    ["Piper Jaffray", "Piper Jaffray"],
+    ["PNC", "PNC"],
+    ["Rabobank", "Rabobank"],
+    ["Raymond James", "Raymond James"],
+    ["RBC", "RBC"],
+    ["Robert W. Baird", "Robert W. Baird"],
+    ["Rothschild", "Rothschild"],
+    ["Sagent Advisors", "Sagent Advisors"],
+    ["Sandler O'Neill", "Sandler O'Neill"],
+    ["Sanford Bernstein", "Sanford Bernstein"],
+    ["Scotiabank", "Scotiabank"],
+    ["Société Générale", "Société Générale"],
+    ["Standard Chartered", "Standard Chartered"],
+    ["Stephens", "Stephens"],
+    ["Stifel", "Stifel"],
+    ["Stone Key", "Stone Key"],
+    ["Sumitomo Mitsui", "Sumitomo Mitsui"],
+    ["SunTrust", "SunTrust"],
+    ["Thomas Weisel", "Thomas Weisel"],
+    ["UBS", "UBS"],
+    ["UniCredit", "UniCredit"],
+    ["Vermilion", "Vermilion"],
+    ["Wedbush", "Wedbush"],
+    ["Wells Fargo", "Wells Fargo"],
+    ["William Blair", "William Blair"],
+    ["WR Hambrecht", "WR Hambrecht"],
+    ["Other", "Other"]] %>
   </div>
   <div class="form-group">
-    <%= f.label :current_location %>*
-    <%= f.text_field :current_location, class: 'form-control' %>
+    <div class="new-label">Current location*</div>
+    <%= f.select :current_location, [['Select',''],['Chicago','Chicago'],['New York','New York'],['San Francisco','San Francisco'], ['Other','Other']] %>
   </div>
   <div class="form-group">
-    <div class="new-label">Region*</div>
+    <div class="new-label">Current region*</div>
     <%= f.select :region, [['Select',''],['Midwest','Midwest'],['East Coast','East Coast'],['West Coast','West Coast']] %>
   </div>
   <div class="form-group">

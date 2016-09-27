@@ -39341,3 +39341,1718 @@ Processing by ProfilesController#index as HTML
 Completed 200 OK in 119ms (Views: 117.0ms | ActiveRecord: 0.6ms)
 
 
+Started GET "/" for ::1 at 2016-09-26 23:01:28 -0500
+Started GET "/" for ::1 at 2016-09-26 23:01:28 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#show as HTML
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.2ms)
+  Rendered pages/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1012ms (Views: 1010.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1048ms (Views: 1046.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:07:49 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (21.3ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (5.2ms)
+  Rendered profiles/index.html.erb within layouts/application (157.4ms)
+Completed 200 OK in 264ms (Views: 211.2ms | ActiveRecord: 29.9ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:10:21 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (4.6ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (4.4ms)
+  Rendered profiles/index.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 104ms (Views: 96.7ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:12:27 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (1.3ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (4.3ms)
+  Rendered profiles/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 70ms (Views: 65.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:18:24 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (2.1ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (2.4ms)
+  Rendered profiles/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 2876ms (Views: 2872.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:20:44 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (3.1ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (6.2ms)
+  Rendered profiles/index.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 259ms (Views: 252.4ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:21:24 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (5.2ms)
+  Rendered profiles/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 217ms (Views: 212.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:21:39 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.8ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (5.4ms)
+  Rendered profiles/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 226ms (Views: 222.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:26:18 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.6ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (4.1ms)
+  Rendered profiles/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 73ms (Views: 70.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:26:35 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.5ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (3.2ms)
+  Rendered profiles/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 89ms (Views: 86.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:27:26 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (1.2ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (3.8ms)
+  Rendered profiles/index.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 210ms (Views: 205.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:28:14 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.8ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (2.1ms)
+  Rendered profiles/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 189ms (Views: 185.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:28:24 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (3.1ms)
+  Rendered profiles/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 199ms (Views: 196.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:29:45 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (5.5ms)
+  Rendered profiles/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 207ms (Views: 203.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:30:06 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.6ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (7.0ms)
+  Rendered profiles/index.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 1904ms (Views: 1901.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:30:26 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (2.9ms)
+  Rendered profiles/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 77ms (Views: 75.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:36:04 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.9ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (2.5ms)
+  Rendered profiles/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 187ms (Views: 182.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:38:29 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (2.7ms)
+  Rendered profiles/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 198ms (Views: 194.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:39:58 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (2.2ms)
+  Rendered profiles/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 74ms (Views: 72.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:40:18 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.9ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (4.6ms)
+  Rendered profiles/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 200ms (Views: 196.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:40:28 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (3.7ms)
+  Rendered profiles/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 66ms (Views: 64.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:43:56 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (2.8ms)
+  Rendered profiles/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 72ms (Views: 68.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-09-26 23:44:20 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 56ms (Views: 54.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:44:32 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.5ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (5.4ms)
+  Rendered profiles/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 57ms (Views: 55.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:45:23 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (2.0ms)
+  Rendered profiles/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 76ms (Views: 73.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:45:50 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (1.0ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (4.8ms)
+  Rendered profiles/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 82ms (Views: 78.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/download_selected?order=university" for ::1 at 2016-09-26 23:46:01 -0500
+Processing by ProfilesController#download_selected as */*
+  Parameters: {"order"=>"university"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/controllers/profiles_controller.rb:108:in `download_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.6ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.1ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (73.4ms)
+Started GET "/profiles" for ::1 at 2016-09-26 23:46:08 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (3.9ms)
+  Rendered profiles/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 68ms (Views: 66.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-26 23:58:01 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  Rendered profiles/index.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"delete_selected", :controller=>"profiles"}):
+    91: 		<%= submit_tag("Download Selected", class: "download-button") %>
+    92: 	<% end %>
+    93: 	</div>
+    94: 	<%= link_to("Delete Selected", controller: 'profiles', action: 'delete_selected') %>
+    95: 	<table id="table_id">
+    96: 	  <thead>
+    97: 		  <tr>
+  
+app/views/profiles/index.html.erb:94:in `_app_views_profiles_index_html_erb___2672276823794265766_70232251736220'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (70.0ms)
+Started GET "/profiles" for ::1 at 2016-09-26 23:58:28 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  Rendered profiles/index.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"destory_selected", :controller=>"profiles"}):
+    91: 		<%= submit_tag("Download Selected", class: "download-button") %>
+    92: 	<% end %>
+    93: 	</div>
+    94: 	<%= link_to("Delete Selected", controller: 'profiles', action: 'destory_selected') %>
+    95: 	<table id="table_id">
+    96: 	  <thead>
+    97: 		  <tr>
+  
+app/views/profiles/index.html.erb:94:in `_app_views_profiles_index_html_erb___2672276823794265766_70232276421440'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (68.2ms)
+Started GET "/profiles" for ::1 at 2016-09-27 00:00:16 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.6ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (3.1ms)
+  Rendered profiles/index.html.erb within layouts/application (39.7ms)
+Completed 200 OK in 133ms (Views: 117.0ms | ActiveRecord: 11.7ms)
+
+
+Started GET "/destroy_selected" for ::1 at 2016-09-27 00:00:33 -0500
+  
+AbstractController::ActionNotFound (The action 'destroy_selected' could not be found for ProfilesController):
+  
+vendor/bundle/gems/actionpack-5.0.0.1/lib/abstract_controller/base.rb:121:in `process'
+vendor/bundle/gems/actionview-5.0.0.1/lib/action_view/rendering.rb:30:in `process'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_controller/metal.rb:190:in `dispatch'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_controller/metal.rb:262:in `dispatch'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/routing/route_set.rb:32:in `serve'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/journey/router.rb:39:in `block in serve'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/journey/router.rb:26:in `each'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/journey/router.rb:26:in `serve'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/routing/route_set.rb:725:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/etag.rb:25:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/conditional_get.rb:25:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/head.rb:12:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/session/abstract/id.rb:222:in `context'
+vendor/bundle/gems/rack-2.0.1/lib/rack/session/abstract/id.rb:216:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/cookies.rb:613:in `call'
+vendor/bundle/gems/activerecord-5.0.0.1/lib/active_record/migration.rb:552:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:90:in `run_callbacks'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+vendor/bundle/gems/web-console-3.3.1/lib/web_console/middleware.rb:131:in `call_app'
+vendor/bundle/gems/web-console-3.3.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/gems/web-console-3.3.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/gems/web-console-3.3.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/gems/railties-5.0.0.1/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/gems/railties-5.0.0.1/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/tagged_logging.rb:70:in `block in tagged'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/tagged_logging.rb:70:in `tagged'
+vendor/bundle/gems/railties-5.0.0.1/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/gems/sprockets-rails-3.2.0/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/request_id.rb:24:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/static.rb:136:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/gems/railties-5.0.0.1/lib/rails/engine.rb:522:in `call'
+vendor/bundle/gems/puma-3.6.0/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/gems/puma-3.6.0/lib/puma/server.rb:578:in `handle_request'
+vendor/bundle/gems/puma-3.6.0/lib/puma/server.rb:415:in `process_client'
+vendor/bundle/gems/puma-3.6.0/lib/puma/server.rb:275:in `block in run'
+vendor/bundle/gems/puma-3.6.0/lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.3ms)
+Started GET "/destroy_selected" for ::1 at 2016-09-27 00:01:23 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+AbstractController::ActionNotFound (The action 'destroy_selected' could not be found for ProfilesController):
+  
+vendor/bundle/gems/actionpack-5.0.0.1/lib/abstract_controller/base.rb:121:in `process'
+vendor/bundle/gems/actionview-5.0.0.1/lib/action_view/rendering.rb:30:in `process'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_controller/metal.rb:190:in `dispatch'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_controller/metal.rb:262:in `dispatch'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/routing/route_set.rb:32:in `serve'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/journey/router.rb:39:in `block in serve'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/journey/router.rb:26:in `each'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/journey/router.rb:26:in `serve'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/routing/route_set.rb:725:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/etag.rb:25:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/conditional_get.rb:25:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/head.rb:12:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/session/abstract/id.rb:222:in `context'
+vendor/bundle/gems/rack-2.0.1/lib/rack/session/abstract/id.rb:216:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/cookies.rb:613:in `call'
+vendor/bundle/gems/activerecord-5.0.0.1/lib/active_record/migration.rb:552:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:90:in `run_callbacks'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+vendor/bundle/gems/web-console-3.3.1/lib/web_console/middleware.rb:131:in `call_app'
+vendor/bundle/gems/web-console-3.3.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/gems/web-console-3.3.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/gems/web-console-3.3.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/gems/railties-5.0.0.1/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/gems/railties-5.0.0.1/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/tagged_logging.rb:70:in `block in tagged'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/tagged_logging.rb:70:in `tagged'
+vendor/bundle/gems/railties-5.0.0.1/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/gems/sprockets-rails-3.2.0/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/request_id.rb:24:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/static.rb:136:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/gems/railties-5.0.0.1/lib/rails/engine.rb:522:in `call'
+vendor/bundle/gems/puma-3.6.0/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/gems/puma-3.6.0/lib/puma/server.rb:578:in `handle_request'
+vendor/bundle/gems/puma-3.6.0/lib/puma/server.rb:415:in `process_client'
+vendor/bundle/gems/puma-3.6.0/lib/puma/server.rb:275:in `block in run'
+vendor/bundle/gems/puma-3.6.0/lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (4.9ms)
+Started GET "/profiles" for ::1 at 2016-09-27 00:01:27 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (2.7ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (2.2ms)
+  Rendered profiles/index.html.erb within layouts/application (29.1ms)
+Completed 200 OK in 696ms (Views: 678.3ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/destroy_selected" for ::1 at 2016-09-27 00:01:34 -0500
+  
+AbstractController::ActionNotFound (The action 'destroy_selected' could not be found for ProfilesController):
+  
+vendor/bundle/gems/actionpack-5.0.0.1/lib/abstract_controller/base.rb:121:in `process'
+vendor/bundle/gems/actionview-5.0.0.1/lib/action_view/rendering.rb:30:in `process'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_controller/metal.rb:190:in `dispatch'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_controller/metal.rb:262:in `dispatch'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/routing/route_set.rb:32:in `serve'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/journey/router.rb:39:in `block in serve'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/journey/router.rb:26:in `each'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/journey/router.rb:26:in `serve'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/routing/route_set.rb:725:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/etag.rb:25:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/conditional_get.rb:25:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/head.rb:12:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/session/abstract/id.rb:222:in `context'
+vendor/bundle/gems/rack-2.0.1/lib/rack/session/abstract/id.rb:216:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/cookies.rb:613:in `call'
+vendor/bundle/gems/activerecord-5.0.0.1/lib/active_record/migration.rb:552:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/callbacks.rb:90:in `run_callbacks'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+vendor/bundle/gems/web-console-3.3.1/lib/web_console/middleware.rb:131:in `call_app'
+vendor/bundle/gems/web-console-3.3.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/gems/web-console-3.3.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/gems/web-console-3.3.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/gems/railties-5.0.0.1/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/gems/railties-5.0.0.1/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/tagged_logging.rb:70:in `block in tagged'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/tagged_logging.rb:70:in `tagged'
+vendor/bundle/gems/railties-5.0.0.1/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/gems/sprockets-rails-3.2.0/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/request_id.rb:24:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/gems/activesupport-5.0.0.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/static.rb:136:in `call'
+vendor/bundle/gems/rack-2.0.1/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/gems/railties-5.0.0.1/lib/rails/engine.rb:522:in `call'
+vendor/bundle/gems/puma-3.6.0/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/gems/puma-3.6.0/lib/puma/server.rb:578:in `handle_request'
+vendor/bundle/gems/puma-3.6.0/lib/puma/server.rb:415:in `process_client'
+vendor/bundle/gems/puma-3.6.0/lib/puma/server.rb:275:in `block in run'
+vendor/bundle/gems/puma-3.6.0/lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.6ms)
+Started GET "/profiles" for ::1 at 2016-09-27 00:01:40 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (5.2ms)
+  Rendered profiles/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 106ms (Views: 103.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-27 00:03:06 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (5.0ms)
+  Rendered profiles/index.html.erb within layouts/application (27.6ms)
+Completed 200 OK in 104ms (Views: 95.7ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/destroy_selected" for ::1 at 2016-09-27 00:03:09 -0500
+Processing by ProfilesController#destroy_selected as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/controllers/profiles_controller.rb:133:in `destroy_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.6ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.6ms)
+Started GET "/profiles" for ::1 at 2016-09-27 00:03:55 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (3.0ms)
+  Rendered profiles/index.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 87ms (Views: 79.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/destroy_selected" for ::1 at 2016-09-27 00:03:59 -0500
+Processing by ProfilesController#destroy_selected as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `length' for nil:NilClass):
+  
+app/controllers/profiles_controller.rb:131:in `destroy_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.4ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (72.2ms)
+Started GET "/profiles" for ::1 at 2016-09-27 00:04:13 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (2.0ms)
+  Rendered profiles/index.html.erb within layouts/application (26.4ms)
+Completed 200 OK in 104ms (Views: 95.6ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/destroy_selected" for ::1 at 2016-09-27 00:04:16 -0500
+Processing by ProfilesController#destroy_selected as HTML
+Redirected to http://localhost:3000/profiles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-27 00:04:16 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (2.7ms)
+  Rendered profiles/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 62ms (Views: 59.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-27 01:06:18 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (1.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (3.2ms)
+  Rendered profiles/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 201ms (Views: 197.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-27 01:07:01 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (1.5ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (3.8ms)
+  Rendered profiles/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 189ms (Views: 184.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/destroy_selected?data%5B%5D=12&data%5B%5D=13" for ::1 at 2016-09-27 01:07:06 -0500
+Processing by ProfilesController#destroy_selected as */*
+  Parameters: {"data"=>["12", "13"]}
+  [1m[36mProfile Load (5.9ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  [1m[35m (6.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 3319ms (ActiveRecord: 18.4ms)
+
+
+  
+Aws::Errors::MissingCredentialsError (unable to sign request without credentials set):
+  
+app/controllers/profiles_controller.rb:137:in `block in destroy_selected'
+app/controllers/profiles_controller.rb:135:in `each'
+app/controllers/profiles_controller.rb:135:in `destroy_selected'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.5ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (63.1ms)
+Started GET "/profiles" for ::1 at 2016-09-27 01:12:06 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (2.4ms)
+  Rendered profiles/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 73ms (Views: 70.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-27 01:12:16 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (3.6ms)
+  Rendered profiles/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 68ms (Views: 66.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-27 01:13:45 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (2.6ms)
+  Rendered profiles/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 2832ms (Views: 2830.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-27 01:14:41 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (1.1ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (5.1ms)
+  Rendered profiles/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 65ms (Views: 62.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:14:47 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered profiles/new.html.erb within layouts/application (21.6ms)
+Completed 200 OK in 71ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:15:13 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered profiles/new.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 68ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:15:19 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (2.1ms)
+  Rendered profiles/new.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 82ms (Views: 79.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:18:34 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered profiles/new.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/alexwen/Projects/peac/app/views/profiles/new.html.erb:62: syntax error, unexpected ')', expecting ']'
+...016','2016'],['2017','2017'], );@output_buffer.safe_append='
+...                               ^
+/Users/alexwen/Projects/peac/app/views/profiles/new.html.erb:104: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+             ^
+/Users/alexwen/Projects/peac/app/views/profiles/new.html.erb:107: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/alexwen/Projects/peac/app/views/profiles/new.html.erb:109: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/profiles/new.html.erb:62: syntax error, unexpected ')', expecting ']'
+app/views/profiles/new.html.erb:104: syntax error, unexpected keyword_end, expecting ')'
+app/views/profiles/new.html.erb:107: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/profiles/new.html.erb:109: syntax error, unexpected keyword_end, expecting ')'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.2ms)
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:18:47 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered profiles/new.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/alexwen/Projects/peac/app/views/profiles/new.html.erb:62: syntax error, unexpected ')', expecting ']'
+...2016','2016'],['2017','2017'] );@output_buffer.safe_append='
+...                               ^
+/Users/alexwen/Projects/peac/app/views/profiles/new.html.erb:104: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+             ^
+/Users/alexwen/Projects/peac/app/views/profiles/new.html.erb:107: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/alexwen/Projects/peac/app/views/profiles/new.html.erb:109: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/profiles/new.html.erb:62: syntax error, unexpected ')', expecting ']'
+app/views/profiles/new.html.erb:104: syntax error, unexpected keyword_end, expecting ')'
+app/views/profiles/new.html.erb:107: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/profiles/new.html.erb:109: syntax error, unexpected keyword_end, expecting ')'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (69.6ms)
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:18:56 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.2ms)
+  Rendered profiles/new.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 92ms (Views: 90.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:22:02 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.0ms)
+  Rendered profiles/new.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 81ms (Views: 79.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:26:22 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered profiles/new.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 242ms (Views: 239.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:27:31 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered profiles/new.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 187ms (Views: 185.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:28:59 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered profiles/new.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 184ms (Views: 181.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:29:10 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered profiles/new.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 198ms (Views: 195.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:29:39 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (2.9ms)
+  Rendered profiles/new.html.erb within layouts/application (25.6ms)
+Completed 200 OK in 218ms (Views: 215.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:33:20 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.9ms)
+  Rendered profiles/new.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 234ms (Views: 232.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:33:54 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered profiles/new.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 201ms (Views: 199.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:34:09 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.4ms)
+  Rendered profiles/new.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 193ms (Views: 191.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:34:17 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered profiles/new.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 73ms (Views: 70.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:34:31 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.4ms)
+  Rendered profiles/new.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 174ms (Views: 172.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:34:44 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.9ms)
+  Rendered profiles/new.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 203ms (Views: 201.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:35:17 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered profiles/new.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 185ms (Views: 181.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:35:29 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.3ms)
+  Rendered profiles/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 186ms (Views: 184.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:37:17 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered profiles/new.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 242ms (Views: 239.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:40:09 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered profiles/new.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 131ms (Views: 127.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:40:40 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.8ms)
+  Rendered profiles/new.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 201ms (Views: 198.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:43:40 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.9ms)
+  Rendered profiles/new.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 212ms (Views: 208.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:44:00 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.0ms)
+  Rendered profiles/new.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 191ms (Views: 189.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:46:21 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.0ms)
+  Rendered profiles/new.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 234ms (Views: 227.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:47:54 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered profiles/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 199ms (Views: 195.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:48:11 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered profiles/new.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 221ms (Views: 215.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:48:36 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.3ms)
+  Rendered profiles/new.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 76ms (Views: 73.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2016-09-27 01:49:04 -0500
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4b9s2t0aVNHaMaBaYCqxcIDiOF+VK8IOyCVLfsqa17ObogVcWFUswEi/7kVlknoWlYZzPBEH1jEsEwdKCv1mjw==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"", "graduation_year"=>"", "company"=>"", "current_location"=>"Seattle", "region"=>"", "gender"=>"", "start_date_current(1i)"=>"2016", "start_date_current(2i)"=>"9", "start_date_current(3i)"=>"1", "start_date_pe"=>"", "industry_preference_first"=>"", "industry_preference_second"=>"", "industry_preference_third"=>"", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007fe0a9fea100 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20160927-85462-735y18.pdf>, @original_filename="single (17).pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"single (17).pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/c4dadb9e2eaa409330e5d416bff9023e20160927-85462-uhjjth.pdf'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/c4dadb9e2eaa409330e5d416bff9023e20160927-85462-1cpngij.pdf'
+  [1m[35mSQL (16.4ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", ""], ["company", ""], ["current_location", "Seattle"], ["gender", ""], ["start_date_current", "September 2016"], ["start_date_pe", ""], ["industry_preference_first", ""], ["industry_preference_second", ""], ["industry_preference_third", ""], ["created_at", 2016-09-27 06:49:04 UTC], ["updated_at", 2016-09-27 06:49:04 UTC], ["resume_file_name", "single_(17).pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 66226], ["resume_updated_at", 2016-09-27 06:49:04 UTC], ["region", ""]]
+[paperclip] saving /profiles/resumes/000/000/018/original/single_(17).pdf
+  [1m[35m (6.5ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 3113ms (ActiveRecord: 23.1ms)
+
+
+  
+Aws::Errors::MissingCredentialsError (unable to sign request without credentials set):
+  
+app/controllers/profiles_controller.rb:51:in `create'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.7ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (76.3ms)
+Started POST "/profiles" for ::1 at 2016-09-27 01:49:32 -0500
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4b9s2t0aVNHaMaBaYCqxcIDiOF+VK8IOyCVLfsqa17ObogVcWFUswEi/7kVlknoWlYZzPBEH1jEsEwdKCv1mjw==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"", "graduation_year"=>"", "company"=>"", "current_location"=>"New York", "region"=>"", "gender"=>"", "start_date_current(1i)"=>"2016", "start_date_current(2i)"=>"9", "start_date_current(3i)"=>"1", "start_date_pe"=>"", "industry_preference_first"=>"", "industry_preference_second"=>"", "industry_preference_third"=>"", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007fe0a885dac8 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20160927-85462-zsbhgq.pdf>, @original_filename="single (17).pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"single (17).pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/c4dadb9e2eaa409330e5d416bff9023e20160927-85462-1cjyxt2.pdf'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/c4dadb9e2eaa409330e5d416bff9023e20160927-85462-19bvm82.pdf'
+  [1m[35mSQL (8.0ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", ""], ["company", ""], ["current_location", "New York"], ["gender", ""], ["start_date_current", "September 2016"], ["start_date_pe", ""], ["industry_preference_first", ""], ["industry_preference_second", ""], ["industry_preference_third", ""], ["created_at", 2016-09-27 06:49:32 UTC], ["updated_at", 2016-09-27 06:49:32 UTC], ["resume_file_name", "single_(17).pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 66226], ["resume_updated_at", 2016-09-27 06:49:32 UTC], ["region", ""]]
+[paperclip] saving /profiles/resumes/000/000/019/original/single_(17).pdf
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 1053ms (ActiveRecord: 8.4ms)
+
+
+  
+Aws::Errors::MissingCredentialsError (unable to sign request without credentials set):
+  
+app/controllers/profiles_controller.rb:51:in `create'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.6ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (78.5ms)
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:53:02 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered profiles/new.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 205ms (Views: 203.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:54:28 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.8ms)
+  Rendered profiles/new.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 228ms (Views: 225.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:55:00 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.2ms)
+  Rendered profiles/new.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 232ms (Views: 231.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2016-09-27 01:55:28 -0500
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Q9w+udxX+enC4GpF1QgP9juUTYqRDjM/vCxvL9xYTAU5wVc/WRiB+FBuJFrQsMSQLvAG6RUiJwBYGiMbHD/9OQ==", "profile"=>{"first_name"=>"asD", "last_name"=>"ASDF", "university"=>"", "graduation_year"=>"", "company"=>"", "current_location"=>"Other", "region"=>"", "gender"=>"", "start_date_current(1i)"=>"2016", "start_date_current(2i)"=>"9", "start_date_current(3i)"=>"1", "start_date_pe"=>"", "industry_preference_first"=>"", "industry_preference_second"=>"", "industry_preference_third"=>"", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007fe0abdb9eb0 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20160927-85462-168ncjh.pdf>, @original_filename="combined (13).pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"combined (13).pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/0b0eef00627f47f430414ed50844960d20160927-85462-mutc7m.pdf'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/0b0eef00627f47f430414ed50844960d20160927-85462-100qbnx.pdf'
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18) RETURNING "id"[0m  [["first_name", "asD"], ["last_name", "ASDF"], ["university", ""], ["company", ""], ["current_location", "Other"], ["gender", ""], ["start_date_current", "September 2016"], ["start_date_pe", ""], ["industry_preference_first", ""], ["industry_preference_second", ""], ["industry_preference_third", ""], ["created_at", 2016-09-27 06:55:28 UTC], ["updated_at", 2016-09-27 06:55:28 UTC], ["resume_file_name", "combined_(13).pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 100927], ["resume_updated_at", 2016-09-27 06:55:28 UTC], ["region", ""]]
+[paperclip] saving /profiles/resumes/000/000/020/original/combined_(13).pdf
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 1.8ms)
+
+
+  
+Aws::Errors::MissingCredentialsError (unable to sign request without credentials set):
+  
+app/controllers/profiles_controller.rb:51:in `create'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.7ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.9ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (80.5ms)
+Started POST "/profiles" for ::1 at 2016-09-27 01:55:51 -0500
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Q9w+udxX+enC4GpF1QgP9juUTYqRDjM/vCxvL9xYTAU5wVc/WRiB+FBuJFrQsMSQLvAG6RUiJwBYGiMbHD/9OQ==", "profile"=>{"first_name"=>"asD", "last_name"=>"ASDF", "university"=>"", "graduation_year"=>"", "company"=>"", "current_location"=>"Other", "region"=>"", "gender"=>"", "start_date_current(1i)"=>"2016", "start_date_current(2i)"=>"9", "start_date_current(3i)"=>"1", "start_date_pe"=>"", "industry_preference_first"=>"", "industry_preference_second"=>"", "industry_preference_third"=>"", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007fe0ab594118 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20160927-85462-itx5ry.pdf>, @original_filename="combined (13).pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"combined (13).pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/0b0eef00627f47f430414ed50844960d20160927-85462-17tmvqi.pdf'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/0b0eef00627f47f430414ed50844960d20160927-85462-79wz4m.pdf'
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18) RETURNING "id"[0m  [["first_name", "asD"], ["last_name", "ASDF"], ["university", ""], ["company", ""], ["current_location", "Other"], ["gender", ""], ["start_date_current", "September 2016"], ["start_date_pe", ""], ["industry_preference_first", ""], ["industry_preference_second", ""], ["industry_preference_third", ""], ["created_at", 2016-09-27 06:55:51 UTC], ["updated_at", 2016-09-27 06:55:51 UTC], ["resume_file_name", "combined_(13).pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 100927], ["resume_updated_at", 2016-09-27 06:55:51 UTC], ["region", ""]]
+[paperclip] saving /profiles/resumes/000/000/021/original/combined_(13).pdf
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 3066ms (ActiveRecord: 1.2ms)
+
+
+  
+Aws::Errors::MissingCredentialsError (unable to sign request without credentials set):
+  
+app/controllers/profiles_controller.rb:51:in `create'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.1ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.2ms)
+Started POST "/profiles" for ::1 at 2016-09-27 01:56:47 -0500
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Q9w+udxX+enC4GpF1QgP9juUTYqRDjM/vCxvL9xYTAU5wVc/WRiB+FBuJFrQsMSQLvAG6RUiJwBYGiMbHD/9OQ==", "profile"=>{"first_name"=>"asD", "last_name"=>"ASDF", "university"=>"", "graduation_year"=>"", "company"=>"", "current_location"=>"Other", "region"=>"", "gender"=>"", "start_date_current(1i)"=>"2016", "start_date_current(2i)"=>"9", "start_date_current(3i)"=>"1", "start_date_pe"=>"", "industry_preference_first"=>"", "industry_preference_second"=>"", "industry_preference_third"=>"", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007fe0a4c8dfc0 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20160927-85462-c5fnta.pdf>, @original_filename="combined (13).pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"combined (13).pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/0b0eef00627f47f430414ed50844960d20160927-85462-69tlpy.pdf'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/0b0eef00627f47f430414ed50844960d20160927-85462-18kyrnl.pdf'
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18) RETURNING "id"[0m  [["first_name", "asD"], ["last_name", "ASDF"], ["university", ""], ["company", ""], ["current_location", "Other"], ["gender", ""], ["start_date_current", "September 2016"], ["start_date_pe", ""], ["industry_preference_first", ""], ["industry_preference_second", ""], ["industry_preference_third", ""], ["created_at", 2016-09-27 06:56:47 UTC], ["updated_at", 2016-09-27 06:56:47 UTC], ["resume_file_name", "combined_(13).pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 100927], ["resume_updated_at", 2016-09-27 06:56:47 UTC], ["region", ""]]
+[paperclip] saving /profiles/resumes/000/000/022/original/combined_(13).pdf
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 1.4ms)
+
+
+  
+Aws::Errors::MissingCredentialsError (unable to sign request without credentials set):
+  
+app/controllers/profiles_controller.rb:51:in `create'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.9ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.2ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.0ms)
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:56:51 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.9ms)
+  Rendered profiles/new.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 93ms (Views: 90.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2016-09-27 01:57:07 -0500
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9Edy1bMd5ehGxbifgLwPUXf2U4BnAm6DqKO34BdBfEKOWhtTNlKd+dRL9oCFBMQ3YpIY4+MuerxMlfvU1ybNfg==", "profile"=>{"first_name"=>"fd", "last_name"=>"sd", "university"=>"", "graduation_year"=>"", "company"=>"", "current_location"=>"New York", "region"=>"", "gender"=>"", "start_date_current(1i)"=>"2016", "start_date_current(2i)"=>"9", "start_date_current(3i)"=>"1", "start_date_pe"=>"", "industry_preference_first"=>"", "industry_preference_second"=>"", "industry_preference_third"=>"", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007fe0ab5bce38 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20160927-85462-hj59u1.pdf>, @original_filename="EmailQuestionaire.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"EmailQuestionaire.pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/5e0bc119fe4f1a4908c3640040e095f220160927-85462-4b336x.pdf'
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/5e0bc119fe4f1a4908c3640040e095f220160927-85462-1mjvepi.pdf'
+  [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18) RETURNING "id"[0m  [["first_name", "fd"], ["last_name", "sd"], ["university", ""], ["company", ""], ["current_location", "New York"], ["gender", ""], ["start_date_current", "September 2016"], ["start_date_pe", ""], ["industry_preference_first", ""], ["industry_preference_second", ""], ["industry_preference_third", ""], ["created_at", 2016-09-27 06:57:07 UTC], ["updated_at", 2016-09-27 06:57:07 UTC], ["resume_file_name", "EmailQuestionaire.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 61102], ["resume_updated_at", 2016-09-27 06:57:07 UTC], ["region", ""]]
+[paperclip] saving /profiles/resumes/000/000/023/original/EmailQuestionaire.pdf
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 3058ms (ActiveRecord: 2.3ms)
+
+
+  
+Aws::Errors::MissingCredentialsError (unable to sign request without credentials set):
+  
+app/controllers/profiles_controller.rb:51:in `create'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.2ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (72.1ms)
+Started POST "/profiles" for ::1 at 2016-09-27 01:57:22 -0500
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9Edy1bMd5ehGxbifgLwPUXf2U4BnAm6DqKO34BdBfEKOWhtTNlKd+dRL9oCFBMQ3YpIY4+MuerxMlfvU1ybNfg==", "profile"=>{"first_name"=>"fd", "last_name"=>"sd", "university"=>"", "graduation_year"=>"", "company"=>"", "current_location"=>"rea", "region"=>"", "gender"=>"", "start_date_current(1i)"=>"2016", "start_date_current(2i)"=>"9", "start_date_current(3i)"=>"1", "start_date_pe"=>"", "industry_preference_first"=>"", "industry_preference_second"=>"", "industry_preference_third"=>"", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007fe0ab96f800 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20160927-85462-r5h1ai.pdf>, @original_filename="EmailQuestionaire.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"EmailQuestionaire.pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/5e0bc119fe4f1a4908c3640040e095f220160927-85462-wgvfnj.pdf'
+  [1m[35m (1.5ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/5e0bc119fe4f1a4908c3640040e095f220160927-85462-1z0xcm3.pdf'
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18) RETURNING "id"[0m  [["first_name", "fd"], ["last_name", "sd"], ["university", ""], ["company", ""], ["current_location", "rea"], ["gender", ""], ["start_date_current", "September 2016"], ["start_date_pe", ""], ["industry_preference_first", ""], ["industry_preference_second", ""], ["industry_preference_third", ""], ["created_at", 2016-09-27 06:57:22 UTC], ["updated_at", 2016-09-27 06:57:22 UTC], ["resume_file_name", "EmailQuestionaire.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 61102], ["resume_updated_at", 2016-09-27 06:57:22 UTC], ["region", ""]]
+[paperclip] saving /profiles/resumes/000/000/024/original/EmailQuestionaire.pdf
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 3.0ms)
+
+
+  
+Aws::Errors::MissingCredentialsError (unable to sign request without credentials set):
+  
+app/controllers/profiles_controller.rb:51:in `create'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.7ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.7ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (132.5ms)
+Started POST "/profiles" for ::1 at 2016-09-27 01:57:38 -0500
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9Edy1bMd5ehGxbifgLwPUXf2U4BnAm6DqKO34BdBfEKOWhtTNlKd+dRL9oCFBMQ3YpIY4+MuerxMlfvU1ybNfg==", "profile"=>{"first_name"=>"fd", "last_name"=>"sd", "university"=>"", "graduation_year"=>"", "company"=>"", "current_location"=>"", "region"=>"", "gender"=>"", "start_date_current(1i)"=>"2016", "start_date_current(2i)"=>"9", "start_date_current(3i)"=>"1", "start_date_pe"=>"", "industry_preference_first"=>"", "industry_preference_second"=>"", "industry_preference_third"=>"", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007fe0a6b538b0 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20160927-85462-1f7hf1q.pdf>, @original_filename="EmailQuestionaire.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"EmailQuestionaire.pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/5e0bc119fe4f1a4908c3640040e095f220160927-85462-cewlpb.pdf'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/5e0bc119fe4f1a4908c3640040e095f220160927-85462-1510zt9.pdf'
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18) RETURNING "id"[0m  [["first_name", "fd"], ["last_name", "sd"], ["university", ""], ["company", ""], ["current_location", ""], ["gender", ""], ["start_date_current", "September 2016"], ["start_date_pe", ""], ["industry_preference_first", ""], ["industry_preference_second", ""], ["industry_preference_third", ""], ["created_at", 2016-09-27 06:57:38 UTC], ["updated_at", 2016-09-27 06:57:38 UTC], ["resume_file_name", "EmailQuestionaire.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 61102], ["resume_updated_at", 2016-09-27 06:57:38 UTC], ["region", ""]]
+[paperclip] saving /profiles/resumes/000/000/025/original/EmailQuestionaire.pdf
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 1.0ms)
+
+
+  
+Aws::Errors::MissingCredentialsError (unable to sign request without credentials set):
+  
+app/controllers/profiles_controller.rb:51:in `create'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.0ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (86.9ms)
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:58:12 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered profiles/new.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 89ms (Views: 86.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:58:40 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered profiles/new.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 90ms (Views: 88.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2016-09-27 01:58:58 -0500
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DSTZWKH/rKoz+I3Wcev84u5NYZ9UuulRCe3eI1no3r13ObDeJLDUu6F2w8l0UzeE+ykq/NCW/W7t25IXmY9vgQ==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"", "graduation_year"=>"", "company"=>"", "current_location"=>"New York", "region"=>"", "gender"=>"", "start_date_current(1i)"=>"2016", "start_date_current(2i)"=>"9", "start_date_current(3i)"=>"1", "start_date_pe"=>"", "industry_preference_first"=>"", "industry_preference_second"=>"", "industry_preference_third"=>"", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007fe0a8b05bb8 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20160927-85462-kjf1qy.pdf>, @original_filename="selected_combined (51).pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"selected_combined (51).pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/8151ef46a5766ebbfa54761ba447f65820160927-85462-154f4iy.pdf'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/8151ef46a5766ebbfa54761ba447f65820160927-85462-gnltme.pdf'
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", ""], ["company", ""], ["current_location", "New York"], ["gender", ""], ["start_date_current", "September 2016"], ["start_date_pe", ""], ["industry_preference_first", ""], ["industry_preference_second", ""], ["industry_preference_third", ""], ["created_at", 2016-09-27 06:58:58 UTC], ["updated_at", 2016-09-27 06:58:58 UTC], ["resume_file_name", "selected_combined_(51).pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 87940], ["resume_updated_at", 2016-09-27 06:58:58 UTC], ["region", ""]]
+[paperclip] saving /profiles/resumes/000/000/026/original/selected_combined_(51).pdf
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 1.0ms)
+
+
+  
+Aws::Errors::MissingCredentialsError (unable to sign request without credentials set):
+  
+app/controllers/profiles_controller.rb:51:in `create'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.9ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (92.0ms)
+Started POST "/profiles" for ::1 at 2016-09-27 01:59:15 -0500
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DSTZWKH/rKoz+I3Wcev84u5NYZ9UuulRCe3eI1no3r13ObDeJLDUu6F2w8l0UzeE+ykq/NCW/W7t25IXmY9vgQ==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"", "graduation_year"=>"", "company"=>"", "current_location"=>"Other", "region"=>"", "gender"=>"", "start_date_current(1i)"=>"2016", "start_date_current(2i)"=>"9", "start_date_current(3i)"=>"1", "start_date_pe"=>"", "industry_preference_first"=>"", "industry_preference_second"=>"", "industry_preference_third"=>"", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007fe0a72cd2d0 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20160927-85462-cdrz4n.pdf>, @original_filename="selected_combined (51).pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"selected_combined (51).pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/8151ef46a5766ebbfa54761ba447f65820160927-85462-xjurz6.pdf'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/8151ef46a5766ebbfa54761ba447f65820160927-85462-9m4jfj.pdf'
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", ""], ["company", ""], ["current_location", "Other"], ["gender", ""], ["start_date_current", "September 2016"], ["start_date_pe", ""], ["industry_preference_first", ""], ["industry_preference_second", ""], ["industry_preference_third", ""], ["created_at", 2016-09-27 06:59:15 UTC], ["updated_at", 2016-09-27 06:59:15 UTC], ["resume_file_name", "selected_combined_(51).pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 87940], ["resume_updated_at", 2016-09-27 06:59:15 UTC], ["region", ""]]
+[paperclip] saving /profiles/resumes/000/000/027/original/selected_combined_(51).pdf
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 1.6ms)
+
+
+  
+Aws::Errors::MissingCredentialsError (unable to sign request without credentials set):
+  
+app/controllers/profiles_controller.rb:51:in `create'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (18.0ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (118.4ms)
+Started GET "/profiles/new" for ::1 at 2016-09-27 01:59:21 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered profiles/new.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 93ms (Views: 90.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2016-09-27 01:59:36 -0500
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N+6cpqHUJaoNmMifRuPcsY+UBjGbr212ZdDIJbevw49N8/UgJJtdu58WhoBDWxfXmvBNUh+DeUmB5oQRd8hysw==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"", "graduation_year"=>"", "company"=>"", "current_location"=>"Other", "region"=>"", "gender"=>"", "start_date_current(1i)"=>"2016", "start_date_current(2i)"=>"9", "start_date_current(3i)"=>"1", "start_date_pe"=>"", "industry_preference_first"=>"", "industry_preference_second"=>"", "industry_preference_third"=>"", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007fe0a9c082f8 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20160927-85462-1533dl.pdf>, @original_filename="single (17).pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"single (17).pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/c4dadb9e2eaa409330e5d416bff9023e20160927-85462-1k8890a.pdf'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/c4dadb9e2eaa409330e5d416bff9023e20160927-85462-13vv7u2.pdf'
+  [1m[35mSQL (5.8ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", ""], ["company", ""], ["current_location", "Other"], ["gender", ""], ["start_date_current", "September 2016"], ["start_date_pe", ""], ["industry_preference_first", ""], ["industry_preference_second", ""], ["industry_preference_third", ""], ["created_at", 2016-09-27 06:59:36 UTC], ["updated_at", 2016-09-27 06:59:36 UTC], ["resume_file_name", "single_(17).pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 66226], ["resume_updated_at", 2016-09-27 06:59:36 UTC], ["region", ""]]
+[paperclip] saving /profiles/resumes/000/000/028/original/single_(17).pdf
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 6.2ms)
+
+
+  
+Aws::Errors::MissingCredentialsError (unable to sign request without credentials set):
+  
+app/controllers/profiles_controller.rb:51:in `create'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (11.5ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (17.8ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (118.5ms)
+Started GET "/profiles/new" for ::1 at 2016-09-27 02:00:53 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered profiles/new.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 259ms (Views: 256.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 02:01:12 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered profiles/new.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 201ms (Views: 199.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 02:01:38 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.9ms)
+  Rendered profiles/new.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 212ms (Views: 210.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 02:02:14 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered profiles/new.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 338ms (Views: 334.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2016-09-27 02:02:32 -0500
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U1ADlIchemPZh6aYhci5huCC3bObk/q1N51IROmlvk8pTWoSAm4CcksJ6IeAcHLg9eaW0B+/7orTqwRwKcIPcw==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"", "graduation_year"=>"", "company"=>"", "current_location"=>"Seattle", "region"=>"", "gender"=>"", "start_date_current(1i)"=>"2016", "start_date_current(2i)"=>"9", "start_date_current(3i)"=>"1", "start_date_pe"=>"", "industry_preference_first"=>"", "industry_preference_second"=>"", "industry_preference_third"=>"", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007fe0a9dbac68 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20160927-85462-so6htd.pdf>, @original_filename="single (17).pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"single (17).pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/c4dadb9e2eaa409330e5d416bff9023e20160927-85462-mtlyrm.pdf'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/c4dadb9e2eaa409330e5d416bff9023e20160927-85462-y48hmj.pdf'
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", ""], ["company", ""], ["current_location", "Seattle"], ["gender", ""], ["start_date_current", "September 2016"], ["start_date_pe", ""], ["industry_preference_first", ""], ["industry_preference_second", ""], ["industry_preference_third", ""], ["created_at", 2016-09-27 07:02:32 UTC], ["updated_at", 2016-09-27 07:02:32 UTC], ["resume_file_name", "single_(17).pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 66226], ["resume_updated_at", 2016-09-27 07:02:32 UTC], ["region", ""]]
+[paperclip] saving /profiles/resumes/000/000/029/original/single_(17).pdf
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 1.4ms)
+
+
+  
+Aws::Errors::MissingCredentialsError (unable to sign request without credentials set):
+  
+app/controllers/profiles_controller.rb:51:in `create'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (10.6ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (100.4ms)
+Started POST "/profiles" for ::1 at 2016-09-27 02:02:44 -0500
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U1ADlIchemPZh6aYhci5huCC3bObk/q1N51IROmlvk8pTWoSAm4CcksJ6IeAcHLg9eaW0B+/7orTqwRwKcIPcw==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"", "graduation_year"=>"", "company"=>"", "current_location"=>"New York", "region"=>"", "gender"=>"", "start_date_current(1i)"=>"2016", "start_date_current(2i)"=>"9", "start_date_current(3i)"=>"1", "start_date_pe"=>"", "industry_preference_first"=>"", "industry_preference_second"=>"", "industry_preference_third"=>"", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007fe0ab71a500 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20160927-85462-iaaq43.pdf>, @original_filename="single (17).pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"single (17).pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/c4dadb9e2eaa409330e5d416bff9023e20160927-85462-ftiprd.pdf'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/c4dadb9e2eaa409330e5d416bff9023e20160927-85462-r06x8.pdf'
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", ""], ["company", ""], ["current_location", "New York"], ["gender", ""], ["start_date_current", "September 2016"], ["start_date_pe", ""], ["industry_preference_first", ""], ["industry_preference_second", ""], ["industry_preference_third", ""], ["created_at", 2016-09-27 07:02:44 UTC], ["updated_at", 2016-09-27 07:02:44 UTC], ["resume_file_name", "single_(17).pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 66226], ["resume_updated_at", 2016-09-27 07:02:44 UTC], ["region", ""]]
+[paperclip] saving /profiles/resumes/000/000/030/original/single_(17).pdf
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 1.1ms)
+
+
+  
+Aws::Errors::MissingCredentialsError (unable to sign request without credentials set):
+  
+app/controllers/profiles_controller.rb:51:in `create'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.8ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.0ms)
+Started GET "/profiles/new" for ::1 at 2016-09-27 02:08:51 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered profiles/new.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/alexwen/Projects/peac/app/views/profiles/new.html.erb:170: syntax error, unexpected ']', expecting ')'
+    ["Other", "Other"]] );@output_buffer.safe_append='
+                       ^
+/Users/alexwen/Projects/peac/app/views/profiles/new.html.erb:208: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+             ^
+/Users/alexwen/Projects/peac/app/views/profiles/new.html.erb:211: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/alexwen/Projects/peac/app/views/profiles/new.html.erb:213: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/profiles/new.html.erb:170: syntax error, unexpected ']', expecting ')'
+app/views/profiles/new.html.erb:208: syntax error, unexpected keyword_end, expecting ')'
+app/views/profiles/new.html.erb:211: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/profiles/new.html.erb:213: syntax error, unexpected keyword_end, expecting ')'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.9ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (86.8ms)
+Started GET "/profiles/new" for ::1 at 2016-09-27 02:09:06 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered profiles/new.html.erb within layouts/application (21.9ms)
+Completed 200 OK in 110ms (Views: 107.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 02:10:18 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered profiles/new.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 213ms (Views: 210.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:11:23 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 88ms (Views: 85.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:12:58 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 130ms (Views: 127.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:17:06 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 184ms (Views: 179.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:17:41 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 100ms (Views: 98.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:17:54 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 91ms (Views: 87.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:18:20 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 57ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:20:08 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 92ms (Views: 89.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:21:03 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 76ms (Views: 74.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:27:33 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 273ms (Views: 268.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:29:26 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 107ms (Views: 105.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:33:31 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 103ms (Views: 101.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:33:54 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 89ms (Views: 86.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:34:17 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 96ms (Views: 93.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:34:34 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 94ms (Views: 92.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:34:50 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 84ms (Views: 82.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:35:20 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 91ms (Views: 89.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:35:41 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 85ms (Views: 83.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:35:52 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 72ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:36:00 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 74ms (Views: 71.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:36:32 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 78ms (Views: 74.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:38:34 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 71ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:39:03 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 95ms (Views: 92.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:42:54 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 153ms (Views: 151.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:45:04 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 92ms (Views: 89.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:47:34 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 2031ms (Views: 2028.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:48:34 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 135ms (Views: 133.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:50:10 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 55ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 02:51:16 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered profiles/new.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 89ms (Views: 86.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 02:51:21 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.3ms)
+  Rendered profiles/new.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 57ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-27 02:51:23 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (1.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (3.2ms)
+  Rendered profiles/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 63ms (Views: 59.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-27 02:52:12 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (1.1ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (4.9ms)
+  Rendered profiles/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 64ms (Views: 61.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:52:22 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 56ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:52:40 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 64ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 02:52:49 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered profiles/new.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 72ms (Views: 59.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 02:53:09 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered profiles/new.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 95ms (Views: 93.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/" for ::1 at 2016-09-27 02:53:12 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.6ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (5.2ms)
+  Rendered profiles/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 82ms (Views: 80.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/profiles/" for ::1 at 2016-09-27 02:54:13 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.5ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (3.3ms)
+  Rendered profiles/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 79ms (Views: 77.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:54:16 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 73ms (Views: 71.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles" for ::1 at 2016-09-27 02:54:19 -0500
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" ORDER BY created_at[0m
+  Rendered collection of profiles/_profile.html.erb [5 times] (2.8ms)
+  Rendered profiles/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 79ms (Views: 76.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:54:21 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 72ms (Views: 70.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-09-27 02:54:26 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.8ms)
+  Rendered profiles/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 62ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:54:28 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 66ms (Views: 65.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-27 02:54:46 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+

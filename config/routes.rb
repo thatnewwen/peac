@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get '/download_all', to: 'profiles#download_all'
   get '/download_selected', to: 'profiles#download_selected'
   get '/combined_selected', to: 'profiles#combined_selected'
+  get '/destroy_selected', to: 'profiles#destroy_selected'
 
   get "/pages/:page" => "pages#show"
 
