@@ -8,7 +8,8 @@ class ProfilesController < ApplicationController
 
 	def index
 		self.authenticate
-		@profiles = Profile.order("created_at")
+		@profiles = Profile.where(active: true)
+		@profiles.order("created_at")
 	end
 
 	def new
@@ -81,10 +82,9 @@ class ProfilesController < ApplicationController
 	end
 
 	def destroy
-		
 	  @profile = Profile.find(params[:id])
-	  @profile.destroy
-	  flash[:success] = "The profile was destroyed."
+	  @profile.active = false
+	  @profile.save
 	  redirect_to profiles_path
 	end
 
@@ -134,7 +134,8 @@ class ProfilesController < ApplicationController
 
 			profile_id.each do |id|
 				profile = Profile.find(id.to_i)
-				profile.destroy
+				profile.active = false
+				profile.save
 			end
 		end
 
