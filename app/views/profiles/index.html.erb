@@ -1,32 +1,7 @@
 <div class="admin-container">
 <div class="page-header"><h1>Profiles</h1></div>
-<div class="download-form">
-	<div class="download-form-title">Download All, Sorted by:</div>
-	<%= form_tag(download_all_path, method: "get") do %>
-		<select name="order">
-		<option value="">Select</option>
-
-		<option value="first_name">First Name</option>
-		
-		<option value="last_name">Last Name</option>
-		
-		<option value="university">University</option>
-		
-		<option value="graduation_year">Graduation Year</option>
-		
-		<option value="company">Company</option>
-		
-		<option value="current_location">Location</option>
-		
-		<option value="gender">Gender</option>
-		
-		<option value="start_date_pe">Start Date</option>
-		</select>
-		<%= submit_tag("Download All", class: "download-button") %>
-	<% end %>
-	</div>
 	<div class="download-form">
-	<div class="download-form-title">Download Selected, Sorted by:</div>
+	<div class="download-form-title">Download Selected</div> Sorted by:
 	<%= form_tag(combined_selected_path, method: "get", class: "selected-form") do %>
 			<select name="selected">
 		<option value="">Select</option>
@@ -49,8 +24,9 @@
 		</select>
 		<%= submit_tag("Download Selected", class: "download-button") %>
 	<% end %>
+		<!-- <a class="destroy-selected" href="/destroy_selected">Delete selected</a> -->
+
 	</div>
-	<a class="destroy-selected" href="/destroy_selected">Delete selected</a>
 	<table id="table_id">
 	  <thead>
 		  <tr>
