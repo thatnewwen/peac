@@ -41140,3 +41140,101 @@ Processing by PagesController#show as HTML
 Completed 200 OK in 73ms (Views: 70.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2016-10-10 22:28:14 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (23.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for ::1 at 2016-10-10 22:28:14 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#show as HTML
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.3ms)
+  Rendered pages/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 1041ms (Views: 1039.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1044ms (Views: 1041.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-10 22:28:26 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 74ms (Views: 72.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-10 22:28:46 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 73ms (Views: 70.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-10 22:33:37 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 72ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-10 22:34:29 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 52ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-10 22:34:48 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 58ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-10 22:35:20 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 54ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-10 22:35:30 -0500
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 60ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2016-10-10 22:43:50 -0500
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered profiles/new.html.erb within layouts/application (35.6ms)
+Completed 200 OK in 150ms (Views: 100.3ms | ActiveRecord: 26.3ms)
+
+
+Started POST "/profiles" for ::1 at 2016-10-10 22:44:12 -0500
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jqnOD7ZHQO6Ymp6bjHVzsP1y8g3QX4tBGnMTEs/zb/0TLv2EDyw3hdqIFhvQ/DZ0tzuiW4WketbMk4fC68vUiw==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"", "graduation_year"=>"", "company"=>"", "current_location"=>"", "region"=>"", "gender"=>"", "start_date_current(1i)"=>"2016", "start_date_current(2i)"=>"10", "start_date_current(3i)"=>"1", "start_date_pe"=>"", "industry_preference_first"=>"", "industry_preference_second"=>"", "industry_preference_third"=>"", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007f9b0befd208 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20161010-2092-l0793x.pdf>, @original_filename="1995_Chevy_Tahoe-Radio.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"1995_Chevy_Tahoe-Radio.pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/e58735f642ee56620ee5cf71e2b8b8b220161010-2092-1fus3ka.pdf'
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/e58735f642ee56620ee5cf71e2b8b8b220161010-2092-e03b9j.pdf'
+  [1m[35mSQL (18.1ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", ""], ["company", ""], ["current_location", ""], ["gender", ""], ["start_date_current", "October 2016"], ["start_date_pe", ""], ["industry_preference_first", ""], ["industry_preference_second", ""], ["industry_preference_third", ""], ["created_at", 2016-10-11 03:44:12 UTC], ["updated_at", 2016-10-11 03:44:12 UTC], ["resume_file_name", "1995_Chevy_Tahoe-Radio.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 119852], ["resume_updated_at", 2016-10-11 03:44:12 UTC], ["region", ""]]
+[paperclip] saving /profiles/resumes/000/000/033/original/1995_Chevy_Tahoe-Radio.pdf
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 3311ms (ActiveRecord: 18.7ms)
+
+
+  
+Aws::Errors::MissingCredentialsError (unable to sign request without credentials set):
+  
+app/controllers/profiles_controller.rb:52:in `create'
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered vendor/bundle/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (70.3ms)
