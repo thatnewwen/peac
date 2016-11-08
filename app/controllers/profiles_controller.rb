@@ -2,7 +2,7 @@ class ProfilesController < ApplicationController
 
 	 def authenticate
 	   authenticate_or_request_with_http_basic('Administration') do |username, password|
-	     username == ENV['ADMIN'] && password == ENV['PASSWORD']
+	     username == ENV['ADMIN'] && password == ENV['CODE']
 	   end
 	 end
 
