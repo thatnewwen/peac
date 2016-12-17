@@ -33,7 +33,7 @@ $(document).ready( function () {
 
     $("th:nth-last-child(3)").removeClass("sorting")
     $('tr').first().children('th').last().prev("th").andSelf().removeClass("sorting")
-    $('.download-button').prop('disabled', true);
+    $('.download-button').css('display', 'none');
     $(".selected-form select").prop('disabled', true)
 
   $('form').click(function(){
@@ -64,17 +64,19 @@ $(document).ready( function () {
   })
 
 
-  $('.selected-form select').change(function(event){
+  $('.create-pdf').click(function(event){
     event.preventDefault();
 
     order = $('.selected-form select').val();
     var selectedData = table.rows( { selected: true } ).data();
+    console.log(order)
     var idArray = []
     var count = selectedData.length
 
     for (i = 0; i < selectedData.length; i++){
       idArray.push(selectedData[i][0])
     }
+    console.log(idArray)
 
     var request = $.ajax({
       url: "/download_selected",
@@ -83,11 +85,13 @@ $(document).ready( function () {
     })
 
     request.done(function (response) {
-      $('.download-button').prop('disabled', false);
+      $('.download-button').css('display', 'block');
     })
   })
 
-  // $('.download-button').click(function(event){
+  $('.download-button').click(function(event){
+    $('.download-button').css('display', 'none');
+  })
   //   // event.preventDefault();
 
   //   order = $('.selected-form select').val();

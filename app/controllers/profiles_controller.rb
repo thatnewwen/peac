@@ -108,9 +108,7 @@ class ProfilesController < ApplicationController
 			profile = Profile.find(id.to_i)
 			selected_profile << profile
 		end
-
-		selected_profile.sort! { |a,b| "a." + order <=> "b." + order }
-
+		# selected_profile.sort! { |a,b| "a." + order <=> "b." + order }
 		@pdf = CombinePDF.new
 		selected_profile.each do |profile|
 			url = profile.resume.url
