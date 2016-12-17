@@ -65,27 +65,47 @@ $(document).ready( function () {
 
 
   $('.selected-form select').change(function(event){
-  	event.preventDefault();
+    event.preventDefault();
     order = $(this).val();
-  	var selectedData = table.rows( { selected: true } ).data();
-  	var count = selectedData.length
+    var selectedData = table.rows( { selected: true } ).data();
     var idArray = []
+    var count = selectedData.length
 
     for (i = 0; i < selectedData.length; i++){
       idArray.push(selectedData[i][0])
     }
-    console.log(idArray)
 
-		var request = $.ajax({
-	  	url: "/download_selected",
-	  	method: "GET",
-	  	data: {data: idArray, order: order}
-	  })
-
-	  request.done(function (response) {
-	  })
 
   })
+
+  $('.download-button').click(function(event){
+    // event.preventDefault();
+
+    order = $('.selected-form select').val();
+    var selectedData = table.rows( { selected: true } ).data();
+    var idArray = []
+    var count = selectedData.length
+
+    for (i = 0; i < selectedData.length; i++){
+      idArray.push(selectedData[i][0])
+    }
+
+    var request = $.ajax({
+      url: "/download_selected",
+      method: "GET",
+      data: {data: idArray, order: order}
+    })
+
+    request.done(function (response) {
+
+    })
+  })
+
+
+  $('.buttons-select-all').click(function(){
+    $(".selected-form select").prop('disabled', false)    
+  })
+
   $('tr').click(function(){
     $("th:nth-last-child(3)").removeClass("sorting")
     $('tr').first().children('th').last().prev("th").andSelf().removeClass("sorting")

@@ -4,7 +4,7 @@ class Profile < ApplicationRecord
 										s3_region: "us-east-1",
 										s3_credentials: {access_key_id: ENV["AWS_KEY"], 
 										secret_access_key: ENV["AWS_SECRET"]},
-	                  bucket: "peac-resumes"
+	                  bucket: ENV["AWS_BUCKET"]
 
 	validates :first_name, presence: true
 

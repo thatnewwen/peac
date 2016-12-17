@@ -113,6 +113,7 @@ class ProfilesController < ApplicationController
 
 		@pdf = CombinePDF.new
 		selected_profile.each do |profile|
+			p profile
 			url = profile.resume.url
 			@pdf << CombinePDF.parse( Net::HTTP.get( URI.parse( "https:" + url ) ) )
 		end
