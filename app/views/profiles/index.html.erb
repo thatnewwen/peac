@@ -1,30 +1,9 @@
 <div class="admin-container">
 <div class="page-header"><h1>Profiles</h1></div>
 	<div class="download-form">
-	<div class="download-form-title">Download Selected</div> Sorted by:
-	<%= form_tag(combined_selected_path, method: "get", class: "selected-form") do %>
-			<select name="selected">
-		<option value="">Select</option>
-
-		<option value="first_name">First Name</option>
-		
-		<option value="last_name">Last Name</option>
-		
-		<option value="university">University</option>
-		
-		<option value="graduation_year">Graduation Year</option>
-		
-		<option value="company">Company</option>
-		
-		<option value="current_location">Location</option>
-		
-		<option value="gender">Gender</option>
-		
-		<option value="start_date_pe">Start Date</option>
-		</select>
-		<%= submit_tag("Download Selected", class: "download-button") %>
-	<% end %>
-		<!-- <a class="destroy-selected" href="/destroy_selected">Delete selected</a> -->
+	<div class="download-form-title">Download Selected</div>
+	<a class="create-pdf" href="/">Create PDF based on table.</a>
+	<a class="download-button" href="/combined_selected">Download PDF.</a>
 
 	</div>
 	<table id="table_id">
