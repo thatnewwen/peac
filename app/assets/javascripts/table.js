@@ -38,7 +38,7 @@ $(document).ready( function () {
 
   $('form').click(function(){
     
-      $(this).children('.download-button').prop('disabled', false);
+      // $(this).children('.download-button').prop('disabled', false);
 
   })
 
@@ -65,22 +65,6 @@ $(document).ready( function () {
 
 
   $('.selected-form select').change(function(event){
-    event.preventDefault();
-    order = $(this).val();
-    var selectedData = table.rows( { selected: true } ).data();
-    var idArray = []
-    var count = selectedData.length
-
-    for (i = 0; i < selectedData.length; i++){
-      idArray.push(selectedData[i][0])
-    }
-
-
-  })
-
-  $('.download-button').click(function(event){
-    // event.preventDefault();
-
     order = $('.selected-form select').val();
     var selectedData = table.rows( { selected: true } ).data();
     var idArray = []
@@ -97,9 +81,32 @@ $(document).ready( function () {
     })
 
     request.done(function (response) {
-
+      $('.download-button').prop('disabled', false);
     })
   })
+
+  // $('.download-button').click(function(event){
+  //   // event.preventDefault();
+
+  //   order = $('.selected-form select').val();
+  //   var selectedData = table.rows( { selected: true } ).data();
+  //   var idArray = []
+  //   var count = selectedData.length
+
+  //   for (i = 0; i < selectedData.length; i++){
+  //     idArray.push(selectedData[i][0])
+  //   }
+
+  //   var request = $.ajax({
+  //     url: "/download_selected",
+  //     method: "GET",
+  //     data: {data: idArray, order: order}
+  //   })
+
+  //   request.done(function (response) {
+
+  //   })
+  // })
 
 
   $('.buttons-select-all').click(function(){
