@@ -33,8 +33,12 @@ $(document).ready( function () {
 
     $("th:nth-last-child(3)").removeClass("sorting")
     $('tr').first().children('th').last().prev("th").andSelf().removeClass("sorting")
-    $('.download-button').css('display', 'none');
-    $(".selected-form select").prop('disabled', true)
+    $('.download-button').css('color', 'grey');
+    $('.download-button').css('pointer-events', 'none');
+    $('.download-button').css('cursor', 'default');
+    $('.create-pdf').css('color', 'grey');
+    $('.create-pdf').css('pointer-events', 'none');
+    $('.create-pdf').css('cursor', 'default');
 
   $('form').click(function(){
     
@@ -72,7 +76,9 @@ $(document).ready( function () {
     console.log(order)
     var idArray = []
     var count = selectedData.length
-
+    if (count === 0) {
+      window.alert("Please select at least one profile.");
+    }
     for (i = 0; i < selectedData.length; i++){
       idArray.push(selectedData[i][0])
     }
@@ -85,12 +91,16 @@ $(document).ready( function () {
     })
 
     request.done(function (response) {
-      $('.download-button').css('display', 'block');
+      $('.download-button').css('color', 'blue');
+      $('.download-button').css('pointer-events', 'auto');
+      $('.download-button').css('cursor', 'pointer');    
     })
   })
 
   $('.download-button').click(function(event){
-    $('.download-button').css('display', 'none');
+    $('.download-button').css('color', 'grey');
+    $('.download-button').css('pointer-events', 'none');
+    $('.download-button').css('cursor', 'default');
   })
   //   // event.preventDefault();
 
@@ -116,14 +126,18 @@ $(document).ready( function () {
 
 
   $('.buttons-select-all').click(function(){
-    $(".selected-form select").prop('disabled', false)    
+    $('.create-pdf').css('color', 'blue');
+    $('.create-pdf').css('pointer-events', 'auto');
+    $('.create-pdf').css('cursor', 'pointer');    
   })
 
   $('tr').click(function(){
     $("th:nth-last-child(3)").removeClass("sorting")
     $('tr').first().children('th').last().prev("th").andSelf().removeClass("sorting")
 
-    $(".selected-form select").prop('disabled', false)
+    $('.create-pdf').css('color', 'blue');
+    $('.create-pdf').css('pointer-events', 'auto');
+    $('.create-pdf').css('cursor', 'pointer');
     $(".selected-form .download-button").prop('disabled', true)
     $(".selected-form select").val("")
   })
