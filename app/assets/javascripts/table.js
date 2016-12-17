@@ -65,6 +65,8 @@ $(document).ready( function () {
 
 
   $('.selected-form select').change(function(event){
+    event.preventDefault();
+
     order = $('.selected-form select').val();
     var selectedData = table.rows( { selected: true } ).data();
     var idArray = []

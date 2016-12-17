@@ -110,7 +110,7 @@ class ProfilesController < ApplicationController
 		end
 
 		selected_profile.sort! { |a,b| "a." + order <=> "b." + order }
-		p selected_profile
+
 		@pdf = CombinePDF.new
 		selected_profile.each do |profile|
 			url = profile.resume.url
@@ -121,7 +121,6 @@ class ProfilesController < ApplicationController
 	end
 
 	def combined_selected
-		sleep 5
 		@pdf = CombinePDF.load("#{Rails.root}/selected_combined.pdf")
 		send_data @pdf.to_pdf, filename: "selected_combined.pdf", type: "application/pdf"
 	end
