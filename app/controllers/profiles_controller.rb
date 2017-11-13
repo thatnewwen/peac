@@ -17,9 +17,6 @@ class ProfilesController < ApplicationController
 	end
 
 	def create
-		p params["profile"]["start_date_current(2i)"]
-		p params["profile"]["start_date_current(1i)"]
-
 		if params["profile"]["start_date_current(2i)"] == "1"
 			month = "January"
 		elsif params["profile"]["start_date_current(2i)"] == "2"

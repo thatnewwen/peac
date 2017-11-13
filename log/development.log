@@ -45805,3 +45805,546 @@ Processing by PagesController#show as HTML
 Completed 200 OK in 68ms (Views: 65.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2017-11-11 15:36:58 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (26.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 700ms (Views: 697.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-11-11 15:37:17 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered profiles/new.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 187ms (Views: 123.0ms | ActiveRecord: 40.5ms)
+
+
+Started GET "/profiles" for ::1 at 2017-11-11 15:37:22 -0600
+Processing by ProfilesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles" for ::1 at 2017-11-11 15:37:26 -0600
+Processing by ProfilesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles" for ::1 at 2017-11-11 15:37:35 -0600
+Processing by ProfilesController#index as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles" for ::1 at 2017-11-11 15:37:47 -0600
+Processing by ProfilesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles" for ::1 at 2017-11-11 15:37:50 -0600
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (2.3ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" WHERE "profiles"."active" = $1[0m  [["active", true]]
+  Rendered collection of templates [0 times] (0.0ms)
+  Rendered profiles/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 71ms (Views: 64.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-11-11 15:37:59 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.6ms)
+  Rendered profiles/new.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 63ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2017-11-11 15:41:03 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7By5VfEvjQWNwx9hL/AQpdFFR3+A9Wh4ArUD0zeqdxxM4yrScdtnLpPmheOr19rpdrSkMx0veMWEMIuHBPbeBw==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"University of Illinois at Urbana-Champaign", "graduation_year"=>"2015", "company"=>"BBVA", "current_location"=>"New York", "region"=>"East Coast", "gender"=>"Female", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"6", "start_date_current(3i)"=>"1", "start_date_pe"=>"Immediate Start", "industry_preference_first"=>"TMT", "industry_preference_second"=>"Industrials", "industry_preference_third"=>"Energy", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007f9b72b7ebd8 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20171111-39530-1m4rtwy.pdf>, @original_filename="My Account _ Order History _ Receipt.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"My Account _ Order History _ Receipt.pdf\"\r\nContent-Type: application/pdf\r\n">}, "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/f8f84da19cd03b67bce2943e5448c3ad20171111-39530-1gizvd1.pdf'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/f8f84da19cd03b67bce2943e5448c3ad20171111-39530-6qw6d7.pdf'
+  [1m[35mSQL (15.1ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "graduation_year", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", "University of Illinois at Urbana-Champaign"], ["graduation_year", 2015], ["company", "BBVA"], ["current_location", "New York"], ["gender", "Female"], ["start_date_current", "June 2017"], ["start_date_pe", "Immediate Start"], ["industry_preference_first", "TMT"], ["industry_preference_second", "Industrials"], ["industry_preference_third", "Energy"], ["created_at", 2017-11-11 21:41:03 UTC], ["updated_at", 2017-11-11 21:41:03 UTC], ["resume_file_name", "My_Account___Order_History___Receipt.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 133239], ["resume_updated_at", 2017-11-11 21:41:03 UTC], ["region", "East Coast"]]
+[paperclip] saving /profiles/resumes/000/000/001/original/My_Account___Order_History___Receipt.pdf
+  [1m[35m (13.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 2235ms (ActiveRecord: 28.4ms)
+
+
+Started GET "/" for ::1 at 2017-11-11 15:41:05 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 70ms (Views: 68.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles" for ::1 at 2017-11-11 15:41:10 -0600
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.9ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" WHERE "profiles"."active" = $1[0m  [["active", true]]
+  Rendered collection of profiles/_profile.html.erb [1 times] (1.2ms)
+  Rendered profiles/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 56ms (Views: 51.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/profiles/1" for ::1 at 2017-11-11 15:41:16 -0600
+Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data single.pdf (1.9ms)
+Completed 200 OK in 2512ms (Views: 1.7ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/" for ::1 at 2017-11-12 16:11:38 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (7.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 8909ms (Views: 8904.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/peac-logo.png" for ::1 at 2017-11-12 16:11:49 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/peac-logo.png"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered collection of /Users/alexwen/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [14 times] (16.4ms)
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (62.4ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (386.1ms)
+Started GET "/" for ::1 at 2017-11-12 16:16:34 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 112ms (Views: 103.3ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/peac-logo.png"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.0.1) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.0.1) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+Started GET "/" for ::1 at 2017-11-12 16:16:51 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 59ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/peac-logo.png"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.0.1) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.0.1) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+Started GET "/" for ::1 at 2017-11-12 16:16:56 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 78ms (Views: 75.8ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/peac-logo.png"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.0.1) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.0.1) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+Started GET "/" for ::1 at 2017-11-12 16:17:46 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 60ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/peac-logo.png"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.0.1) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.0.1) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+Started GET "/" for ::1 at 2017-11-12 16:20:13 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 72ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/peac-logo.png"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.0.1) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.0.1) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+Started GET "/" for ::1 at 2017-11-12 16:20:15 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 77ms (Views: 74.9ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/peac-logo.png"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.0.1) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.0.1) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+Started GET "/" for ::1 at 2017-11-12 16:20:58 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 64ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/peac-logo.png"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.0.1) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.0.1) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/peac-logo.png"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.0.1) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.0.1) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/peac-logo.png"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.0.1) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.0.1) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+Started GET "/" for ::1 at 2017-11-12 16:22:21 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 88ms (Views: 85.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-11-12 16:25:25 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 85ms (Views: 82.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-11-12 16:25:51 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 93ms (Views: 91.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-11-12 16:30:12 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 3160ms (Views: 3157.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-11-12 16:30:41 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 2837ms (Views: 2834.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-11-12 16:31:03 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 2753ms (Views: 2750.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-11-12 16:31:19 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 2691ms (Views: 2687.5ms | ActiveRecord: 0.0ms)
+
+

@@ -4276,13 +4276,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-weight: bold;
   float: left;
   height: 50px;
-  padding: 15px 15px;
+  padding: 8px;
   font-size: 18px;
   line-height: 20px;
+  opacity: 1.0;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
+  opacity: 0.9;
 }
 .navbar-brand > img {
   display: block;
