@@ -46348,3 +46348,122 @@ Processing by PagesController#show as HTML
 Completed 200 OK in 2691ms (Views: 2687.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2017-11-13 01:01:24 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (6.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 920ms (Views: 917.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles" for ::1 at 2017-11-13 01:02:16 -0600
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (24.8ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" WHERE "profiles"."active" = $1[0m  [["active", true]]
+  Rendered collection of profiles/_profile.html.erb [1 times] (1.7ms)
+  Rendered profiles/index.html.erb within layouts/application (54.0ms)
+Completed 200 OK in 154ms (Views: 83.3ms | ActiveRecord: 60.1ms)
+
+
+Started GET "/profiles/1" for ::1 at 2017-11-13 01:02:22 -0600
+Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProfile Load (1.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data single.pdf (3.7ms)
+Completed 200 OK in 647ms (Views: 3.5ms | ActiveRecord: 19.8ms)
+
+
+Started GET "/profiles/1" for ::1 at 2017-11-13 01:02:31 -0600
+Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data single.pdf (1.2ms)
+Completed 200 OK in 965ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/profiles/1" for ::1 at 2017-11-13 01:02:43 -0600
+Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProfile Load (3.9ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data single.pdf (0.6ms)
+Completed 200 OK in 650ms (Views: 0.4ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/profiles/1" for ::1 at 2017-11-13 01:03:04 -0600
+Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProfile Load (0.8ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data single.pdf (0.8ms)
+Completed 200 OK in 1449ms (Views: 0.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/profiles/1" for ::1 at 2017-11-13 01:03:10 -0600
+Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.1ms)
+Sent data single.pdf (1.1ms)
+Completed 200 OK in 423ms (Views: 0.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/profiles/1" for ::1 at 2017-11-13 01:05:48 -0600
+Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data single.pdf (0.8ms)
+Completed 200 OK in 473ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/profiles" for ::1 at 2017-11-13 01:05:49 -0600
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (4.5ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" WHERE "profiles"."active" = $1[0m  [["active", true]]
+  Rendered collection of profiles/_profile.html.erb [1 times] (2.1ms)
+  Rendered profiles/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 161ms (Views: 150.6ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/profiles/1" for ::1 at 2017-11-13 01:05:53 -0600
+Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProfile Load (8.8ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data single.pdf (0.7ms)
+Completed 200 OK in 420ms (Views: 0.5ms | ActiveRecord: 8.8ms)
+
+
+Started GET "/profiles/1" for ::1 at 2017-11-13 01:08:34 -0600
+Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.7ms)
+
+
+  
+NoMethodError (undefined method `pry' for #<Binding:0x007fa47124d3b8>
+Did you mean?  pretty_print
+               pretty_inspect
+               pretty_print_cycle
+               try):
+  
+app/controllers/profiles_controller.rb:62:in `show'
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.1ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1@global/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (108.3ms)
