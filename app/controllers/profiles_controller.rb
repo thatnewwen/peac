@@ -46,7 +46,45 @@ class ProfilesController < ApplicationController
       
     start_date = month + " " + params["profile"]["start_date_current(1i)"]
 
-    @profile = Profile.new(profile_params.merge(start_date_current: start_date))
+    start_date_pe = []
+    if params["start_date_pe"]["Immediate Start"] == "1"
+      start_date_pe << "Immediate Start"
+    end
+    if params["start_date_pe"]["Summer 2017"] == "1"
+      start_date_pe << "Summer 2017"
+    end
+    if params["start_date_pe"]["Summer 2018"] == "1"
+      start_date_pe << "Summer 2018"
+    end
+    if params["start_date_pe"]["Summer 2019"] == "1"
+      start_date_pe << "Summer 2019"
+    end
+    if params["start_date_pe"]["All of the Above"] == "1"
+      start_date_pe << "Immediate Start"
+      start_date_pe << "Summer 2017"
+      start_date_pe << "Summer 2018"
+      start_date_pe << "Summer 2019"
+    end
+    start_date_pe = start_date_pe.join(", ")
+
+    category = []
+    if params["category"]["Private Equity (Growth)"] == "1"
+      category << "Private Equity (Growth)"
+    end
+    if params["category"]["Private Equity (Buyouts)"] == "1"
+      category << "Private Equity (Buyouts)"
+    end
+    if params["category"]["Venture Capital"] == "1"
+      category << "Venture Capital"
+    end
+    if params["category"]["All of the Above"] == "1"
+      category << "Private Equity (Growth)"
+      category << "Private Equity (Buyouts)"
+      category << "Venture Capital"
+    end
+    category = category.join(", ")
+
+    @profile = Profile.new(profile_params.merge(start_date_current: start_date, start_date_pe: start_date_pe, category: category))
     if @profile.save
       flash[:success] = "The profile was added!"
       redirect_to root_path
@@ -143,6 +181,6 @@ class ProfilesController < ApplicationController
   private
 
   def profile_params
-    params.require(:profile).permit(:resume, :first_name, :last_name, :university, :graduation_year, :company, :current_location, :region, :gender, :start_date_pe, :industry_preference_first, :industry_preference_second, :industry_preference_third)
+    params.require(:profile).permit(:resume, :first_name, :last_name, :university, :graduation_year, :company, :current_location, :region, :gender,  :industry_preference_first, :industry_preference_second, :industry_preference_third, :occupation, category: [:"Private Equity (Growth)", :"Private Equity (Buyouts)", :"Venture Capital", "All of the Above"], start_date_pe: [:"Immediate Start", :"Summer 2017", :"Summer 2018", :"Summer 2019", :"All of the Above"])
   end
 end

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160928034601) do
+ActiveRecord::Schema.define(version: 20171214060959) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -36,6 +36,8 @@ ActiveRecord::Schema.define(version: 20160928034601) do
     t.datetime "resume_updated_at"
     t.string   "region"
     t.boolean  "active",                     default: true
+    t.string   "occupation"
+    t.string   "category"
   end
 
 end

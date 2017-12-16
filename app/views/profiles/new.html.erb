@@ -1,5 +1,5 @@
 <div class="upload-container">
-<div class="page-header"><h1>Upload Profile</h1>Submission Deadline: February 6, 12:00pm CT</div><span></span>
+<div class="page-header"><h1>Upload Profile</h1>Submission Deadline: Friday, January 26th, 2018 (Resumes submitted after 8/1/17 will need to be resubmitted to be included in the 2018 book.)</div><span></span>
 
 <div class="profile-container">
 <%= form_for @profile do |f| %>
@@ -130,6 +130,10 @@
     ["Other", "Other"]] %>
   </div>
   <div class="form-group">
+    <div class="new-label">Current occupation*</div>
+    <%= f.select :occupation, [['Select',''],['Investment banking','Investment banking'],['Consulting','Consulting'],['Other','Other']] %>
+  </div>
+  <div class="form-group">
     <div class="new-label">Current location*</div>
     <%= f.select :current_location, [['Select',''],['Chicago','Chicago'],['New York','New York'],['San Francisco','San Francisco'], ['Other','Other']] %>
   </div>
@@ -147,7 +151,11 @@
   </div>
   <div class="form-group">
     <div class="new-label">Preferred PE Start Date*</div>
-    <%= f.select :start_date_pe, [['Select Date',''],['Immediate Start','Immediate Start'],['Summer 2017','Summer 2017'],['Summer 2018','Summer 2018'], ['Summer 2019','Summer 2019']] %>
+    <%= check_box "start_date_pe", "Immediate Start" %> Immediate Start<br>
+    <%= check_box "start_date_pe", "Summer 2017" %> Summer 2017<br>
+    <%= check_box "start_date_pe", "Summer 2018" %> Summer 2018<br>
+    <%= check_box "start_date_pe", "Summer 2019" %> Summer 2019<br>
+    <%= check_box "start_date_pe", "All of the Above" %> All of the Above<br>
   </div>
   <div class="new-label">Industry Preference*</div>
   <div class="industry_preference_first">
@@ -159,6 +167,13 @@
   <div class="industry_preference_third">
     <%= f.select :industry_preference_third, [['Third Choice',''],['Healthcare','Healthcare'],['TMT','TMT'],['Industrials','Industrials'], ['Consumer','Consumer'],['Business Services','Business Services'], ['Energy','Energy'], ['Real Estate','Real Estate'], ['Other','Other']] %>
   </div><br>
+  <div class="form-group">
+    <div class="new-label">Interested type*</div>
+    <%= check_box "category", "Private Equity (Growth)" %> Private Equity (Growth)<br>
+    <%= check_box "category", "Private Equity (Buyouts)" %> Private Equity (Buyouts)<br>
+    <%= check_box "category", "Venture Capital" %> Venture Capital<br>
+    <%= check_box "category", "All of the Above" %> All of the Above<br>
+  </div>
   <div class="form-group">
     <%= f.label :resume %>* (PDF Only)
     <%= f.file_field :resume, class: 'form-control'%>

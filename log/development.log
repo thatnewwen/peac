@@ -46496,3 +46496,1707 @@ Processing by PagesController#show as HTML
 Completed 200 OK in 100ms (Views: 97.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2017-12-14 00:29:05 -0600
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "peac_development" does not exist
+):
+  
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:675:in `rescue in connect'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `connect'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `new'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:721:in `new_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:765:in `checkout_new_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:744:in `try_to_checkout_new_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:705:in `acquire_connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:501:in `checkout'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:875:in `retrieve_connection'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:558:in `connection'
+activerecord (5.0.0.1) lib/active_record/migration.rb:545:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.0ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (107.6ms)
+  [1m[35m (9.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying PRIMARY KEY)[0m
+  [1m[35m (5.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(178925971560552720);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateProfiles (20160829012257)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (6.1ms)[0m  [1m[35mCREATE TABLE "profiles" ("id" serial primary key, "first_name" character varying, "last_name" character varying, "university" character varying, "graduation_year" integer, "company" character varying, "current_location" character varying, "gender" character varying, "start_date_current" character varying, "start_date_pe" character varying, "industry_preference_first" character varying, "industry_preference_second" character varying, "industry_preference_third" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20160829012257"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddAttachmentResumeToProfiles (20160829020907)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+DEPRECATION WARNING: Directly inheriting from ActiveRecord::Migration is deprecated. Please specify the Rails release the migration was written for:
+
+  class AddAttachmentResumeToProfiles < ActiveRecord::Migration[4.2] (called from require at /Users/alexwen/Projects/peac/bin/rails:9)
+  [1m[35m (0.8ms)[0m  [1m[35mALTER TABLE "profiles" ADD "resume_file_name" character varying[0m
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "profiles" ADD "resume_content_type" character varying[0m
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "profiles" ADD "resume_file_size" integer[0m
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "profiles" ADD "resume_updated_at" timestamp[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20160829020907"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddRegionToProfiles (20160921043250)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.9ms)[0m  [1m[35mALTER TABLE "profiles" ADD "region" character varying[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20160921043250"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddActiveToProfiles (20160928034601)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (5.9ms)[0m  [1m[35mALTER TABLE "profiles" ADD "active" boolean DEFAULT 't'[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20160928034601"]]
+  [1m[35m (2.7ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddOccupationToProfiles (20171214055158)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "profiles" ADD "occupation" character varying[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171214055158"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddCategoryToProfiles (20171214060959)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "profiles" ADD "category" character varying[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171214060959"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", 2017-12-14 06:31:34 UTC], ["updated_at", 2017-12-14 06:31:34 UTC]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(178925971560552720)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'profiles'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+Started GET "/" for ::1 at 2017-12-14 00:42:56 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 5232ms (Views: 5230.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-14 00:44:11 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 100ms (Views: 97.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-14 00:44:37 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 96ms (Views: 92.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-14 00:45:28 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 118ms (Views: 115.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 00:00:52 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (2.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 748ms (Views: 745.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 00:01:02 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered profiles/new.html.erb within layouts/application (35.5ms)
+Completed 200 OK in 149ms (Views: 105.8ms | ActiveRecord: 11.6ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 00:49:34 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 161ms (Views: 151.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 01:40:02 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 140ms (Views: 133.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 01:40:36 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.0ms)
+  Rendered profiles/new.html.erb within layouts/application (33.7ms)
+Completed 200 OK in 148ms (Views: 140.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 02:09:05 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered profiles/new.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 110ms (Views: 107.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 02:09:33 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered profiles/new.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 111ms (Views: 109.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 02:09:48 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.8ms)
+  Rendered profiles/new.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 99ms (Views: 94.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 02:11:40 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.4ms)
+  Rendered profiles/new.html.erb within layouts/application (51.5ms)
+Completed 200 OK in 193ms (Views: 184.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 02:13:21 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered profiles/new.html.erb within layouts/application (24.8ms)
+Completed 200 OK in 161ms (Views: 156.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2017-12-16 02:15:06 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"enffyhR8OiFsuBcEMfsvhZNZJpULVJioVScFt3PbmFsUSnB+j+n1IHvv3hRXrSSXnZsYGy1SXRtcusX47IJ4Bg==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"University of Illinois at Urbana-Champaign", "graduation_year"=>"2016", "company"=>"Banco Santander", "occupation"=>"Consulting", "current_location"=>"New York", "region"=>"East Coast", "gender"=>"Male", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"7", "start_date_current(3i)"=>"1", "industry_preference_first"=>"TMT", "industry_preference_second"=>"Business Services", "industry_preference_third"=>"Energy", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007ffa46c84fe0 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20171216-54325-170nuf8.pdf>, @original_filename="single.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"single.pdf\"\r\nContent-Type: application/pdf\r\n">}, "start_date_pe"=>"Summer 2017", "category"=>"Venture Capital", "commit"=>"Upload"}
+Unpermitted parameters: occupation, start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-16jlyli.pdf'
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-94aj19.pdf'
+  [1m[35mSQL (11.6ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "graduation_year", "company", "current_location", "gender", "start_date_current", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", "University of Illinois at Urbana-Champaign"], ["graduation_year", 2016], ["company", "Banco Santander"], ["current_location", "New York"], ["gender", "Male"], ["start_date_current", "July 2017"], ["industry_preference_first", "TMT"], ["industry_preference_second", "Business Services"], ["industry_preference_third", "Energy"], ["created_at", 2017-12-16 08:15:06 UTC], ["updated_at", 2017-12-16 08:15:06 UTC], ["resume_file_name", "single.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 40054], ["resume_updated_at", 2017-12-16 08:15:06 UTC], ["region", "East Coast"]]
+[paperclip] saving /profiles/resumes/000/000/001/original/single.pdf
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 1938ms (ActiveRecord: 13.3ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 02:15:08 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 77ms (Views: 74.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles" for ::1 at 2017-12-16 02:15:36 -0600
+Processing by ProfilesController#index as HTML
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles" for ::1 at 2017-12-16 02:15:40 -0600
+Processing by ProfilesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles" for ::1 at 2017-12-16 02:15:43 -0600
+Processing by ProfilesController#index as HTML
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles" for ::1 at 2017-12-16 02:15:51 -0600
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (1.9ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" WHERE "profiles"."active" = $1[0m  [["active", true]]
+  Rendered collection of profiles/_profile.html.erb [1 times] (26.4ms)
+  Rendered profiles/index.html.erb within layouts/application (32.8ms)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 1.9ms)
+
+
+  
+ActionView::Template::Error (undefined method `current_occupation' for #<Profile:0x007ffa4cc082c8>
+Did you mean?  current_location
+               current_location?
+               current_location=):
+     5:   <td><%= profile.university %></td>
+     6:   <td><%= profile.graduation_year %></td>
+     7:   <td><%= profile.company %></td>
+     8:   <td><%= profile.current_occupation %></td>
+     9:   <td><%= profile.current_location %></td>
+    10:   <td><%= profile.region %></td>
+    11:   <td><%= profile.gender %></td>
+  
+app/views/profiles/_profile.html.erb:8:in `_app_views_profiles__profile_html_erb___1592781983402691512_70356492112060'
+app/views/profiles/index.html.erb:34:in `_app_views_profiles_index_html_erb___3990250395595457981_70356454560400'
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.8ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (118.0ms)
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(178925971560552720);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(178925971560552720)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'profiles'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+Started GET "/profiles" for ::1 at 2017-12-16 02:16:29 -0600
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" WHERE "profiles"."active" = $1[0m  [["active", true]]
+  Rendered collection of profiles/_profile.html.erb [1 times] (21.4ms)
+  Rendered profiles/index.html.erb within layouts/application (39.5ms)
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `current_occupation' for #<Profile:0x007ffa46d65bf8>
+Did you mean?  current_location
+               current_location?
+               current_location=):
+     5:   <td><%= profile.university %></td>
+     6:   <td><%= profile.graduation_year %></td>
+     7:   <td><%= profile.company %></td>
+     8:   <td><%= profile.current_occupation %></td>
+     9:   <td><%= profile.current_location %></td>
+    10:   <td><%= profile.region %></td>
+    11:   <td><%= profile.gender %></td>
+  
+app/views/profiles/_profile.html.erb:8:in `_app_views_profiles__profile_html_erb___1592781983402691512_70356462343000'
+app/views/profiles/index.html.erb:34:in `_app_views_profiles_index_html_erb___3990250395595457981_70356491034680'
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.5ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (106.0ms)
+Started GET "/profiles" for ::1 at 2017-12-16 02:16:51 -0600
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (1.5ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" WHERE "profiles"."active" = $1[0m  [["active", true]]
+  Rendered collection of profiles/_profile.html.erb [1 times] (1.5ms)
+  Rendered profiles/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 88ms (Views: 83.8ms | ActiveRecord: 1.5ms)
+
+
+Started DELETE "/profiles/1" for ::1 at 2017-12-16 02:18:37 -0600
+Processing by ProfilesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"U/dAIJdI6B5TlB8JY8+vPvpkSij1biSJ1faL//GXjKQ9yu+UDN0nH0TD1hkFmaQs9KZ0ptNo4Trca0uwbs5s+Q==", "id"=>"1"}
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[33mUPDATE "profiles" SET "active" = $1, "updated_at" = $2 WHERE "profiles"."id" = $3[0m  [["active", false], ["updated_at", 2017-12-16 08:18:37 UTC], ["id", 1]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/profiles
+Completed 302 Found in 33ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/profiles" for ::1 at 2017-12-16 02:18:37 -0600
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" WHERE "profiles"."active" = $1[0m  [["active", true]]
+  Rendered collection of templates [0 times] (0.0ms)
+  Rendered profiles/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 63ms (Views: 59.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 02:18:40 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered profiles/new.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 69ms (Views: 63.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2017-12-16 02:19:12 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7tWTOkXo7TnyWysuYHuOP1MOMTLbitGiXHhSA1NKamCA6DyO3n0iOOUM4j4GLYUtXcwPvP2MFBFV5ZJMzBOKPQ==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"University of Illinois at Urbana-Champaign", "graduation_year"=>"2003", "company"=>"Banco Santander", "occupation"=>"Consulting", "current_location"=>"San Francisco", "region"=>"East Coast", "gender"=>"Female", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"12", "start_date_current(3i)"=>"1", "industry_preference_first"=>"TMT", "industry_preference_second"=>"Industrials", "industry_preference_third"=>"Energy", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007ffa4e0bdbc8 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20171216-54325-ukth42.pdf>, @original_filename="single.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"single.pdf\"\r\nContent-Type: application/pdf\r\n">}, "start_date_pe"=>"Summer 2018", "category"=>"Venture Capital", "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-3rnl28.pdf'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-1uea4ks.pdf'
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "graduation_year", "company", "current_location", "gender", "start_date_current", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region", "occupation") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", "University of Illinois at Urbana-Champaign"], ["graduation_year", 2003], ["company", "Banco Santander"], ["current_location", "San Francisco"], ["gender", "Female"], ["start_date_current", "December 2017"], ["industry_preference_first", "TMT"], ["industry_preference_second", "Industrials"], ["industry_preference_third", "Energy"], ["created_at", 2017-12-16 08:19:12 UTC], ["updated_at", 2017-12-16 08:19:12 UTC], ["resume_file_name", "single.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 40054], ["resume_updated_at", 2017-12-16 08:19:12 UTC], ["region", "East Coast"], ["occupation", "Consulting"]]
+[paperclip] saving /profiles/resumes/000/000/002/original/single.pdf
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 443ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 02:19:12 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 71ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles" for ::1 at 2017-12-16 02:19:15 -0600
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (1.5ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" WHERE "profiles"."active" = $1[0m  [["active", true]]
+  Rendered collection of profiles/_profile.html.erb [1 times] (15.2ms)
+  Rendered profiles/index.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 91ms (Views: 79.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 02:19:53 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered profiles/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 73ms (Views: 69.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles" for ::1 at 2017-12-16 02:21:03 -0600
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" WHERE "profiles"."active" = $1[0m  [["active", true]]
+  Rendered collection of profiles/_profile.html.erb [1 times] (2.0ms)
+  Rendered profiles/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 69ms (Views: 65.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 02:22:40 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.4ms)
+  Rendered profiles/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 76ms (Views: 72.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 02:23:26 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered profiles/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 78ms (Views: 74.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 02:25:30 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered profiles/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 75ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2017-12-16 02:25:57 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I49GgAPtcWTM0Nh85Vxshva/mPBR3ePzLLouJN3ea4dNsuk0mHi+ZduHEWyDCmeU+H2mfnfbJkAlJ+5rQoeL2g==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"University of Illinois at Urbana-Champaign", "graduation_year"=>"2003", "company"=>"Barclays", "occupation"=>"Other", "current_location"=>"Chicago", "region"=>"East Coast", "gender"=>"Male", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"12", "start_date_current(3i)"=>"1", "industry_preference_first"=>"Industrials", "industry_preference_second"=>"Other", "industry_preference_third"=>"Consumer", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007ffa4669fd00 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20171216-54325-1j94iae.pdf>, @original_filename="single.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"single.pdf\"\r\nContent-Type: application/pdf\r\n">}, "start_date_pe2"=>"Summer 2017", "start_date_pe3"=>"Summer 2018", "category2"=>"Private Equity (Buyouts)", "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-1o6bv1o.pdf'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-188fyy0.pdf'
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "graduation_year", "company", "current_location", "gender", "start_date_current", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region", "occupation") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", "University of Illinois at Urbana-Champaign"], ["graduation_year", 2003], ["company", "Barclays"], ["current_location", "Chicago"], ["gender", "Male"], ["start_date_current", "December 2017"], ["industry_preference_first", "Industrials"], ["industry_preference_second", "Other"], ["industry_preference_third", "Consumer"], ["created_at", 2017-12-16 08:25:57 UTC], ["updated_at", 2017-12-16 08:25:57 UTC], ["resume_file_name", "single.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 40054], ["resume_updated_at", 2017-12-16 08:25:57 UTC], ["region", "East Coast"], ["occupation", "Other"]]
+[paperclip] saving /profiles/resumes/000/000/003/original/single.pdf
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 429ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 02:25:57 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 83ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles" for ::1 at 2017-12-16 02:26:00 -0600
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" WHERE "profiles"."active" = $1[0m  [["active", true]]
+  Rendered collection of profiles/_profile.html.erb [2 times] (1.8ms)
+  Rendered profiles/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 66ms (Views: 60.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 02:27:35 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered profiles/new.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 102ms (Views: 74.9ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 02:27:37 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered profiles/new.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 99ms (Views: 92.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2017-12-16 02:28:20 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZQ8bSW937v1cfscV3LLbzmmmPm5nQC7/FLvMD3sHYewLMrT99OIh/EspDgW65NDcZ2QA4EFG60wdJgxA5F6BsQ==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"University of Illinois at Urbana-Champaign", "graduation_year"=>"2004", "company"=>"Banco Santander", "occupation"=>"Consulting", "current_location"=>"New York", "region"=>"East Coast", "gender"=>"Female", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"12", "start_date_current(3i)"=>"1", "industry_preference_first"=>"TMT", "industry_preference_second"=>"Consumer", "industry_preference_third"=>"Real Estate", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007ffa4767f4c8 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20171216-54325-1hpfl3p.pdf>, @original_filename="single.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"single.pdf\"\r\nContent-Type: application/pdf\r\n">}, "start_date_pe3"=>"Summer 2018", "start_date_pe4"=>"Summer 2019", "category2"=>"Private Equity (Buyouts)", "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-d6435r.pdf'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-we5pcs.pdf'
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "graduation_year", "company", "current_location", "gender", "start_date_current", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region", "occupation") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", "University of Illinois at Urbana-Champaign"], ["graduation_year", 2004], ["company", "Banco Santander"], ["current_location", "New York"], ["gender", "Female"], ["start_date_current", "December 2017"], ["industry_preference_first", "TMT"], ["industry_preference_second", "Consumer"], ["industry_preference_third", "Real Estate"], ["created_at", 2017-12-16 08:28:20 UTC], ["updated_at", 2017-12-16 08:28:20 UTC], ["resume_file_name", "single.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 40054], ["resume_updated_at", 2017-12-16 08:28:20 UTC], ["region", "East Coast"], ["occupation", "Consulting"]]
+[paperclip] saving /profiles/resumes/000/000/004/original/single.pdf
+  [1m[35m (3.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 502ms (ActiveRecord: 4.1ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 02:28:20 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 115ms (Views: 113.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 02:34:01 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.0ms)
+  Rendered profiles/new.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 116ms (Views: 87.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2017-12-16 02:35:59 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"T+i5xbP69vywahPoYWdFoUmlj699cV67dEz5fg14U8Eh1RZxKG85/ac92vgHMU6zR2exIVt3mwh90TkxkiGznA==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"University of Illinois at Urbana-Champaign", "graduation_year"=>"2006", "company"=>"Bank of America Merrill Lynch", "occupation"=>"Other", "current_location"=>"New York", "region"=>"East Coast", "gender"=>"Female", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"12", "start_date_current(3i)"=>"1", "industry_preference_first"=>"TMT", "industry_preference_second"=>"Consumer", "industry_preference_third"=>"Consumer", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007ffa4e842e20 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20171216-54325-fe8e3y.pdf>, @original_filename="single.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"single.pdf\"\r\nContent-Type: application/pdf\r\n">}, "start_date_pe2"=>"Summer 2017", "start_date_pe3"=>"Summer 2018", "category3"=>"Venture Capital", "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-1y69n6i.pdf'
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-xs0g17.pdf'
+  [1m[35mSQL (1.8ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "graduation_year", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region", "occupation") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", "University of Illinois at Urbana-Champaign"], ["graduation_year", 2006], ["company", "Bank of America Merrill Lynch"], ["current_location", "New York"], ["gender", "Female"], ["start_date_current", "December 2017"], ["start_date_pe", ""], ["industry_preference_first", "TMT"], ["industry_preference_second", "Consumer"], ["industry_preference_third", "Consumer"], ["created_at", 2017-12-16 08:35:59 UTC], ["updated_at", 2017-12-16 08:35:59 UTC], ["resume_file_name", "single.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 40054], ["resume_updated_at", 2017-12-16 08:35:59 UTC], ["region", "East Coast"], ["occupation", "Other"]]
+[paperclip] saving /profiles/resumes/000/000/005/original/single.pdf
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 465ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 02:36:00 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 84ms (Views: 81.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles" for ::1 at 2017-12-16 02:36:02 -0600
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" WHERE "profiles"."active" = $1[0m  [["active", true]]
+  Rendered collection of profiles/_profile.html.erb [4 times] (3.5ms)
+  Rendered profiles/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 96ms (Views: 91.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/profiles" for ::1 at 2017-12-16 02:36:59 -0600
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" WHERE "profiles"."active" = $1[0m  [["active", true]]
+  Rendered collection of profiles/_profile.html.erb [4 times] (4.9ms)
+  Rendered profiles/index.html.erb within layouts/application (23.7ms)
+Completed 200 OK in 95ms (Views: 84.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 02:37:00 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered profiles/new.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 93ms (Views: 89.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2017-12-16 02:37:04 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v1iiMw/+JM/VWvBIXalYCmLLCLC+NQJxL+Hk74z3ZAnRZQ2HlGvrzsINOVg7/1MYbAk2Ppgzx8ImfCSgE66EVA==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"", "graduation_year"=>"", "company"=>"", "occupation"=>"", "current_location"=>"", "region"=>"", "gender"=>"", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"12", "start_date_current(3i)"=>"1", "industry_preference_first"=>"", "industry_preference_second"=>"", "industry_preference_third"=>""}, "commit"=>"Upload"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `pry' for #<Binding:0x007ffa4ea7fe40>
+Did you mean?  pretty_print
+               pretty_inspect
+               pretty_print_cycle
+               try):
+  
+app/controllers/profiles_controller.rb:21:in `create'
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (110.7ms)
+Started POST "/profiles" for ::1 at 2017-12-16 02:38:02 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v1iiMw/+JM/VWvBIXalYCmLLCLC+NQJxL+Hk74z3ZAnRZQ2HlGvrzsINOVg7/1MYbAk2Ppgzx8ImfCSgE66EVA==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"", "graduation_year"=>"", "company"=>"", "occupation"=>"", "current_location"=>"", "region"=>"", "gender"=>"", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"12", "start_date_current(3i)"=>"1", "industry_preference_first"=>"", "industry_preference_second"=>"", "industry_preference_third"=>""}, "commit"=>"Upload"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `pry' for #<Binding:0x007ffa4b450360>
+Did you mean?  pretty_print
+               pretty_inspect
+               pretty_print_cycle
+               try):
+  
+app/controllers/profiles_controller.rb:21:in `create'
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (108.9ms)
+Started GET "/profiles/new" for ::1 at 2017-12-16 02:38:08 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered profiles/new.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 99ms (Views: 96.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2017-12-16 02:38:09 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V4UXjz5afDEp2RmYBwdnG4pmC9LEAvl6tkjQJWv7Tiw5uLg7pc+zMD6O0IhhUWwJhKQ1XOIEPMm/1RBq9KKucQ==", "profile"=>{"first_name"=>"", "last_name"=>"", "university"=>"", "graduation_year"=>"", "company"=>"", "occupation"=>"", "current_location"=>"", "region"=>"", "gender"=>"", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"12", "start_date_current(3i)"=>"1", "industry_preference_first"=>"", "industry_preference_second"=>"", "industry_preference_third"=>""}, "commit"=>"Upload"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `pry' for #<Binding:0x007ffa47f64e30>
+Did you mean?  pretty_print
+               pretty_inspect
+               pretty_print_cycle
+               try):
+  
+app/controllers/profiles_controller.rb:21:in `create'
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (121.5ms)
+Started POST "/profiles" for ::1 at 2017-12-16 02:38:37 -0600
+  
+LoadError (cannot load such file -- pry):
+  
+app/controllers/application_controller.rb:3:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<top (required)>'
+app/controllers/profiles_controller.rb:1:in `<top (required)>'
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (107.0ms)
+Started POST "/profiles" for ::1 at 2017-12-16 02:40:56 -0600
+  
+LoadError (cannot load such file -- pry):
+  
+app/controllers/application_controller.rb:3:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<top (required)>'
+app/controllers/profiles_controller.rb:1:in `<top (required)>'
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (109.9ms)
+Started POST "/profiles" for ::1 at 2017-12-16 02:41:40 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V4UXjz5afDEp2RmYBwdnG4pmC9LEAvl6tkjQJWv7Tiw5uLg7pc+zMD6O0IhhUWwJhKQ1XOIEPMm/1RBq9KKucQ==", "profile"=>{"first_name"=>"", "last_name"=>"", "university"=>"", "graduation_year"=>"", "company"=>"", "occupation"=>"", "current_location"=>"", "region"=>"", "gender"=>"", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"12", "start_date_current(3i)"=>"1", "industry_preference_first"=>"", "industry_preference_second"=>"", "industry_preference_third"=>""}, "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.6ms)
+  Rendered profiles/new.html.erb within layouts/application (15.3ms)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `change' for "December 2017":String):
+    147:   </div>
+    148:   <div class="form-group">
+    149:     <div class="new-label">Start Date with Current Company*</div>
+    150:     <%= date_select(:profile, :start_date_current, options = {discard_day: true}) %>
+    151:   </div>
+    152:   <div class="form-group">
+    153:     <div class="new-label">Preferred PE Start Date*</div>
+  
+app/views/profiles/new.html.erb:150:in `block in _app_views_profiles_new_html_erb__3805013864271251589_70356490752160'
+app/views/profiles/new.html.erb:5:in `_app_views_profiles_new_html_erb__3805013864271251589_70356490752160'
+app/controllers/profiles_controller.rb:73:in `create'
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.3ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (123.4ms)
+Started POST "/profiles" for ::1 at 2017-12-16 02:41:59 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V4UXjz5afDEp2RmYBwdnG4pmC9LEAvl6tkjQJWv7Tiw5uLg7pc+zMD6O0IhhUWwJhKQ1XOIEPMm/1RBq9KKucQ==", "profile"=>{"first_name"=>"", "last_name"=>"", "university"=>"", "graduation_year"=>"", "company"=>"", "occupation"=>"", "current_location"=>"", "region"=>"", "gender"=>"", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"12", "start_date_current(3i)"=>"1", "industry_preference_first"=>"", "industry_preference_second"=>"", "industry_preference_third"=>""}, "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered profiles/new.html.erb within layouts/application (18.5ms)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `change' for "December 2017":String):
+    147:   </div>
+    148:   <div class="form-group">
+    149:     <div class="new-label">Start Date with Current Company*</div>
+    150:     <%= date_select(:profile, :start_date_current, options = {discard_day: true}) %>
+    151:   </div>
+    152:   <div class="form-group">
+    153:     <div class="new-label">Preferred PE Start Date*</div>
+  
+app/views/profiles/new.html.erb:150:in `block in _app_views_profiles_new_html_erb__3805013864271251589_70356524171060'
+app/views/profiles/new.html.erb:5:in `_app_views_profiles_new_html_erb__3805013864271251589_70356524171060'
+app/controllers/profiles_controller.rb:73:in `create'
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (104.2ms)
+Started POST "/profiles" for ::1 at 2017-12-16 02:42:05 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V4UXjz5afDEp2RmYBwdnG4pmC9LEAvl6tkjQJWv7Tiw5uLg7pc+zMD6O0IhhUWwJhKQ1XOIEPMm/1RBq9KKucQ==", "profile"=>{"first_name"=>"", "last_name"=>"", "university"=>"", "graduation_year"=>"", "company"=>"", "occupation"=>"", "current_location"=>"", "region"=>"", "gender"=>"", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"12", "start_date_current(3i)"=>"1", "industry_preference_first"=>"", "industry_preference_second"=>"", "industry_preference_third"=>""}, "start_date_pe"=>"Immediate Start", "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.2ms)
+  Rendered profiles/new.html.erb within layouts/application (21.9ms)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `change' for "December 2017":String):
+    147:   </div>
+    148:   <div class="form-group">
+    149:     <div class="new-label">Start Date with Current Company*</div>
+    150:     <%= date_select(:profile, :start_date_current, options = {discard_day: true}) %>
+    151:   </div>
+    152:   <div class="form-group">
+    153:     <div class="new-label">Preferred PE Start Date*</div>
+  
+app/views/profiles/new.html.erb:150:in `block in _app_views_profiles_new_html_erb__3805013864271251589_70356458361880'
+app/views/profiles/new.html.erb:5:in `_app_views_profiles_new_html_erb__3805013864271251589_70356458361880'
+app/controllers/profiles_controller.rb:73:in `create'
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (90.5ms)
+Started POST "/profiles" for ::1 at 2017-12-16 02:42:33 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V4UXjz5afDEp2RmYBwdnG4pmC9LEAvl6tkjQJWv7Tiw5uLg7pc+zMD6O0IhhUWwJhKQ1XOIEPMm/1RBq9KKucQ==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"University of Illinois at Urbana-Champaign", "graduation_year"=>"2003", "company"=>"Bank of America Merrill Lynch", "occupation"=>"Consulting", "current_location"=>"San Francisco", "region"=>"Midwest", "gender"=>"Female", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"7", "start_date_current(3i)"=>"1", "industry_preference_first"=>"TMT", "industry_preference_second"=>"Industrials", "industry_preference_third"=>"Business Services", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007ffa4e2c3be8 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20171216-54325-1ctvj0h.pdf>, @original_filename="single.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"single.pdf\"\r\nContent-Type: application/pdf\r\n">}, "start_date_pe"=>"Immediate Start", "start_date_pe2"=>"Summer 2017", "category"=>"Private Equity (Growth)", "category2"=>"Private Equity (Buyouts)", "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-fbr9nz.pdf'
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-mr600y.pdf'
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "graduation_year", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region", "occupation") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", "University of Illinois at Urbana-Champaign"], ["graduation_year", 2003], ["company", "Bank of America Merrill Lynch"], ["current_location", "San Francisco"], ["gender", "Female"], ["start_date_current", "July 2017"], ["start_date_pe", ""], ["industry_preference_first", "TMT"], ["industry_preference_second", "Industrials"], ["industry_preference_third", "Business Services"], ["created_at", 2017-12-16 08:42:33 UTC], ["updated_at", 2017-12-16 08:42:33 UTC], ["resume_file_name", "single.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 40054], ["resume_updated_at", 2017-12-16 08:42:33 UTC], ["region", "Midwest"], ["occupation", "Consulting"]]
+[paperclip] saving /profiles/resumes/000/000/006/original/single.pdf
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 513ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 02:42:33 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 102ms (Views: 99.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 03:18:11 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (2.8ms)
+  Rendered profiles/new.html.erb within layouts/application (53.1ms)
+Completed 200 OK in 224ms (Views: 211.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 03:18:46 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.1ms)
+  Rendered profiles/new.html.erb within layouts/application (23.2ms)
+Completed 200 OK in 216ms (Views: 168.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2017-12-16 03:19:12 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jqHnBXWo9C2cNbOtG551Fyd74137JIuK6sUv8y3gdBbgnEix7j07LItier19yH4FKbnd090iTjnjWO+8srmUSw==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"University of Illinois at Urbana-Champaign", "graduation_year"=>"2002", "company"=>"Banco Santander", "occupation"=>"Other", "current_location"=>"Chicago", "region"=>"East Coast", "gender"=>"Female", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"12", "start_date_current(3i)"=>"1", "industry_preference_first"=>"TMT", "industry_preference_second"=>"Consumer", "industry_preference_third"=>"Consumer", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007ffa4cb88028 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20171216-54325-1c8azzg.pdf>, @original_filename="single.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"single.pdf\"\r\nContent-Type: application/pdf\r\n">}, "start_date_pe2"=>"Summer 2017", "start_date_pe3"=>"Summer 2018", "category"=>"Private Equity (Growth)", "category2"=>"Private Equity (Buyouts)", "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-r00pmu.pdf'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-1vg8z22.pdf'
+  [1m[35mSQL (1.8ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "graduation_year", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region", "occupation") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", "University of Illinois at Urbana-Champaign"], ["graduation_year", 2002], ["company", "Banco Santander"], ["current_location", "Chicago"], ["gender", "Female"], ["start_date_current", "December 2017"], ["start_date_pe", ""], ["industry_preference_first", "TMT"], ["industry_preference_second", "Consumer"], ["industry_preference_third", "Consumer"], ["created_at", 2017-12-16 09:19:13 UTC], ["updated_at", 2017-12-16 09:19:13 UTC], ["resume_file_name", "single.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 40054], ["resume_updated_at", 2017-12-16 09:19:12 UTC], ["region", "East Coast"], ["occupation", "Other"]]
+[paperclip] saving /profiles/resumes/000/000/007/original/single.pdf
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 571ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 03:19:13 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 82ms (Views: 79.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 03:20:22 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.9ms)
+  Rendered profiles/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 90ms (Views: 86.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 03:21:29 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered profiles/new.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 157ms (Views: 100.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2017-12-16 03:21:54 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9zdAcW4k1d+D7xEOFTwRdkIFFB5+A0mwEOys35anTwmZCu/F9bEa3pS42B5zahpkTMcqkFgFjAMZcWyQCf6vVA==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"University of Illinois at Urbana-Champaign", "graduation_year"=>"2002", "company"=>"Bank of America Merrill Lynch", "occupation"=>"Investment banking", "current_location"=>"New York", "region"=>"East Coast", "gender"=>"Other", "start_date_current(1i)"=>"2019", "start_date_current(2i)"=>"12", "start_date_current(3i)"=>"1", "industry_preference_first"=>"Consumer", "industry_preference_second"=>"Business Services", "industry_preference_third"=>"Consumer", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007ffa49d4f968 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20171216-54325-1n8nciu.pdf>, @original_filename="single.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"single.pdf\"\r\nContent-Type: application/pdf\r\n">}, "start_date_pe2"=>"Summer 2017", "start_date_pe3"=>"Summer 2018", "category2"=>"Private Equity (Buyouts)", "category3"=>"Venture Capital", "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-1l669is.pdf'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-148sw3d.pdf'
+  [1m[35mSQL (1.9ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "graduation_year", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region", "occupation") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", "University of Illinois at Urbana-Champaign"], ["graduation_year", 2002], ["company", "Bank of America Merrill Lynch"], ["current_location", "New York"], ["gender", "Other"], ["start_date_current", "December 2019"], ["start_date_pe", ""], ["industry_preference_first", "Consumer"], ["industry_preference_second", "Business Services"], ["industry_preference_third", "Consumer"], ["created_at", 2017-12-16 09:21:54 UTC], ["updated_at", 2017-12-16 09:21:54 UTC], ["resume_file_name", "single.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 40054], ["resume_updated_at", 2017-12-16 09:21:54 UTC], ["region", "East Coast"], ["occupation", "Investment banking"]]
+[paperclip] saving /profiles/resumes/000/000/008/original/single.pdf
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 477ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 03:21:54 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 93ms (Views: 89.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 03:25:12 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 83ms (Views: 79.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 03:25:14 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered profiles/new.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 226ms (Views: 166.3ms | ActiveRecord: 13.8ms)
+
+
+Started POST "/profiles" for ::1 at 2017-12-16 03:25:44 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JuZOyrvMFOKxkaGiBxatkHY8B5cOnVYl7B1zUgyfrNRI2+F+IFnb46bGaLJhQKaCeP45GSibk5blgLMdk8ZMiQ==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"University of Illinois at Urbana-Champaign", "graduation_year"=>"2002", "company"=>"Banco Santander", "occupation"=>"Investment banking", "current_location"=>"New York", "region"=>"East Coast", "gender"=>"Female", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"12", "start_date_current(3i)"=>"1", "industry_preference_first"=>"TMT", "industry_preference_second"=>"Industrials", "industry_preference_third"=>"Industrials", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007ffa49ca0e90 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20171216-54325-1fkj1sr.pdf>, @original_filename="single.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"single.pdf\"\r\nContent-Type: application/pdf\r\n">}, "start_date_pe"=>"Immediate Start", "start_date_pe2"=>"Summer 2017", "start_date_pe3"=>"Summer 2018", "category"=>"Private Equity (Growth)", "category3"=>"Venture Capital", "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-1vubpwt.pdf'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-hwisim.pdf'
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "graduation_year", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region", "occupation") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", "University of Illinois at Urbana-Champaign"], ["graduation_year", 2002], ["company", "Banco Santander"], ["current_location", "New York"], ["gender", "Female"], ["start_date_current", "December 2017"], ["start_date_pe", ""], ["industry_preference_first", "TMT"], ["industry_preference_second", "Industrials"], ["industry_preference_third", "Industrials"], ["created_at", 2017-12-16 09:25:44 UTC], ["updated_at", 2017-12-16 09:25:44 UTC], ["resume_file_name", "single.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 40054], ["resume_updated_at", 2017-12-16 09:25:44 UTC], ["region", "East Coast"], ["occupation", "Investment banking"]]
+[paperclip] saving /profiles/resumes/000/000/009/original/single.pdf
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 443ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 03:25:44 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 86ms (Views: 84.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 03:26:21 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 102ms (Views: 98.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 03:26:22 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered profiles/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 132ms (Views: 96.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2017-12-16 03:26:46 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8NYKiC2ZQv2vBISH9gafazlSaaY0eAwauTPIt/4rwXye66U8tgyN/LhTTZeQUJR5N5BXKBJ+yamwrgj4YXIhIQ==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"University of Illinois at Urbana-Champaign", "graduation_year"=>"2003", "company"=>"Bank of America Merrill Lynch", "occupation"=>"Other", "current_location"=>"New York", "region"=>"Midwest", "gender"=>"Female", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"12", "start_date_current(3i)"=>"1", "industry_preference_first"=>"TMT", "industry_preference_second"=>"Consumer", "industry_preference_third"=>"Business Services", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007ffa49971f08 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20171216-54325-1s4nkq3.pdf>, @original_filename="single.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"single.pdf\"\r\nContent-Type: application/pdf\r\n">}, "start_date_pe"=>"Immediate Start", "start_date_pe2"=>"Summer 2017", "category"=>"Private Equity (Growth)", "category3"=>"Venture Capital", "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-anbwyc.pdf'
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-1cfgmfp.pdf'
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "graduation_year", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region", "occupation") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", "University of Illinois at Urbana-Champaign"], ["graduation_year", 2003], ["company", "Bank of America Merrill Lynch"], ["current_location", "New York"], ["gender", "Female"], ["start_date_current", "December 2017"], ["start_date_pe", ""], ["industry_preference_first", "TMT"], ["industry_preference_second", "Consumer"], ["industry_preference_third", "Business Services"], ["created_at", 2017-12-16 09:26:46 UTC], ["updated_at", 2017-12-16 09:26:46 UTC], ["resume_file_name", "single.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 40054], ["resume_updated_at", 2017-12-16 09:26:46 UTC], ["region", "Midwest"], ["occupation", "Other"]]
+[paperclip] saving /profiles/resumes/000/000/010/original/single.pdf
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 498ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 03:26:47 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 85ms (Views: 82.5ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mProfile Load (0.7ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" ORDER BY "profiles"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mProfile Load (1.0ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" ORDER BY "profiles"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" ORDER BY "profiles"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" ORDER BY "profiles"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Started GET "/" for ::1 at 2017-12-16 03:35:58 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 80ms (Views: 77.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 03:36:00 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.3ms)
+  Rendered profiles/new.html.erb within layouts/application (19.5ms)
+Completed 200 OK in 98ms (Views: 93.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 03:36:09 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered profiles/new.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 115ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2017-12-16 03:36:12 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OzH/vm1hOEhbgDWUQNZYD4e/5A/hRbmoW5PE0V5ZMcBVDFAK9vT3SUzX/IQmgFMdiX3agcdDfBtSDgSewQDRnQ==", "profile"=>{"first_name"=>"", "last_name"=>"", "university"=>"", "graduation_year"=>"", "company"=>"", "occupation"=>"", "current_location"=>"", "region"=>"", "gender"=>"", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"12", "start_date_current(3i)"=>"1", "industry_preference_first"=>"", "industry_preference_second"=>"", "industry_preference_third"=>""}, "start_date_pe"=>{"Immediate Start"=>"1"}, "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.9ms)
+  Rendered profiles/new.html.erb within layouts/application (18.3ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `change' for "December 2017":String):
+    147:   </div>
+    148:   <div class="form-group">
+    149:     <div class="new-label">Start Date with Current Company*</div>
+    150:     <%= date_select(:profile, :start_date_current, options = {discard_day: true}) %>
+    151:   </div>
+    152:   <div class="form-group">
+    153:     <div class="new-label">Preferred PE Start Date*</div>
+  
+app/views/profiles/new.html.erb:150:in `block in _app_views_profiles_new_html_erb__3805013864271251589_70356503102120'
+app/views/profiles/new.html.erb:5:in `_app_views_profiles_new_html_erb__3805013864271251589_70356503102120'
+app/controllers/profiles_controller.rb:75:in `create'
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (117.9ms)
+Started GET "/profiles/new" for ::1 at 2017-12-16 03:36:54 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.4ms)
+  Rendered profiles/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 73ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2017-12-16 03:50:57 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gyc4/JpkeHWshwTUSRkHxKxTk9gFzduFQY6QJQmpICvtGpdIAfG3dLvQzcQvTwzWopGtViPLHjZIE1BqlvDAdg==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"University of Illinois at Urbana-Champaign", "graduation_year"=>"2002", "company"=>"Banco Santander", "occupation"=>"Consulting", "current_location"=>"San Francisco", "region"=>"West Coast", "gender"=>"Male", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"12", "start_date_current(3i)"=>"1", "industry_preference_first"=>"TMT", "industry_preference_second"=>"Industrials", "industry_preference_third"=>"Energy", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007ffa46da57d0 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20171216-54325-1qc7hri.pdf>, @original_filename="single.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"single.pdf\"\r\nContent-Type: application/pdf\r\n">}, "start_date_pe"=>{"Immediate Start"=>"1", "Summer 2017"=>"1", "Summer 2018"=>"1", "Summer 2019"=>"0", "All of the Above"=>"0"}, "category2"=>"Private Equity (Buyouts)", "category3"=>"Venture Capital", "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-15zy4ft.pdf'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-1pupbqe.pdf'
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "graduation_year", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region", "occupation") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", "University of Illinois at Urbana-Champaign"], ["graduation_year", 2002], ["company", "Banco Santander"], ["current_location", "San Francisco"], ["gender", "Male"], ["start_date_current", "December 2017"], ["start_date_pe", ""], ["industry_preference_first", "TMT"], ["industry_preference_second", "Industrials"], ["industry_preference_third", "Energy"], ["created_at", 2017-12-16 09:50:57 UTC], ["updated_at", 2017-12-16 09:50:57 UTC], ["resume_file_name", "single.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 40054], ["resume_updated_at", 2017-12-16 09:50:57 UTC], ["region", "West Coast"], ["occupation", "Consulting"]]
+[paperclip] saving /profiles/resumes/000/000/011/original/single.pdf
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 548ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 03:50:58 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 92ms (Views: 88.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 03:54:22 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.2ms)
+  Rendered profiles/new.html.erb within layouts/application (27.7ms)
+Completed 200 OK in 181ms (Views: 130.8ms | ActiveRecord: 5.1ms)
+
+
+Started POST "/profiles" for ::1 at 2017-12-16 03:54:48 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EQCyVHTdxyayyhavssOmgzl+X7yVtCGTJZjx+8MQOrV/PR3g70gIJ6Wd37/Ula2RN7xhMrOy5CAsBTG0XEna6A==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"University of Illinois at Urbana-Champaign", "graduation_year"=>"2001", "company"=>"Banco Santander", "occupation"=>"Investment banking", "current_location"=>"San Francisco", "region"=>"East Coast", "gender"=>"Female", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"12", "start_date_current(3i)"=>"1", "industry_preference_first"=>"Industrials", "industry_preference_second"=>"Industrials", "industry_preference_third"=>"Energy", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007ffa4ebce918 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20171216-54325-90jywz.pdf>, @original_filename="single.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"single.pdf\"\r\nContent-Type: application/pdf\r\n">}, "start_date_pe"=>{"Immediate Start"=>"1", "Summer 2017"=>"1", "Summer 2018"=>"0", "Summer 2019"=>"0", "All of the Above"=>"0"}, "category2"=>"Private Equity (Buyouts)", "category3"=>"Venture Capital", "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-1a1hvpu.pdf'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-1p6tyxo.pdf'
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "graduation_year", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region", "occupation") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", "University of Illinois at Urbana-Champaign"], ["graduation_year", 2001], ["company", "Banco Santander"], ["current_location", "San Francisco"], ["gender", "Female"], ["start_date_current", "December 2017"], ["start_date_pe", ""], ["industry_preference_first", "Industrials"], ["industry_preference_second", "Industrials"], ["industry_preference_third", "Energy"], ["created_at", 2017-12-16 09:54:48 UTC], ["updated_at", 2017-12-16 09:54:48 UTC], ["resume_file_name", "single.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 40054], ["resume_updated_at", 2017-12-16 09:54:48 UTC], ["region", "East Coast"], ["occupation", "Investment banking"]]
+[paperclip] saving /profiles/resumes/000/000/012/original/single.pdf
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 457ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 03:54:49 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 93ms (Views: 90.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 03:56:41 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (25.7ms)
+Completed 200 OK in 116ms (Views: 113.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 03:57:09 -0600
+  
+SyntaxError (/Users/alexwen/Projects/peac/app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting ')'
+...t_date_pe: :"Immediate Start" :"Summer 2017" :"Summer 2018" ...
+...                               ^
+/Users/alexwen/Projects/peac/app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting keyword_end
+...mediate Start" :"Summer 2017" :"Summer 2018" :"Summer 2019" ...
+...                               ^
+/Users/alexwen/Projects/peac/app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting keyword_end
+...:"Summer 2017" :"Summer 2018" :"Summer 2019" :"All of the Ab...
+...                               ^
+/Users/alexwen/Projects/peac/app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting keyword_end
+...:"Summer 2018" :"Summer 2019" :"All of the Above")
+...                               ^
+/Users/alexwen/Projects/peac/app/controllers/profiles_controller.rb:167: syntax error, unexpected ')', expecting keyword_end):
+  
+app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting ')'
+app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting keyword_end
+app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting keyword_end
+app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting keyword_end
+app/controllers/profiles_controller.rb:167: syntax error, unexpected ')', expecting keyword_end
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (122.3ms)
+Started GET "/profiles/new" for ::1 at 2017-12-16 03:57:31 -0600
+  
+SyntaxError (/Users/alexwen/Projects/peac/app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting ']'
+..._date_pe: [:"Immediate Start" :"Summer 2017" :"Summer 2018" ...
+...                               ^
+/Users/alexwen/Projects/peac/app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting keyword_end
+...mediate Start" :"Summer 2017" :"Summer 2018" :"Summer 2019" ...
+...                               ^
+/Users/alexwen/Projects/peac/app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting keyword_end
+...:"Summer 2017" :"Summer 2018" :"Summer 2019" :"All of the Ab...
+...                               ^
+/Users/alexwen/Projects/peac/app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting keyword_end
+...:"Summer 2018" :"Summer 2019" :"All of the Above"])
+...                               ^
+/Users/alexwen/Projects/peac/app/controllers/profiles_controller.rb:167: syntax error, unexpected ']', expecting keyword_end
+...mmer 2019" :"All of the Above"])
+...                               ^):
+  
+app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting ']'
+app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting keyword_end
+app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting keyword_end
+app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting keyword_end
+app/controllers/profiles_controller.rb:167: syntax error, unexpected ']', expecting keyword_end
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.1ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (151.6ms)
+Started GET "/profiles/new" for ::1 at 2017-12-16 03:58:26 -0600
+  
+SyntaxError (/Users/alexwen/Projects/peac/app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting ']'
+...ate_pe => [:"Immediate Start" :"Summer 2017" :"Summer 2018" ...
+...                               ^
+/Users/alexwen/Projects/peac/app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting keyword_end
+...mediate Start" :"Summer 2017" :"Summer 2018" :"Summer 2019" ...
+...                               ^
+/Users/alexwen/Projects/peac/app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting keyword_end
+...:"Summer 2017" :"Summer 2018" :"Summer 2019" :"All of the Ab...
+...                               ^
+/Users/alexwen/Projects/peac/app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting keyword_end
+...:"Summer 2018" :"Summer 2019" :"All of the Above"])
+...                               ^
+/Users/alexwen/Projects/peac/app/controllers/profiles_controller.rb:167: syntax error, unexpected ']', expecting keyword_end
+...mmer 2019" :"All of the Above"])
+...                               ^):
+  
+app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting ']'
+app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting keyword_end
+app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting keyword_end
+app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting keyword_end
+app/controllers/profiles_controller.rb:167: syntax error, unexpected ']', expecting keyword_end
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.0ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (106.4ms)
+Started GET "/profiles/new" for ::1 at 2017-12-16 04:00:25 -0600
+  
+SyntaxError (/Users/alexwen/Projects/peac/app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting =>
+..._date_pe: {:"Immediate Start" :"Summer 2017" :"Summer 2018" ...
+...                               ^
+/Users/alexwen/Projects/peac/app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting keyword_end
+...mediate Start" :"Summer 2017" :"Summer 2018" :"Summer 2019" ...
+...                               ^
+/Users/alexwen/Projects/peac/app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting keyword_end
+...:"Summer 2017" :"Summer 2018" :"Summer 2019" :"All of the Ab...
+...                               ^
+/Users/alexwen/Projects/peac/app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting keyword_end
+...:"Summer 2018" :"Summer 2019" :"All of the Above"})
+...                               ^
+/Users/alexwen/Projects/peac/app/controllers/profiles_controller.rb:167: syntax error, unexpected '}', expecting keyword_end
+...mmer 2019" :"All of the Above"})
+...                               ^):
+  
+app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting =>
+app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting keyword_end
+app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting keyword_end
+app/controllers/profiles_controller.rb:167: syntax error, unexpected ':', expecting keyword_end
+app/controllers/profiles_controller.rb:167: syntax error, unexpected '}', expecting keyword_end
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (106.9ms)
+Started GET "/profiles/new" for ::1 at 2017-12-16 04:01:09 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.0ms)
+  Rendered profiles/new.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 117ms (Views: 94.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2017-12-16 04:04:13 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TYQWfvh++Mk54Lmd05kRmSeAKgmI817RQQBDYLCWkGQjubnKY+s3yC63cI21zxqLKUIUh671m2JInYMvL89wOQ==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"University of Illinois at Urbana-Champaign", "graduation_year"=>"2002", "company"=>"Banco Santander", "occupation"=>"Consulting", "current_location"=>"New York", "region"=>"East Coast", "gender"=>"Female", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"12", "start_date_current(3i)"=>"1", "industry_preference_first"=>"TMT", "industry_preference_second"=>"Real Estate", "industry_preference_third"=>"Industrials", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007ffa46b5a098 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20171216-54325-jj0ouj.pdf>, @original_filename="single.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"single.pdf\"\r\nContent-Type: application/pdf\r\n">}, "start_date_pe"=>{"Immediate Start"=>"1", "Summer 2017"=>"1", "Summer 2018"=>"0", "Summer 2019"=>"0", "All of the Above"=>"0"}, "category"=>"Private Equity (Growth)", "category3"=>"Venture Capital", "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-jvdf0v.pdf'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-1pifmi0.pdf'
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "graduation_year", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region", "occupation") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", "University of Illinois at Urbana-Champaign"], ["graduation_year", 2002], ["company", "Banco Santander"], ["current_location", "New York"], ["gender", "Female"], ["start_date_current", "December 2017"], ["start_date_pe", ""], ["industry_preference_first", "TMT"], ["industry_preference_second", "Real Estate"], ["industry_preference_third", "Industrials"], ["created_at", 2017-12-16 10:04:13 UTC], ["updated_at", 2017-12-16 10:04:13 UTC], ["resume_file_name", "single.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 40054], ["resume_updated_at", 2017-12-16 10:04:13 UTC], ["region", "East Coast"], ["occupation", "Consulting"]]
+[paperclip] saving /profiles/resumes/000/000/013/original/single.pdf
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 541ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 04:04:13 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 108ms (Views: 104.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 04:05:30 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.9ms)
+  Rendered profiles/new.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 110ms (Views: 85.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2017-12-16 04:05:56 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v/zsBR7QW3/vNx1c5sWS8prdxDBB51uC7DQh7etb5EnRwUOxhUWUfvhg1EyAk5nglB/6vmfhnjHlqeGidAIEFA==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"University of Illinois at Urbana-Champaign", "graduation_year"=>"2002", "company"=>"Blackstone", "occupation"=>"Other", "current_location"=>"New York", "region"=>"East Coast", "gender"=>"Female", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"12", "start_date_current(3i)"=>"1", "industry_preference_first"=>"Industrials", "industry_preference_second"=>"Business Services", "industry_preference_third"=>"Business Services", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007ffa4f09f988 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20171216-54325-1d94ca.pdf>, @original_filename="single.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"single.pdf\"\r\nContent-Type: application/pdf\r\n">}, "start_date_pe"=>{"Immediate Start"=>"1", "Summer 2017"=>"1", "Summer 2018"=>"0", "Summer 2019"=>"0", "All of the Above"=>"0"}, "category2"=>"Private Equity (Buyouts)", "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-12uwjgr.pdf'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-ozpgoc.pdf'
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "graduation_year", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region", "occupation") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", "University of Illinois at Urbana-Champaign"], ["graduation_year", 2002], ["company", "Blackstone"], ["current_location", "New York"], ["gender", "Female"], ["start_date_current", "December 2017"], ["start_date_pe", ""], ["industry_preference_first", "Industrials"], ["industry_preference_second", "Business Services"], ["industry_preference_third", "Business Services"], ["created_at", 2017-12-16 10:05:56 UTC], ["updated_at", 2017-12-16 10:05:56 UTC], ["resume_file_name", "single.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 40054], ["resume_updated_at", 2017-12-16 10:05:56 UTC], ["region", "East Coast"], ["occupation", "Other"]]
+[paperclip] saving /profiles/resumes/000/000/014/original/single.pdf
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 427ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 04:05:56 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 80ms (Views: 76.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 04:07:11 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered profiles/new.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 94ms (Views: 85.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 04:15:22 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered profiles/new.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 102ms (Views: 100.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2017-12-16 04:15:46 -0600
+  
+ActionController::BadRequest (Invalid request parameters: expected Hash (got String) for param `start_date_pe'):
+  
+rack (2.0.1) lib/rack/query_parser.rb:112:in `normalize_params'
+rack (2.0.1) lib/rack/multipart/parser.rb:194:in `block (2 levels) in result'
+rack (2.0.1) lib/rack/multipart/parser.rb:105:in `get_data'
+rack (2.0.1) lib/rack/multipart/parser.rb:192:in `block in result'
+rack (2.0.1) lib/rack/multipart/parser.rb:128:in `block in each'
+rack (2.0.1) lib/rack/multipart/parser.rb:128:in `each'
+rack (2.0.1) lib/rack/multipart/parser.rb:128:in `each'
+rack (2.0.1) lib/rack/multipart/parser.rb:191:in `result'
+rack (2.0.1) lib/rack/multipart/parser.rb:76:in `parse'
+rack (2.0.1) lib/rack/multipart.rb:52:in `extract_multipart'
+rack (2.0.1) lib/rack/request.rb:472:in `parse_multipart'
+rack (2.0.1) lib/rack/request.rb:335:in `POST'
+actionpack (5.0.0.1) lib/action_dispatch/http/request.rb:367:in `block (2 levels) in POST'
+actionpack (5.0.0.1) lib/action_dispatch/http/parameters.rb:63:in `block in parse_formatted_parameters'
+actionpack (5.0.0.1) lib/action_dispatch/http/parameters.rb:63:in `fetch'
+actionpack (5.0.0.1) lib/action_dispatch/http/parameters.rb:63:in `parse_formatted_parameters'
+actionpack (5.0.0.1) lib/action_dispatch/http/request.rb:366:in `block in POST'
+rack (2.0.1) lib/rack/request.rb:57:in `fetch'
+rack (2.0.1) lib/rack/request.rb:57:in `fetch_header'
+actionpack (5.0.0.1) lib/action_dispatch/http/request.rb:365:in `POST'
+actionpack (5.0.0.1) lib/action_dispatch/http/parameters.rb:35:in `parameters'
+actionpack (5.0.0.1) lib/action_dispatch/http/filter_parameters.rb:41:in `filtered_parameters'
+actionpack (5.0.0.1) lib/action_controller/metal/instrumentation.rb:21:in `process_action'
+actionpack (5.0.0.1) lib/action_controller/metal/params_wrapper.rb:248:in `process_action'
+activerecord (5.0.0.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+actionpack (5.0.0.1) lib/abstract_controller/base.rb:126:in `process'
+actionview (5.0.0.1) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.0.1) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.0.1) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.0.1) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.0.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.0.1) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.0.1) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.0.1) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.0.1) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.1) lib/rack/etag.rb:25:in `call'
+rack (2.0.1) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.1) lib/rack/head.rb:12:in `call'
+rack (2.0.1) lib/rack/session/abstract/id.rb:222:in `context'
+rack (2.0.1) lib/rack/session/abstract/id.rb:216:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.0.1) lib/active_record/migration.rb:552:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendered /Users/alexwen/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (45.3ms)
+Started POST "/profiles" for ::1 at 2017-12-16 04:16:32 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9SXhQOIbgYb4lgVwXjUZuqnDVXqa0gtM8QawUHZDoS6bGE70eY5Oh+/BzGA4YxKopwFr9LzUzv/4m3Af6RpBcw==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"University of Illinois at Urbana-Champaign", "graduation_year"=>"2001", "company"=>"Allen", "occupation"=>"Consulting", "current_location"=>"New York", "region"=>"East Coast", "gender"=>"Male", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"12", "start_date_current(3i)"=>"1", "industry_preference_first"=>"TMT", "industry_preference_second"=>"TMT", "industry_preference_third"=>"Consumer", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007ffa4cce9b10 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20171216-54325-tlbcj2.pdf>, @original_filename="single.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"single.pdf\"\r\nContent-Type: application/pdf\r\n">}, "start_date_pe"=>{"Immediate Start"=>"1", "Summer 2017"=>"0", "Summer 2018"=>"0", "Summer 2019"=>"0", "All of the Above"=>"0"}, "category2"=>"Private Equity (Buyouts)", "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-9rzt11.pdf'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-14f8a4h.pdf'
+  [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "graduation_year", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region", "occupation") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", "University of Illinois at Urbana-Champaign"], ["graduation_year", 2001], ["company", "Allen"], ["current_location", "New York"], ["gender", "Male"], ["start_date_current", "December 2017"], ["start_date_pe", ""], ["industry_preference_first", "TMT"], ["industry_preference_second", "TMT"], ["industry_preference_third", "Consumer"], ["created_at", 2017-12-16 10:16:32 UTC], ["updated_at", 2017-12-16 10:16:32 UTC], ["resume_file_name", "single.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 40054], ["resume_updated_at", 2017-12-16 10:16:32 UTC], ["region", "East Coast"], ["occupation", "Consulting"]]
+[paperclip] saving /profiles/resumes/000/000/015/original/single.pdf
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 556ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 04:16:32 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 76ms (Views: 73.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 04:18:47 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 108ms (Views: 105.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 04:19:09 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.0ms)
+  Rendered profiles/new.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 152ms (Views: 111.4ms | ActiveRecord: 4.6ms)
+
+
+Started POST "/profiles" for ::1 at 2017-12-16 04:19:34 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lITPsY1rcdgG9j6SCOhFObCejkJQFWBdfnDF6RTMP9T6uWAFFv6+2RGh94Juvk4rvlywzHYTpe537QWmi5XfiQ==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"University of Illinois at Urbana-Champaign", "graduation_year"=>"2002", "company"=>"Allen", "occupation"=>"Consulting", "current_location"=>"New York", "region"=>"East Coast", "gender"=>"Male", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"12", "start_date_current(3i)"=>"1", "industry_preference_first"=>"TMT", "industry_preference_second"=>"Consumer", "industry_preference_third"=>"Business Services", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007ffa4cafd3d8 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20171216-54325-1ahji7s.pdf>, @original_filename="single.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"single.pdf\"\r\nContent-Type: application/pdf\r\n">}, "start_date_pe"=>{"Immediate Start"=>"1", "Summer 2017"=>"1", "Summer 2018"=>"0", "Summer 2019"=>"0", "All of the Above"=>"0"}, "category2"=>"Private Equity (Buyouts)", "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-14ql7g4.pdf'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-1ordoqo.pdf'
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "graduation_year", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region", "occupation") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", "University of Illinois at Urbana-Champaign"], ["graduation_year", 2002], ["company", "Allen"], ["current_location", "New York"], ["gender", "Male"], ["start_date_current", "December 2017"], ["start_date_pe", ""], ["industry_preference_first", "TMT"], ["industry_preference_second", "Consumer"], ["industry_preference_third", "Business Services"], ["created_at", 2017-12-16 10:19:34 UTC], ["updated_at", 2017-12-16 10:19:34 UTC], ["resume_file_name", "single.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 40054], ["resume_updated_at", 2017-12-16 10:19:34 UTC], ["region", "East Coast"], ["occupation", "Consulting"]]
+[paperclip] saving /profiles/resumes/000/000/016/original/single.pdf
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 439ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 04:19:34 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 121ms (Views: 118.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 04:20:28 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered profiles/new.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 111ms (Views: 84.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2017-12-16 04:20:51 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4mWWIWHP2E9ad2ww89vwi/3YvhXgwYXlEzAd3ugyCYOMWDmV+loXTk0gpSCVjfuZ8xqAm8bHQFYard2Rd2vp3g==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"University of Illinois at Urbana-Champaign", "graduation_year"=>"2003", "company"=>"Barclays", "occupation"=>"Consulting", "current_location"=>"San Francisco", "region"=>"East Coast", "gender"=>"Female", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"12", "start_date_current(3i)"=>"1", "industry_preference_first"=>"", "industry_preference_second"=>"", "industry_preference_third"=>"", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007ffa4eac5288 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20171216-54325-1gu05hk.pdf>, @original_filename="single.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"single.pdf\"\r\nContent-Type: application/pdf\r\n">}, "start_date_pe"=>{"Immediate Start"=>"1", "Summer 2017"=>"1", "Summer 2018"=>"0", "Summer 2019"=>"0", "All of the Above"=>"0"}, "category3"=>"Venture Capital", "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-15yand2.pdf'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-7di6y5.pdf'
+  [1m[35mSQL (3.2ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "graduation_year", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region", "occupation") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", "University of Illinois at Urbana-Champaign"], ["graduation_year", 2003], ["company", "Barclays"], ["current_location", "San Francisco"], ["gender", "Female"], ["start_date_current", "December 2017"], ["start_date_pe", ""], ["industry_preference_first", ""], ["industry_preference_second", ""], ["industry_preference_third", ""], ["created_at", 2017-12-16 10:20:51 UTC], ["updated_at", 2017-12-16 10:20:51 UTC], ["resume_file_name", "single.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 40054], ["resume_updated_at", 2017-12-16 10:20:51 UTC], ["region", "East Coast"], ["occupation", "Consulting"]]
+[paperclip] saving /profiles/resumes/000/000/017/original/single.pdf
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 411ms (ActiveRecord: 4.1ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 04:20:51 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 79ms (Views: 76.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 04:22:53 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered profiles/new.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 146ms (Views: 99.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 04:24:34 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered profiles/new.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 106ms (Views: 84.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2017-12-16 04:24:59 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wpZ4zS5KQ+DxwouTYoEUQdJsyPb4iArJjg25S9Uu7zCsq9d5td+M4eaVQoME1x9T3K72eN6Oz3qHkHkESncPbQ==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"University of Illinois at Urbana-Champaign", "graduation_year"=>"2002", "company"=>"Barclays", "occupation"=>"Consulting", "current_location"=>"New York", "region"=>"East Coast", "gender"=>"Other", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"12", "start_date_current(3i)"=>"1", "industry_preference_first"=>"TMT", "industry_preference_second"=>"Consumer", "industry_preference_third"=>"Energy", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007ffa4e307500 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20171216-54325-1ayw41i.pdf>, @original_filename="single.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"single.pdf\"\r\nContent-Type: application/pdf\r\n">}, "start_date_pe"=>{"Immediate Start"=>"1", "Summer 2017"=>"1", "Summer 2018"=>"0", "Summer 2019"=>"0", "All of the Above"=>"0"}, "category2"=>"Private Equity (Buyouts)", "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-emmf4e.pdf'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-gslxjw.pdf'
+  [1m[35mSQL (1.9ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "graduation_year", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region", "occupation") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", "University of Illinois at Urbana-Champaign"], ["graduation_year", 2002], ["company", "Barclays"], ["current_location", "New York"], ["gender", "Other"], ["start_date_current", "December 2017"], ["start_date_pe", "Immediate Start, Summer 2017"], ["industry_preference_first", "TMT"], ["industry_preference_second", "Consumer"], ["industry_preference_third", "Energy"], ["created_at", 2017-12-16 10:24:59 UTC], ["updated_at", 2017-12-16 10:24:59 UTC], ["resume_file_name", "single.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 40054], ["resume_updated_at", 2017-12-16 10:24:59 UTC], ["region", "East Coast"], ["occupation", "Consulting"]]
+[paperclip] saving /profiles/resumes/000/000/018/original/single.pdf
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 447ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 04:25:00 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 124ms (Views: 120.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles" for ::1 at 2017-12-16 04:33:04 -0600
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (1.8ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" WHERE "profiles"."active" = $1[0m  [["active", true]]
+  Rendered collection of profiles/_profile.html.erb [17 times] (18.1ms)
+  Rendered profiles/index.html.erb within layouts/application (29.3ms)
+Completed 200 OK in 230ms (Views: 217.1ms | ActiveRecord: 1.8ms)
+
+
+  [1m[36mProfile Load (0.5ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" ORDER BY "profiles"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mProfile Load (0.6ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" ORDER BY "profiles"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Started GET "/profiles" for ::1 at 2017-12-16 04:54:45 -0600
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (2.3ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" WHERE "profiles"."active" = $1[0m  [["active", true]]
+  Rendered collection of profiles/_profile.html.erb [17 times] (9.8ms)
+  Rendered profiles/index.html.erb within layouts/application (46.2ms)
+Completed 200 OK in 151ms (Views: 136.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/profiles" for ::1 at 2017-12-16 04:58:50 -0600
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (1.4ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" WHERE "profiles"."active" = $1[0m  [["active", true]]
+  Rendered collection of profiles/_profile.html.erb [17 times] (8.7ms)
+  Rendered profiles/index.html.erb within layouts/application (35.5ms)
+Completed 200 OK in 152ms (Views: 142.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 04:58:51 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered profiles/new.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 85ms (Views: 82.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/profiles" for ::1 at 2017-12-16 04:59:13 -0600
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FR+cv5At9ytobKPO3sW0KsX1adPrx0pSeT1Jdn46nt17IjMLC7g4Kn87at64k784yzdXXc3Bj+FwoIk54WN+gA==", "profile"=>{"first_name"=>"Alex", "last_name"=>"Wen", "university"=>"University of Illinois at Urbana-Champaign", "graduation_year"=>"2002", "company"=>"Banco Santander", "occupation"=>"Consulting", "current_location"=>"San Francisco", "region"=>"East Coast", "gender"=>"Male", "start_date_current(1i)"=>"2017", "start_date_current(2i)"=>"12", "start_date_current(3i)"=>"1", "industry_preference_first"=>"TMT", "industry_preference_second"=>"Consumer", "industry_preference_third"=>"Energy", "resume"=>#<ActionDispatch::Http::UploadedFile:0x007ffa4f4e3170 @tempfile=#<Tempfile:/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/RackMultipart20171216-54325-1b1fpmw.pdf>, @original_filename="single.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"profile[resume]\"; filename=\"single.pdf\"\r\nContent-Type: application/pdf\r\n">}, "start_date_pe"=>{"Immediate Start"=>"0", "Summer 2017"=>"1", "Summer 2018"=>"0", "Summer 2019"=>"1", "All of the Above"=>"0"}, "category"=>{"Private Equity (Growth)"=>"0", "Private Equity (Buyouts)"=>"0", "Venture Capital"=>"0", "All of the Above"=>"1"}, "commit"=>"Upload"}
+Unpermitted parameters: start_date_current(1i), start_date_current(2i), start_date_current(3i)
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-1lf7aks.pdf'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/h5/sg678f0d1kz448g5drgmz5cm0000gn/T/dd5c07036f2975ff4bce568b6511d3bc20171216-54325-4xd5x4.pdf'
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "profiles" ("first_name", "last_name", "university", "graduation_year", "company", "current_location", "gender", "start_date_current", "start_date_pe", "industry_preference_first", "industry_preference_second", "industry_preference_third", "created_at", "updated_at", "resume_file_name", "resume_content_type", "resume_file_size", "resume_updated_at", "region", "occupation", "category") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21) RETURNING "id"[0m  [["first_name", "Alex"], ["last_name", "Wen"], ["university", "University of Illinois at Urbana-Champaign"], ["graduation_year", 2002], ["company", "Banco Santander"], ["current_location", "San Francisco"], ["gender", "Male"], ["start_date_current", "December 2017"], ["start_date_pe", "Summer 2017, Summer 2019"], ["industry_preference_first", "TMT"], ["industry_preference_second", "Consumer"], ["industry_preference_third", "Energy"], ["created_at", 2017-12-16 10:59:13 UTC], ["updated_at", 2017-12-16 10:59:13 UTC], ["resume_file_name", "single.pdf"], ["resume_content_type", "application/pdf"], ["resume_file_size", 40054], ["resume_updated_at", 2017-12-16 10:59:13 UTC], ["region", "East Coast"], ["occupation", "Consulting"], ["category", "Private Equity (Growth), Private Equity (Buyouts), Venture Capital"]]
+[paperclip] saving /profiles/resumes/000/000/019/original/single.pdf
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 1544ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 04:59:15 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 79ms (Views: 76.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles" for ::1 at 2017-12-16 04:59:17 -0600
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (2.0ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" WHERE "profiles"."active" = $1[0m  [["active", true]]
+  Rendered collection of profiles/_profile.html.erb [18 times] (8.2ms)
+  Rendered profiles/index.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 98ms (Views: 89.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/profiles/19/edit" for ::1 at 2017-12-16 04:59:24 -0600
+Processing by ProfilesController#edit as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mProfile Load (0.9ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  Rendering profiles/edit.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.9ms)
+  Rendered profiles/edit.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 102ms (Views: 88.3ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 04:59:47 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 69ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 05:00:35 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 81ms (Views: 78.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 05:00:58 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 77ms (Views: 75.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 05:02:06 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 78ms (Views: 74.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 05:02:24 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 68ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 05:02:40 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 87ms (Views: 81.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 05:02:45 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 63ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 05:02:49 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 64ms (Views: 61.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 05:03:18 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 76ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 05:03:27 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 69ms (Views: 67.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 05:03:40 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 77ms (Views: 75.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 05:04:04 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 73ms (Views: 69.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 05:04:19 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 101ms (Views: 96.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 05:04:36 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 103ms (Views: 101.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 05:05:17 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 67ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 05:05:32 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 77ms (Views: 74.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 05:06:05 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 67ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 05:06:29 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 67ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 05:06:47 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 62ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 05:07:22 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 70ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-12-16 05:10:05 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 148ms (Views: 142.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profiles/new" for ::1 at 2017-12-16 05:10:16 -0600
+Processing by ProfilesController#new as HTML
+  Rendering profiles/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.0ms)
+  Rendered profiles/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 89ms (Views: 85.6ms | ActiveRecord: 0.0ms)
+
+
