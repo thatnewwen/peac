@@ -48200,3 +48200,22 @@ Processing by ProfilesController#new as HTML
 Completed 200 OK in 89ms (Views: 85.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/profiles" for ::1 at 2017-12-16 05:31:36 -0600
+Processing by ProfilesController#index as HTML
+  Rendering profiles/index.html.erb within layouts/application
+  [1m[36mProfile Load (1.0ms)[0m  [1m[34mSELECT "profiles".* FROM "profiles" WHERE "profiles"."active" = $1[0m  [["active", true]]
+  Rendered collection of profiles/_profile.html.erb [18 times] (30.9ms)
+  Rendered profiles/index.html.erb within layouts/application (54.6ms)
+Completed 200 OK in 218ms (Views: 201.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/profiles/2" for ::1 at 2017-12-16 05:31:39 -0600
+Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mProfile Load (2.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data single.pdf (5.2ms)
+Completed 200 OK in 486ms (Views: 3.6ms | ActiveRecord: 5.1ms)
+
+
