@@ -73,6 +73,11 @@ table, th, td {
     text-align: justify;
 }
 
+.event-desc span{
+    display: block;
+    margin-left: 10px;
+}
+
 .flex-container{
     display: flex;
     width: 100%;

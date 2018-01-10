@@ -48219,3 +48219,74 @@ Sent data single.pdf (5.2ms)
 Completed 200 OK in 486ms (Views: 3.6ms | ActiveRecord: 5.1ms)
 
 
+Started GET "/" for ::1 at 2018-01-09 22:14:29 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (25.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (22.9ms)
+Completed 200 OK in 1101ms (Views: 1082.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-01-09 22:16:54 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 91ms (Views: 88.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-01-09 22:17:38 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 71ms (Views: 67.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-01-09 22:17:45 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 84ms (Views: 81.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-01-09 22:18:46 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 80ms (Views: 77.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-01-09 22:50:17 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 214ms (Views: 207.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-01-09 22:52:03 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 3145ms (Views: 3142.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-01-09 22:52:41 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 1877ms (Views: 1874.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-01-09 22:52:50 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 2640ms (Views: 2635.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-01-09 22:54:22 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 81ms (Views: 77.8ms | ActiveRecord: 0.0ms)
+
+
