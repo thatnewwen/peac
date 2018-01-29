@@ -145,11 +145,11 @@ class ProfilesController < ApplicationController
       profile = Profile.find(id.to_i)
       selected_profile << profile
     end
-    # selected_profile.sort! { |a,b| "a." + order <=> "b." + order }
+
     @pdf = CombinePDF.new
     selected_profile.each do |profile|
       url = profile.resume.url
-
+      console.log(profile.id)
       @pdf << CombinePDF.parse( Net::HTTP.get( URI.parse( "https:" + url ) ) )
     end
     @pdf.save "#{Rails.root}/selected_combined.pdf"
