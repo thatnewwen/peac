@@ -149,7 +149,7 @@ class ProfilesController < ApplicationController
     @pdf = CombinePDF.new
     selected_profile.each do |profile|
       url = profile.resume.url
-      console.log(profile.id)
+      p profile.id
       @pdf << CombinePDF.parse( Net::HTTP.get( URI.parse( "https:" + url ) ) )
     end
     @pdf.save "#{Rails.root}/selected_combined.pdf"
