@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  # Forum
+  resources :messages, :only => [:index]
+  
+  # Auth
+  get '/login' => 'home#show'
+  get "/auth/oauth2/callback" => "auth0#callback"
+  get "/auth/failure" => "auth0#failure"
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
   resources :profiles

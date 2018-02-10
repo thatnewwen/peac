@@ -1,0 +1,5 @@
+# dev logs
+log/development.log
+tmp/pids/server.pid
+.env
+tmp/cache/assets/sprockets/v3.0/*
