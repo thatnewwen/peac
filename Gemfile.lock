@@ -48,6 +48,12 @@ GEM
       jmespath (~> 1.0)
     aws-sdk-resources (2.6.3)
       aws-sdk-core (= 2.6.3)
+    better_errors (2.4.0)
+      coderay (>= 1.0.0)
+      erubi (>= 1.0.0)
+      rack (>= 0.9.0)
+    binding_of_caller (0.8.0)
+      debug_inspector (>= 0.0.1)
     bootstrap (4.0.0.alpha4)
       autoprefixer-rails (>= 6.0.3)
       sass (>= 3.4.19)
@@ -60,6 +66,7 @@ GEM
       activesupport (>= 3.0)
     cocaine (0.5.8)
       climate_control (>= 0.0.3, < 1.0)
+    coderay (1.1.2)
     coffee-rails (4.2.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.2.x)
@@ -71,10 +78,12 @@ GEM
       ruby-rc4 (>= 0.1.5)
     concurrent-ruby (1.0.2)
     debug_inspector (0.0.2)
+    discourse_sso (0.0.2)
     dotenv (2.1.1)
     dotenv-rails (2.1.1)
       dotenv (= 2.1.1)
       railties (>= 4.0, < 5.1)
+    erubi (1.7.0)
     erubis (2.7.0)
     execjs (2.7.0)
     faraday (0.12.2)
@@ -221,11 +230,14 @@ PLATFORMS
 
 DEPENDENCIES
   aws-sdk
+  better_errors
+  binding_of_caller
   bootstrap (~> 4.0.0.alpha4)
   bootstrap-sass
   byebug
   coffee-rails (~> 4.2)
   combine_pdf
+  discourse_sso (~> 0.0.2)
   dotenv-rails
   font-awesome-rails
   jbuilder (~> 2.5)
