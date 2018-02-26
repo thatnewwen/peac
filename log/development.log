@@ -48290,3 +48290,18 @@ Processing by PagesController#show as HTML
 Completed 200 OK in 81ms (Views: 77.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2018-02-26 17:42:16 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (26.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 909ms (Views: 905.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-02-26 17:42:19 -0600
+Processing by PagesController#show as HTML
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 282ms (Views: 272.4ms | ActiveRecord: 0.0ms)
+
+
